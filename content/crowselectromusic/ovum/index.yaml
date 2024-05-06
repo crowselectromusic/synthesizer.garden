@@ -1,9 +1,0 @@
-name: ovum
-type: instrument
-id: ovum
-parent: crowselectromusic
-tags:
-  - drone
-  - analog
-images:
-  - foo2.jpg

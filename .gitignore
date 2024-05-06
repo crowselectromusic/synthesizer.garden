@@ -1,6 +1,7 @@
 .DS_Store
-node_modules
+node_modules/
 build/index.js
 web/content.json
 web/index.json
+web/images/
 

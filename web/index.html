@@ -82,11 +82,13 @@
         <div class="mt-4 grid grid-cols-1 gap-4">
           <template x-for="item in searchResults()">
             <div class="flex items-center shadow hover:bg-indigo-100 hover:shadow-lg hover:rounded transition duration-150 ease-in-out transform hover:scale-105 p-3">
-              <img class="w-10 h-10 rounded-full mr-4" :src="`${content[item.ref].images[0] || 'missing.png'}`" />
+              <a :href="content[item.ref].link">
+              <img class="w-10 h-10 rounded-full mr-4" :src="`images/${content[item.ref].images[0] || 'missing.png'}`" />
               <div class="text-sm">
                 <p class="text-gray-900 leading-none" x-text="content[item.ref].name"></p>
                 <p class="text-gray-600" x-text="'$'+content[item.ref].id"></p>
               </div>
+              </a>
             </div>
           </template>
         </div>

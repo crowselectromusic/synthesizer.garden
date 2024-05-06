@@ -1,0 +1,11 @@
+name: OVUM
+type: instrument
+id: ovum
+parent: crowselectromusic
+tags:
+  - drone
+  - analog
+images:
+  - ovum1.jpg
+  - ovum2.jpg
+link: https://crowselectromusic.com/products/ovum

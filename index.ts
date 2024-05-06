@@ -2,6 +2,7 @@ import { parse, stringify } from 'yaml';
 import { fdir, PathsOutput } from "fdir";
 import fs from 'fs'
 import lunr from "lunr";
+import path from 'path';
 
 class Entity {
   name: string;
@@ -9,16 +10,18 @@ class Entity {
   id: string;
   images: string[];
   tags: string[];
+  link: string;
   path: string;
   parent: string | undefined;
 
-  constructor(name: string, type: "company" | "instrument", id: string, images: string[], tags: string[], parent: string | undefined, path: string) {
+  constructor(name: string, type: "company" | "instrument", id: string, images: string[], tags: string[], link: string, parent: string | undefined, path: string) {
     this.name = name;
     this.type = type;
     this.id = id;
     this.images = images;
     this.tags = tags;
     this.parent = parent;
+    this.link = link;
     this.path = path;
   };
 
@@ -54,14 +57,20 @@ class Entity {
       throw new Error(`Instrument (${id}) does not have any images`);
     }
 
+    const link = yaml.link;
+
+    if (link == undefined) {
+      throw new Error(`Instrument (${id}) is missing a link`);
+    }
+
     // should validate paths here. i.e. that the company id is equal to the directory it's in, and the parent id is equal to the directory it's in, etc.
     // or many extract the parent id and the id from the path? that might be nice. 
 
-    return new Entity(yaml.name, yaml.type, yaml.id, images, tags, yaml.parent, path);
+    return new Entity(yaml.name, yaml.type, yaml.id, images, tags, link, yaml.parent, path);
   }
 }
 
-const api = new fdir().withFullPaths().filter((path) => path.endsWith("index.yaml")).crawl("content");
+const api = new fdir().withFullPaths().filter((path) => path.endsWith(".yaml")).crawl("content");
 const files: PathsOutput = api.sync();
 
 const entities: Entity[] = files.map((path)=>{
@@ -82,6 +91,16 @@ entities.forEach((entity)=>{
   entity.tags.forEach((tag)=>{
     const current = tagMap[tag] || 0;
     tagMap[tag] = current + 1;
+  })
+
+  // copy images over
+  entity.images.forEach((image)=>{
+    const base = path.dirname(entity.path);
+    const imagePath = path.join(base, image);
+    const destPath = path.join("./","web", "images", image);
+    fs.copyFileSync(imagePath, destPath);
+    // use entity.path as the base
+    // copy that + image to ./web/images/
   })
 
   entityMap[entity.id] =  entity;
