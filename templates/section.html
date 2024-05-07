@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+{{ section.content | safe }}
+
+<div class="stuffbox">
+  {% for section_url in section.subsections %}
+    {% set section = get_section(path=section_url) %}
+    <section>
+      <a href="{{ section.permalink | safe }}">
+        <img src="{{section.extra.main_image.img}}" alt="{{section.extra.main_image.alt}}" class="stuffbox-image"><br />
+        {{ section.title }}
+      </a> - {{ section.extra.subheading }}
+    </section>
+  {% endfor %}
+</div>
+
+{% endblock content %}

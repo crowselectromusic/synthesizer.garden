@@ -6,7 +6,7 @@
   <title>Synthesizer Garden</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="pico.min.css">
+  <link rel="stylesheet" href="/pico.min.css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -21,18 +21,15 @@
   <meta property="og:description" content="An organic directory of electronic musical instruments" />
   <meta property="og:title" content="Synthesizer Garden" />
 
-  <meta property="og:image" content="{{ path }}{{ extras.header.img }}" />
-  <meta property="og:image:alt" content="{{ extras.header.alt }}" />
-
-  <meta property="og:image" content="{{ path }}{{ slide.img1 }}" />
-  <meta property="og:image:alt" content="{{ slide.alt }}" />
+  <meta property="og:image" content="" />
+  <meta property="og:image:alt" content="" />
 
   <script src="https://unpkg.com/lunr/lunr.js"></script>
   
-  <script defer src="script.js"></script>
+  <script defer src="/script.js"></script>
 
-  <script defer src="alpine.min.js"></script>
-  <script defer src="alpine.money.min.js"></script>
+  <script defer src="/alpine.min.js"></script>
+  <script defer src="/alpine.money.min.js"></script>
   
 
 
@@ -103,6 +100,7 @@
           </details>
       </template>
     </div>
+      {% block content %} {% endblock %}
 
   </main>
   <footer class="container">

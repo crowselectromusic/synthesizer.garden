@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+<div class="grid">
+    <section>
+      <article>
+        {{ page.content | safe }}
+      </article>
+    </section>
+</div>
+
+{% endblock content %}
