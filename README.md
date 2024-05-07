@@ -17,3 +17,7 @@ This site is written in typescript.
 - Page rendering is done using alpinejs
 - index.ts generates data, and a lunr index, from the contents of the contents directory
 - the web directory contains everything that should be hosted publicly to serve this site
+
+### TODO:
+
+1. switch the over to zola. I need real pages rendered for SEO reasons, so this isn't going to work. Probably a bit of my search code can be kept.
