@@ -7,6 +7,14 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+taxonomies = [
+    {name = "tags", feed = true}
+]
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -14,3 +22,12 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+
+[search]
+
+include_title = true
+include_path = true
+include_description = true
+include_content = true
+include_date = true
+

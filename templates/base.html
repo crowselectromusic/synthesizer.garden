@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <title>Synthesizer Garden</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/pico.min.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  <link rel="canonical" href="https://synthesizer.garden">
+  <meta name="description" content='An organic directory of electronic musical instruments'>
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://synthesizer.garden" />
+
+  <meta property="og:description" content="An organic directory of electronic musical instruments" />
+  <meta property="og:title" content="Synthesizer Garden" />
+
+  <meta property="og:image" content="" />
+  <meta property="og:image:alt" content="" />
+
+  <script src="/elasticlunr.min.js"></script>
+  <script src="/search_index.en.js"></script>
+  
+  <script defer src="/script.js"></script>
+
+  <script defer src="/alpine.min.js"></script>
+  <script defer src="/alpine.money.min.js"></script>
+  
+
+
+</head>
+
+<body>
+  <nav class="container" style="border-bottom: 1px solid black; margin-bottom: 1em;">
+    <ul>
+      <li><b><a href="/" class="contrast">Synthesizer Garden</a></b> an organic directory of electronic musical instruments</li>
+    </ul>
+  </nav>
+
+  <main class="container" id="main">
+      <div x-data="{
+        search: '',
+        index: [],
+        content: {},
+        tags: {},
+        searchResults: ()=>{}
+      }" x-init="
+      index = elasticlunr.Index.load(window.searchIndex);
+      searchResults = ()=>{
+        let result = index.search(search);
+        return result;
+      } ">
+
+      <div role="group">
+        <template x-for="tag in tags">
+          <button x-text="tag" @click="search = search + ' tags:' + tag"></button>
+        </template>
+      <template x-for="button in searchButtons">
+        <button x-text="button.title" @click="search = search + ' ' + button.command"></button>
+      </template>
+      </div>
+
+        <input
+          x-ref="searchField"
+          x-model="search"
+          x-on:keydown.window.prevent.slash="$refs.searchField.focus()"
+          placeholder="Search for an instrument..."
+          type="search"
+          class="block w-full bg-gray-200 focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3"
+        />
+        <div class="mt-4 grid grid-cols-1 gap-4">
+          <template x-for="item in searchResults()">
+            <div class="flex items-center shadow hover:bg-indigo-100 hover:shadow-lg hover:rounded transition duration-150 ease-in-out transform hover:scale-105 p-3">
+              <a :href="getDoc(item.ref).link">
+              <img class="w-10 h-10 rounded-full mr-4" :src="`images/${getDoc(item.ref).title || 'missing.png'}`" />
+              <div class="text-sm">
+                <p class="text-gray-900 leading-none" x-text="getDoc(item.ref).title"></p>
+                <p class="text-gray-600" x-text="'$'+getDoc(item.ref).id"></p>
+              </div>
+              </a>
+            </div>
+          </template>
+        </div>
+        </div>
+     </div>
+
+      {% block content %} {% endblock %}
+
+  </main>
+  <footer class="container">
+    <div class="grid">
+      <section>
+        <div class="socials">
+          <small>
+            This site is open source. <a rel="noopener" target="_blank" href="https://github.com/crowselectromusic/synthesizer.garden">Click here</a> to add or change the content<br />
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://synthesizer.garden">Synthesizer Garden</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://crowselectromusic.com">Crows Electromusic</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
+          </small>
+        </div>
+      </section>
+    </div>
+  </footer>
+</body>
+
+</html>

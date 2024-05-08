@@ -1,17 +1,21 @@
-{% extends "index.html" %}
+{% extends "base.html" %}
 
 {% block content %}
 
 {{ section.content | safe }}
+
+{% for post in section.pages %}
+  <h1><a href="{{ post.permalink }}">{{ post.title }}</a></h1>
+{% endfor %}
 
 <div class="stuffbox">
   {% for section_url in section.subsections %}
     {% set section = get_section(path=section_url) %}
     <section>
       <a href="{{ section.permalink | safe }}">
-        <img src="{{section.extra.main_image.img}}" alt="{{section.extra.main_image.alt}}" class="stuffbox-image"><br />
+        <img src="{{section.extra.images[0]}}" alt="{{section.description}}" class="stuffbox-image"><br />
         {{ section.title }}
-      </a> - {{ section.extra.subheading }}
+      </a> - {{ section.description }}
     </section>
   {% endfor %}
 </div>
