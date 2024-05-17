@@ -6,7 +6,6 @@ transparent = true
 slug = "crowselectromusic"
 
 [extra]
-id = "crowselectromusic"
 type = "company"
 link = "https://crowselectromusic.com"
 images = ["foo.jpg", "bar.jpg"]

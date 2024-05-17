@@ -3,36 +3,34 @@
 {% block content %}
 
 <div class="grid">
-    <section>
-        {{ section.content | safe }}
-    </section>
-    <section>
-        {% for s in section.subsections %}
-            {% set subsection = get_section(path=s) %}
-            <section>
-                <a href="{{ subsection.permalink | safe }}">
-                {{ subsection.title }}
-                </a> - {{ subsection.description }}
-                <ul>
-
+    <article>
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            {% for s in section.subsections %}
+                {% set subsection = get_section(path=s) %}
                     {% if subsection.pages %}
                     {% for page in subsection.pages %}
-                        <li><img src="{{subsection.permalink}}{{page.extra.images[0]}}" alt="{{page.description}}"><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+                        <tr>
+                            <td>
+                                <img src="{{subsection.permalink}}{{page.extra.images[0]}}" alt="{{page.description}}">
+                            </td>
+                            <td>
+                                <a href="{{ subsection.permalink | safe }}">{{ subsection.title }}</a>
+                            </td>
+                            <td>
+                                <a href="{{ page.permalink }}">{{ page.title }}</a>
+                            </td>
+                        </tr>
                     {% endfor %}
                     {% endif %}
-                </ul>
-            </section>
-        {% endfor %}
-    </section>
-    <section>
-        <ul>
-        {% for page in section.pages %}
-            <li>{{page.title}}</li>
-        {% endfor %}
-        </ul>
-    </section>
+            {% endfor %}
+        </table>
+    </article>
 </div>
-
 
 
 {% endblock content %}

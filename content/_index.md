@@ -4,9 +4,4 @@ sort_by = "date"
 
 slug = "index"
 
-[extras]
-images = ["foo.jpg"]
-
 +++
-
-foo foo

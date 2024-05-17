@@ -5,11 +5,10 @@ date = 2024-05-06
 slug = "musicthingmodular"
 
 [extra]
-id = "musicthingmodular"
+
 type = "company"
 link = "https://www.musicthing.co.uk/"
-images = ["foo.jpg"]
 
 +++
 
-music thing
+Music Thing Modular is a London, UK based instrument maker.
