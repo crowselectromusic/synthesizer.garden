@@ -2,9 +2,11 @@
 
 {% block content %}
 
-<img src="{{ page.permalink }}{{ page.extra.images[0] }}">
 
 <div class="grid">
+  <article>
+    <img src="/{{ page.extra.parent }}/{{ page.extra.images[0] }}">
+  </article>
     <section>
       <article>
         {{ page.content | safe }}
