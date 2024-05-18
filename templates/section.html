@@ -5,9 +5,15 @@
 <article>
   {{ section.content | safe }}
 </article>
-<article>
+
+<article class="grid">
   {% for post in section.pages %}
-    <h1><a href="{{ post.permalink }}">{{ post.title }}</a></h1>
+  <div>
+      <a href="{{ post.permalink }}">
+        <img src="{{ post.extra.images[0] }}"><br />
+        <h4>{{ post.title }}</h4>
+      </a>
+  </div>
   {% endfor %}
 </article>
 
