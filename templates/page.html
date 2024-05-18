@@ -3,6 +3,15 @@
 {% block content %}
 
 
+<div>
+  <article>
+    <a href="/{{ page.extra.parent }}/">
+      {% set section = get_section(path=page.extra.parent ~ '/' ~ page.ancestors[0]) %}
+      {{ section.title }}
+    </a>
+  </article>
+</div>
+
 <div class="grid">
   <article>
     {% for image in page.extra.images %}

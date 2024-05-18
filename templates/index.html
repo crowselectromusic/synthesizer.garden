@@ -16,8 +16,12 @@
                 <div class="synth">
                     <a href="{{ page.permalink }}">
                         <img src="{{subsection.permalink}}{{page.extra.images[0]}}" alt="{{page.description}}">
-                        <a href="{{ subsection.permalink | safe }}">{{ subsection.title }}</a>
+                    </a>
+                    <a href="{{ page.permalink }}">
                         {{ page.title }}
+                    </a> - 
+                    <a href="{{ subsection.permalink | safe }}">
+                        {{ subsection.title }}
                     </a>
                 </div>
             {% endfor %}
