@@ -2,21 +2,24 @@
 
 {% block content %}
 
-{{ section.content | safe }}
+<article>
+  {{ section.content | safe }}
+</article>
+<article>
+  {% for post in section.pages %}
+    <h1><a href="{{ post.permalink }}">{{ post.title }}</a></h1>
+  {% endfor %}
+</article>
 
-{% for post in section.pages %}
-  <h1><a href="{{ post.permalink }}">{{ post.title }}</a></h1>
-{% endfor %}
-
-<div class="stuffbox">
+<main class="container grid">
   {% for section_url in section.subsections %}
     {% set section = get_section(path=section_url) %}
-    <section>
+    <div>
       <a href="{{ section.permalink | safe }}">
         <img src="{{section.extra.images[0]}}" alt="{{section.description}}" class="stuffbox-image"><br />
         {{ section.title }}
       </a> - {{ section.description }}
-    </section>
+    </div>
   {% endfor %}
 </div>
 
