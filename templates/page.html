@@ -5,7 +5,9 @@
 
 <div class="grid">
   <article>
-    <img src="/{{ page.extra.parent }}/{{ page.extra.images[0] }}">
+    {% for image in page.extra.images %}
+    <img src="/{{ page.extra.parent }}/{{ image }}">
+    {% endfor %}
   </article>
     <section>
       <article>

@@ -14,9 +14,11 @@
                 {% endif %}
                 {% set_global counter = counter + 1 %}
                 <div class="synth">
-                    <img src="{{subsection.permalink}}{{page.extra.images[0]}}" alt="{{page.description}}">
-                    <a href="{{ subsection.permalink | safe }}">{{ subsection.title }}</a>
-                    <a href="{{ page.permalink }}">{{ page.title }}</a>
+                    <a href="{{ page.permalink }}">
+                        <img src="{{subsection.permalink}}{{page.extra.images[0]}}" alt="{{page.description}}">
+                        <a href="{{ subsection.permalink | safe }}">{{ subsection.title }}</a>
+                        {{ page.title }}
+                    </a>
                 </div>
             {% endfor %}
             {% endif %}
