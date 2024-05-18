@@ -9,7 +9,7 @@ slug = "ovum"
 type = "instrument"
 link = "https://crowselectromusic.com/products/ovum"
 parent = "crowselectromusic"
-images = ["ovum1.jpg", "ovum2.jpg"]
+images = ["ovum2.jpg", "ovum1.jpg"]
 
 [taxonomies]
 tags = ["drone", "analog", "polyphonic"]

@@ -8,8 +8,7 @@ slug = "crowselectromusic"
 [extra]
 type = "company"
 link = "https://crowselectromusic.com"
-images = ["foo.jpg", "bar.jpg"]
 
 +++
 
-Foobar
+Crows Electromusic is a Vancouver, Canada based electronic musical instrument company seeking to create meaningful electronic musical instruments that unlock creativity, while exploring ways to subvert the capitalist death-spiral of climate destruction and labour exploitation. The first Crows' product, OVUM was launched in March 2023.
