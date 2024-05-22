@@ -16,7 +16,8 @@ Contribution rules/guidelines:
 
 ### Developer guide
 
-- This site uses Zola, a static site generator in rust. It's hosted by github pages.
+- This site uses [Zola](https://www.getzola.org/), a static site generator written in Rust.
+- This site is hosted on github pages.
 - Styling uses [picocss](https://picocss.com/).
 
 ## TODO:
