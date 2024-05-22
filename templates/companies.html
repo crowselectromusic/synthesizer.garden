@@ -2,6 +2,8 @@
 
 {% block content %}
 
+<h3>Instruments by company</h3>
+
 <div class="grid">
     {% set section = get_section(path="_index.md") %}
     {% for s in section.subsections %}
@@ -14,7 +16,7 @@
             <a href="{{ subsection.permalink }}">
                 <img src="{{subsection.permalink}}{{subsection.pages[0].extra.images[0]}}" alt="{{page.description}}">
             </a>
-            <h4><a href="{{ subsection.permalink }}">{{ subsection.title }}</a></h4>
+            <a href="{{ subsection.permalink }}">{{ subsection.title }}</a> ({{subsection.pages | length}})
         </div>
     {% endfor %}
 </div>

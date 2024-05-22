@@ -13,8 +13,10 @@
     <div class="synth">
         <a href="{{page.permalink}}">
             <img src="/{{page.extra.parent}}/{{page.extra.images[0]}}">
-            {{page.title}}
+            {{page.title}}<br />
         </a>
+        {% set section = get_section(path=page.extra.parent ~ '/' ~ page.ancestors[0]) %}
+        by <a href="{{section.permalink}}">{{ section.title }}</a>
     </div>
 {% endfor %}
 </ul>
