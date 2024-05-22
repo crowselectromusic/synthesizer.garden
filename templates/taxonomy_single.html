@@ -2,4 +2,12 @@
 
 {% block content %}
 
+<h3>Instruments tagged &ldquo;{{term.name}}&rdquo;</h3>
+
+<ul>
+{% for page in term.pages %}
+    <li><a href="{{page.permalink}}"><img style="width: 6em; height: auto; padding-right: 1em;" src="/{{page.extra.parent}}/{{page.extra.images[0]}}">{{page.title}}</a></li>
+{% endfor %}
+</ul>
+
 {% endblock content %}
