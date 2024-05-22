@@ -1,7 +1,7 @@
 +++
 title = "Varispeed CV Tape Looper"
 sort_by = "date"
-date = 2024-05-16
+date = 2023-09-18
 slug = "varispeedcvtapelooper"
 
 [extra]

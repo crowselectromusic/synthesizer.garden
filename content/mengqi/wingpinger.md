@@ -1,7 +1,7 @@
 +++
 title = "Wing Pinger"
 sort_by = "date"
-date = 2024-05-16
+date = 2020-04-29
 slug = "wingpinger"
 
 [extra]

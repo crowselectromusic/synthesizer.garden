@@ -1,7 +1,7 @@
 +++
 title = "Stereo Field"
 sort_by = "date"
-date = 2024-05-16
+date = 2017-03-07
 slug = "stereofield"
 
 [extra]

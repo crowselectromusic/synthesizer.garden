@@ -1,7 +1,7 @@
 +++
 title = "shtick"
 sort_by = "date"
-date = 2024-05-06
+date = 2021-07-02
 slug = "shtick"
 
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "Avalith"
 sort_by = "date"
-date = 2024-05-17
+date = 2024-05-16
 slug = "avalith"
 
 [extra]

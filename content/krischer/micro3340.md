@@ -1,7 +1,7 @@
 +++
 title = "Micro 3340"
 sort_by = "date"
-date = 2024-05-16
+date = 2023-05-03
 slug = "micro3340"
 
 [extra]

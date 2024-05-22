@@ -1,7 +1,7 @@
 +++
 title = "8mu"
 sort_by = "date"
-date = 2024-05-06
+date = 2023-05-08
 slug = "8mu"
 
 [extra]
