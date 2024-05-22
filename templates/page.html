@@ -5,11 +5,18 @@
 
 <div>
   <article>
+    Released by 
     {% set parent_url = '@/' ~ page.extra.parent ~ '/_index.md' %}
     <a href="{{ get_url(path=parent_url) }}">
       {% set section = get_section(path=page.extra.parent ~ '/' ~ page.ancestors[0]) %}
       {{ section.title }}
-    </a>
+    </a> on {{ page.date | date(format="%B %d, %Y")}}.<br />
+    Tags: {% for taxonomy_name, taxonomy in page.taxonomies %}
+      {% for item in taxonomy %}
+        {% set tag_info = get_taxonomy_url(kind=taxonomy_name, name=item) %}
+        <a href="{{tag_info}}">{{ item }}</a>{% if not loop.last %}, {% endif %} 
+      {% endfor %}
+    {% endfor %}
   </article>
 </div>
 
