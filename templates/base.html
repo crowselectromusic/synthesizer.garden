@@ -41,7 +41,10 @@
     <ul>
       <li><b><a href="{{ get_url(path="@/_index.md") }}" class="contrast">Synthesizer Garden</a></b> an organic directory of electronic musical instruments</li>
       <li><a href="{{ get_url(path="@/companies.md") }}">companies</a></li>
-      <li><a href="/tags/">tags</a></li>
+      {% for tax_name in config.taxonomies %}
+      {% set taxonomy = get_taxonomy(kind=tax_name.name) %}
+          <li><a href="{{taxonomy.permalink}}">{{ tax_name.name }}</a></li>
+      {% endfor %}
     </ul>
   </nav>
 
