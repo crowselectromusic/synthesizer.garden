@@ -13,7 +13,8 @@
     <div class="synth">
         <a href="{{page.permalink}}">
             {% set image_url = page.extra.parent ~ '/' ~ page.extra.images[0] %}
-            <img src="{{get_url(path=image_url)}}">
+            {% set image = resize_image(path=image_url, width=config.extra.thumb_width, height=config.extra.thumb_height, op="fit") %}
+            <img src="{{ image.url }}">
             {{page.title}}<br />
         </a>
         {% set section = get_section(path=page.extra.parent ~ '/' ~ page.ancestors[0]) %}

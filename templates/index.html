@@ -15,7 +15,9 @@
                 {% set_global counter = counter + 1 %}
                 <div class="synth">
                     <a href="{{ page.permalink }}">
-                        <img src="{{subsection.permalink}}{{page.extra.images[0]}}" alt="{{page.description}}">
+                        {% set image_url = subsection.path ~ page.extra.images[0] %}
+                        {% set image = resize_image(path=image_url, width=config.extra.thumb_width, height=config.extra.thumb_height, op="fit") %}
+                        <img src="{{ image.url }}" alt="{{page.description}}">
                     </a>
                     <a href="{{ page.permalink }}">
                         {{ page.title }}
