@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Synthesizer Garden</title>
+  {% block title %}
+  <title>{{ config.title }} - {{ config.description | lower }}</title>
+  {% endblock %}
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ get_url(path="pico.min.css") }}">
@@ -14,13 +16,13 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
   <link rel="canonical" href="https://synthesizer.garden">
-  <meta name="description" content='An organic directory of electronic musical instruments'>
+  <meta name="description" content="{{ config.description }}">
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://synthesizer.garden" />
 
-  <meta property="og:description" content="An organic directory of electronic musical instruments" />
-  <meta property="og:title" content="Synthesizer Garden" />
+  <meta property="og:description" content="{{ config.description }}" />
+  <meta property="og:title" content="{{ config.title }}" />
 
   <meta property="og:image" content="" />
   <meta property="og:image:alt" content="" />
@@ -43,7 +45,7 @@
 <body>
   <nav class="container navbar">
     <ul>
-      <li><b><a href="{{ get_url(path="@/_index.md") }}" class="contrast">Synthesizer Garden</a></b> an organic directory of electronic musical instruments</li>
+      <li><b><a href="{{ get_url(path="@/_index.md") }}" class="contrast">{{ config.title }}</a></b> {{ config.description | lower }}</li>
     </ul>
     <ul>
       <li><a href="{{ get_url(path="@/companies.md") }}">companies</a></li>

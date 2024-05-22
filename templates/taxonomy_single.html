@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block title %}
+<title>{{ config.title }} - Instruments tagged &ldquo;{{term.name}}&rdquo;</title>
+{% endblock %}
+
 {% block content %}
 
 <h3>Instruments tagged &ldquo;{{term.name}}&rdquo;</h3>

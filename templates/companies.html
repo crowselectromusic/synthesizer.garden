@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 
+{% block title %}
+<title>{{ config.title }} - {{ page.title }}</title>
+{% endblock %}
+
 {% block content %}
 
-<h3>Instruments by company</h3>
+<h3>{{ page.title }}</h3>
 
 <div class="grid">
     {% set section = get_section(path="_index.md") %}

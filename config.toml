@@ -11,6 +11,8 @@ build_search_index = true
 generate_feed = true
 feed_filename = "rss.xml"
 author = "synthesizer.garden"
+title = "Synthesizer Garden"
+description = "An organic directory of electronic musical instruments"
 
 taxonomies = [
     {name = "tags", feed = true}
