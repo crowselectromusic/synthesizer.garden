@@ -6,8 +6,8 @@
   <title>Synthesizer Garden</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/pico.min.css">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="{{ get_url(path="pico.min.css") }}">
+  <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -25,23 +25,22 @@
   <meta property="og:image" content="" />
   <meta property="og:image:alt" content="" />
 
-  <script src="/elasticlunr.min.js"></script>
-  <script src="/search_index.en.js"></script>
-  
-  <script defer src="/script.js"></script>
 
-  <script defer src="/alpine.min.js"></script>
-  <script defer src="/alpine.money.min.js"></script>
+  <script src="{{ get_url(path="elasticlunr.min.js") }}"></script>
+  <script src="{{ get_url(path="search_index.en.js") }}"></script>
   
+  <script defer src="{{ get_url(path="script.js") }}"></script>
 
+  <script defer src="{{ get_url(path="alpine.min.js") }}"></script>
+  <script defer src="{{ get_url(path="alpine.money.min.js") }}"></script>
 
 </head>
 
 <body>
   <nav class="container" style="border-bottom: 1px solid black; margin-bottom: 1em;">
     <ul>
-      <li><b><a href="/" class="contrast">Synthesizer Garden</a></b> an organic directory of electronic musical instruments</li>
-      <li><a href="/companies">companies</a></li>
+      <li><b><a href="{{ get_url(path="@/_index.md") }}" class="contrast">Synthesizer Garden</a></b> an organic directory of electronic musical instruments</li>
+      <li><a href="{{ get_url(path="@/companies.md") }}">companies</a></li>
       <li><a href="/tags/">tags</a></li>
     </ul>
   </nav>
