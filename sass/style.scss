@@ -6,3 +6,13 @@
 .synth {
     padding-bottom: 1em;
 }
+
+a:link, a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
