@@ -5,7 +5,8 @@
 
 <div>
   <article>
-    <a href="/{{ page.extra.parent }}/">
+    {% set parent_url = '@/' ~ page.extra.parent ~ '/_index.md' %}
+    <a href="{{ get_url(path=parent_url) }}">
       {% set section = get_section(path=page.extra.parent ~ '/' ~ page.ancestors[0]) %}
       {{ section.title }}
     </a>
@@ -15,7 +16,8 @@
 <div class="grid">
   <article>
     {% for image in page.extra.images %}
-    <img src="/{{ page.extra.parent }}/{{ image }}">
+    {% set image_url = page.extra.parent ~ '/' ~ image %}
+    <img src="{{ get_url(path=image_url) }}">
     {% endfor %}
   </article>
     <section>
