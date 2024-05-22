@@ -4,9 +4,18 @@
 
 <h3>Instruments tagged &ldquo;{{term.name}}&rdquo;</h3>
 
-<ul>
+<div class="grid">
 {% for page in term.pages %}
-    <li><a href="{{page.permalink}}"><img style="width: 6em; height: auto; padding-right: 1em;" src="/{{page.extra.parent}}/{{page.extra.images[0]}}">{{page.title}}</a></li>
+    {% if loop.index0 % 4 == 0%}
+        </div>
+        <div class="grid">
+    {% endif %}
+    <div class="synth">
+        <a href="{{page.permalink}}">
+            <img src="/{{page.extra.parent}}/{{page.extra.images[0]}}">
+            {{page.title}}
+        </a>
+    </div>
 {% endfor %}
 </ul>
 

@@ -2,9 +2,16 @@
 
 {% block content %}
 
-<ul>
+<div class="grid">
 {% for term in terms %}
-<li><a href="{{term.permalink}}">{{term.name}}</a> ({{term.page_count}})</li>
+    {% if loop.index0 % 4 == 0%}
+        </div>
+        <div class="grid">
+    {% endif %}
+    <div class="tag">
+        <a href="{{term.permalink}}">{{term.name}}</a>
+        ({{term.page_count}})
+    </div>
 {% endfor %}
 </ul>
 
