@@ -12,7 +12,7 @@ parent = "jolin"
 images = ["avalith1.jpg", "avalith2.jpg"]
 
 [taxonomies]
-tags = ["analog", "cv", "drone", "semi-modular"]
+tags = ["analog", "cv", "drone", "patchable"]
 
 +++
 
