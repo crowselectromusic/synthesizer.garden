@@ -1,3 +1,29 @@
+[data-theme=light],
+:root:not([data-theme=dark]) {
+  --pico-text-selection-color: lightgreen;
+  --pico-primary: green;
+  --pico-primary-underline: darkgreen;
+  --pico-primary-inverse: #fff;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: green;
+}
+a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.navbar {
+    border-bottom: 1px solid var(--pico-primary-underline);
+    margin-bottom: 1em;
+}
+
+main {
+    border-bottom: 1px solid var(--pico-primary-underline);
+}
+
 .tag {
     padding-bottom: 1em;
     text-align: center;
@@ -5,14 +31,4 @@
 
 .synth {
     padding-bottom: 1em;
-}
-
-a:link, a:visited {
-    color: green;
-    text-decoration: none;
-}
-
-a:hover {
-    color: darkgreen;
-    text-decoration: underline;
 }
