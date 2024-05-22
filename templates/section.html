@@ -7,7 +7,11 @@
 {% block content %}
 
 <article>
-  {{ section.content | safe }}
+  <h3>{{ section.title }}</h3>
+  Website: <a href="{{ section.extra.link }}">{{ section.extra.link }}</a>
+  <p>
+    {{ section.content | safe }}
+  </p>
 </article>
 
 <article class="grid">
