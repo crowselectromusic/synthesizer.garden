@@ -16,9 +16,9 @@
                 <div class="synth">
                     <a href="{{ page.permalink }}">
                         {% set image_url = subsection.path ~ page.extra.images[0] %}
-                        {% set image = resize_image(path=image_url, width=config.extra.thumb_width, height=config.extra.thumb_height, op="fit") %}
+                        {% set image = resize_image(path=image_url, width=config.extra.thumb_width, height=config.extra.thumb_height, op=config.extra.thumb_op) %}
                         <img src="{{ image.url }}" alt="{{page.description}}">
-                    </a>
+                    </a><br />
                     <a href="{{ page.permalink }}">
                         {{ page.title }}
                     </a><br />by  
