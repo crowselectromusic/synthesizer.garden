@@ -27,10 +27,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Build zola
         uses: crowselectromusic/zola-build@master
         with:
-          base_url: ${{ steps.deployment.outputs.page_url }}
+          base_url: ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
