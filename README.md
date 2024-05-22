@@ -20,6 +20,10 @@ Contribution rules/guidelines:
 - This site is hosted on github pages.
 - Styling uses [picocss](https://picocss.com/).
 
+To view your changes, install zola, run `zola serve` then visit http://127.0.0.1:1111/
+
+Or use the docker scripts in `./scripts`
+
 ## TODO:
 
 - Search is working, but needs theming, and needs to include tags before it can go live.
