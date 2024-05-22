@@ -22,9 +22,9 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-thumb_height = 250
-thumb_width = 250
-thumb_op = "fill"
+thumb_height = 1024
+thumb_width = 1024
+thumb_op = "fit"
 
 [search]
 
