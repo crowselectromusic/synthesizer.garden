@@ -1,18 +1,18 @@
 {% extends "base.html" %}
 
 {% block title %}
-<title>{{ config.title }} - {{ page.title }}</title>
+
+{% set parent_url = '@/' ~ page.extra.parent ~ '/_index.md' %}
+{% set section = get_section(path=page.extra.parent ~ '/' ~ page.ancestors[0]) %}
+
+<title>{{ config.title }} - {{ page.title }} by {{ section.title }}</title>
 {% endblock %}
 
 {% block content %}
 <div>
   <article>
     Released by 
-    {% set parent_url = '@/' ~ page.extra.parent ~ '/_index.md' %}
-    <a href="{{ get_url(path=parent_url) }}">
-      {% set section = get_section(path=page.extra.parent ~ '/' ~ page.ancestors[0]) %}
-      {{ section.title }}
-    </a> on {{ page.date | date(format="%B %d, %Y")}}.<br />
+    <a href="{{ get_url(path=parent_url) }}">{{ section.title }}</a> on {{ page.date | date(format="%B %d, %Y")}}.<br />
     Tags: {% for taxonomy_name, taxonomy in page.taxonomies %}
       {% for item in taxonomy %}
         {% set tag_info = get_taxonomy_url(kind=taxonomy_name, name=item) %}
