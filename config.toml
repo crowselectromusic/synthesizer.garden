@@ -10,6 +10,7 @@ build_search_index = true
 # Generate rss/atom feeds
 generate_feed = true
 feed_filename = "rss.xml"
+author = "synthesizer.garden"
 
 taxonomies = [
     {name = "tags", feed = true}
