@@ -11,7 +11,7 @@ parent = "beepboopelectronics"
 images = ["varispeedcvtapelooper.jpg"]
 
 [taxonomies]
-tags = ["midi", "digital", "controller", "diy"]
+tags = ["cv", "tape", "looper"]
 
 +++
 

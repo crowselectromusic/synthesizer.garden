@@ -12,7 +12,7 @@ parent = "crowselectromusic"
 images = ["ovum2.jpg", "ovum1.jpg"]
 
 [taxonomies]
-tags = ["drone", "analog", "polyphonic"]
+tags = ["drone", "analog", "polyphonic", "ambient" ]
 
 +++
 

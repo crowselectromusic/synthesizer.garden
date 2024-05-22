@@ -10,3 +10,5 @@ type = "company"
 link = "https://www.landscape.fm/"
 
 +++
+
+Based in Brooklyn, NY
