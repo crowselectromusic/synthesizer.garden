@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>{{ config.title }} - {{ page.title }}</title>
+{% endblock %}
+
+{% block content %}
+
+<h3>{{ page.title }}</h3>
+
+<div class="grid">
+    <div class="synth">
+        {{ page.content | safe }}
+    </div>
+</div>
+
+
+{% endblock content %}
