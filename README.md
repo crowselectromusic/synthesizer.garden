@@ -28,3 +28,4 @@ Or use the docker scripts in `./scripts`
 ## TODO:
 
 - Search is working, but needs theming, and needs to include tags before it can go live.
+- A "related gear" box at the bottom of the product page would be amazing. I'm thinking something like using tags, figuring out which are the rarest tags and then picking other gear from those lists at random. It'd re-shuffe each time you compiled the site, but that's kinda neat.
