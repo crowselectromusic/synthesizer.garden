@@ -12,7 +12,7 @@ parent = "oficinadesonido"
 images = ["hanancumbia1.jpg", "hanancumbia2.jpg"]
 
 [taxonomies]
-tags = ["sequencer", "rhythm", "digital", "lofi", "arduino", "open-source", "sync", "usb-power", "battery"]
+tags = ["sequencer", "rhythm", "digital", "lofi", "arduino", "open-source", "sync", "usb-power"]
 
 +++
 
