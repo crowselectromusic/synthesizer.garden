@@ -12,7 +12,7 @@ parent = "bastl"
 images = ["kastle1.jpg","kastle2.jpg"]
 
 [taxonomies]
-tags = ["arduino", "digital", "diy", "patchable", "dupont-connectors"]
+tags = ["arduino", "digital", "diy", "patchable", "dupont-connectors", "open-source"]
 
 +++
 

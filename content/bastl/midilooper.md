@@ -12,7 +12,7 @@ parent = "bastl"
 images = ["midilooper1.jpg","midilooper2.jpg","midilooper3.jpg"]
 
 [taxonomies]
-tags = ["midi", "cv", "usb-power", "looper", "digital"]
+tags = ["midi", "cv", "usb-power", "looper", "digital", "open-source", "sequencer"]
 
 +++
 
