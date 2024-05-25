@@ -33,3 +33,13 @@
 
 
 {% endblock content %}
+
+{% block count %}
+{% set_global counter = 0 %}
+{% for s in section.subsections %}
+{% set subsection = get_section(path=s) %}
+{% if subsection.pages %}
+{% set page_count = subsection.pages | length %}
+{% set_global counter = counter + page_count %}
+{% endif %}
+{% endfor %}{{ counter }}{% endblock count %}
