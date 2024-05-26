@@ -7,7 +7,7 @@ slug = "201pocketpiano"
 [extra]
 
 type = "instrument"
-link = "https://www.critterandguitari.com/organelle"
+link = "https://www.critterandguitari.com/201-pocket-piano"
 parent = "critterandguitari"
 images = ["201pocketpiano1.png", "201pocketpiano2.png", "201pocketpiano3.png"]
 
