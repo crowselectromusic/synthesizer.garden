@@ -11,4 +11,4 @@ link = "https://www.critterandguitari.com/"
 
 +++
 
-Critter & Guitari was founded by Chris Kucinski and Owen Osborn.
+Hand built in Brooklyn, NY - Critter & Guitari was founded by Chris Kucinski and Owen Osborn.
