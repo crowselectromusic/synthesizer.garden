@@ -12,7 +12,7 @@ parent = "critterandguitari"
 images = ["organelle1.jpg", "organelle2.jpg", "organelle3.jpg"]
 
 [taxonomies]
-tags = ["midi", "digital", "controller", "pure-data", "open-source", "effect", "sequencer", "groovebox", "wifi", "battery"]
+tags = ["midi", "digital", "controller", "pure-data", "open-source", "effect", "sequencer", "groovebox", "wifi", "battery", "raspberry-pi"]
 
 +++
 
