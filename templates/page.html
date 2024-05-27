@@ -37,4 +37,37 @@
     </section>
 </div>
 
+<h4>Related Instruments</h4>
+
+<div class="grid">
+  {# this is a very basic related instruments fn. #}
+  {# right now all it does is make an array of all items that share a tag with this item #}
+  {# and then pick four random items from that list #}
+  {# ideally it would do something more complex like favouring items with more tags in common #}
+
+  {% set_global related_posts = [] %}
+  {% set taxonomy = get_taxonomy(kind="tags") %}
+
+  {% for item in taxonomy.items %}
+    {% set_global related_posts = related_posts | concat(with=item.pages) %}
+  {% endfor %}
+
+  {% set random_size = related_posts | length %}
+  {% set rand1 = get_random(start=0, end=random_size) %}
+  {% set rand2 = get_random(start=0, end=random_size) %}
+  {% set rand3 = get_random(start=0, end=random_size) %}
+  {% set rand4 = get_random(start=0, end=random_size) %}
+
+  {% for page in [related_posts[rand1], related_posts[rand2], related_posts[rand3], related_posts[rand4]] %}
+  <article class="synth">
+    {% set image_url = page.extra.parent ~ '/' ~ page.extra.images[0] %}
+    {% set image = resize_image(path=image_url, width=config.extra.thumb_width, height=config.extra.thumb_height, op=config.extra.thumb_op) %}
+    <a href="{{ page.permalink }}">
+      <img src="{{image.url}}">
+    </a>
+    <a href="{{ page.permalink }}">{{page.title}}</a><br />
+  </article>
+  {% endfor %}
+</div> 
+
 {% endblock content %}
