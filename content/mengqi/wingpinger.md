@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://www.mengqimusic.com/wingpinger-introduction"
 parent = "mengqi"
 images = ["wingpinger.jpg"]
+embed_yt = "HVTXL-nGrZ4"
+embed_title = "Wing Pinger Demo - Martin Pas"
 
 [taxonomies]
 tags = ["drone", "resonator", "digital", "effect"]

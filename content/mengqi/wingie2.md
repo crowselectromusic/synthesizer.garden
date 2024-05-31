@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://www.mengqimusic.com/wingie2-introduction"
 parent = "mengqi"
 images = ["wingie2.jpg"]
+embed_yt = "OSDJzbZpuxg"
+embed_title = "wingie2 demo"
 
 [taxonomies]
 tags = ["drone", "resonator", "digital", "effect"]

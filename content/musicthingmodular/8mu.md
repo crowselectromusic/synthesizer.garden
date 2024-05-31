@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://www.musicthing.co.uk/8mu_page/"
 parent = "musicthingmodular"
 images = ["8mu.jpg"]
+embed_yt = "CTnXEhedjm8"
+embed_title = "8mu demo"
 
 [taxonomies]
 tags = ["midi", "digital", "controller", "diy"]

@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://www.mengqimusic.com/wingie-introduction"
 parent = "mengqi"
 images = ["wingie.jpg"]
+embed_yt = "eXz9mo31dLs"
+embed_title = "Generative Meditation Music"
 
 [taxonomies]
 tags = ["drone", "resonator", "digital", "effect"]
