@@ -10,8 +10,8 @@ type = "instrument"
 link = "https://recoveryeffects.com/products/ghost-writer-pedal"
 parent = "recovery"
 images = ["ghostwriter1.jpg","ghostwriter2.jpg"]
-yt_embed = "Pw0iMGWtMM8"
-yt_title = "Ghost Writer Demo Video"
+embed_yt = "Pw0iMGWtMM8"
+embed_title = "Ghost Writer Demo Video"
 
 [taxonomies]
 tags = ["midi", "digital", "effect"]

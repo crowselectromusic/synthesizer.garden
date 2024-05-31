@@ -7,9 +7,11 @@ slug = "ovum"
 [extra]
 
 type = "instrument"
-link = "https://crowselectromusic.com/products/ovum"
+link = "https://crowselectromusic.com/products/ovum/"
 parent = "crowselectromusic"
 images = ["ovum2.jpg", "ovum1.jpg"]
+embed_vimeo = "812125045"
+embed_title = "OVUM introduction"
 
 [taxonomies]
 tags = ["drone", "analog", "polyphonic", "ambient", "usb-power"]

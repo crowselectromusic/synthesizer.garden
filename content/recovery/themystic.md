@@ -10,8 +10,8 @@ type = "instrument"
 link = "https://recoveryeffects.com/products/the-mystic-pre-order-semi-modular-desktop-synth"
 parent = "recovery"
 images = ["themystic1.jpg","themystic2.jpg","themystic3.jpg"]
-yt_embed = "fZkUhzSppqw"
-yt_title = "The Mystic Review Video"
+embed_yt = "fZkUhzSppqw"
+embed_title = "The Mystic Review Video"
 
 [taxonomies]
 tags = ["fm", "cv", "drone", "ambient", "digital", "patchable"]

@@ -10,8 +10,8 @@ type = "instrument"
 link = "https://recoveryeffects.com/collections/pro-audio/products/exmic-telephone-microphone"
 parent = "recovery"
 images = ["exmicdeluxe1.jpg","exmicdeluxe2.jpg","exmicdeluxe3.jpg","exmicdeluxe4.jpg"]
-yt_embed = "cwCNvMB2Y18"
-yt_title = "ExMic Deluxe Demo Video"
+embed_yt = "cwCNvMB2Y18"
+embed_title = "ExMic Deluxe Demo Video"
 
 [taxonomies]
 tags = ["microphone", "electroacoustic"]
