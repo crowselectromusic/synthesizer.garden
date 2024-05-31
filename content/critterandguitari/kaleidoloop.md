@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://www.critterandguitari.com/kaleidoloop"
 parent = "critterandguitari"
 images = ["kaleidoloop1.png", "kaleidoloop2.png"]
+embed_yt = "xhgYhdI_BfY"
+embed_title = "Critter & guitari Kaleidoloop short film"
 
 [taxonomies]
 tags = ["looper", "digital", "battery", "pure-data", "usb-power", "effect"]

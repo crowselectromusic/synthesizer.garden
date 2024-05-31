@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://www.critterandguitari.com/5-moons"
 parent = "critterandguitari"
 images = ["5moons1.jpg", "5moons2.jpg", "5moons3.jpg"]
+embed_yt = "xsTdKH3j0Y8"
+embed_title = "5 Moons Introduction"
 
 [taxonomies]
 tags = ["looper", "digital", "recorder", "multitrack", "usb-power"]

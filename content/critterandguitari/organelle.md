@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://www.critterandguitari.com/organelle"
 parent = "critterandguitari"
 images = ["organelle1.jpg", "organelle2.jpg", "organelle3.jpg"]
+embed_yt = "TW6FAxLFzLk"
+embed_title = "Organelle - Critter & Guitari"
 
 [taxonomies]
 tags = ["midi", "digital", "controller", "pure-data", "open-source", "effect", "sequencer", "groovebox", "wifi", "battery", "raspberry-pi"]
