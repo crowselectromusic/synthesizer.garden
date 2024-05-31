@@ -1,7 +1,7 @@
 +++
 title = "Ghost Writer"
 sort_by = "date"
-date = 2022-12-21
+date = 2022-10-14
 slug = "ghostwriter"
 
 [extra]
