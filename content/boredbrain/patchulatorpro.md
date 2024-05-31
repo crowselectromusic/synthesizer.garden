@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://boredbrainmusic.com/product/patchulator-pro/"
 parent = "boredbrain"
 images = ["patchulatorpro1.jpg", "patchulatorpro2.jpg", "patchulatorpro3.jpg"]
+embed_yt = "ZlnNy8Fk6ow"
+embed_title = "Patchulator Pro Review - Duskmos"
 
 [taxonomies]
 tags = ["pedal", "patchable", "patchbay"]

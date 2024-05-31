@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://boredbrainmusic.com/product/terminal-v2/"
 parent = "boredbrain"
 images = ["terminalv21.jpg", "terminalv22.jpg"]
+embed_yt = "OE0m6GQg0NM"
+embed_title = "boredbrain terminal v2: unbox & demo"
 
 [taxonomies]
 tags = ["pedal", "patchable", "patchbay"]

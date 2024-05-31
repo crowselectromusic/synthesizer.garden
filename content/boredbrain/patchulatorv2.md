@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://boredbrainmusic.com/product/patchulator-v2/"
 parent = "boredbrain"
 images = ["patchulatorv21.jpg", "patchulatorv22.jpg", "patchulatorv23.jpg", "patchulatorv24.jpg"]
+embed_yt = "BRXIY-o5-kU"
+embed_title = "Patchulator Review - Emily Hopkins"
 
 [taxonomies]
 tags = ["patchable", "patchbay", "cv"]

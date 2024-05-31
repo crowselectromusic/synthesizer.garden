@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://boredbrainmusic.com/product/intrfx-v2/"
 parent = "boredbrain"
 images = ["intrfxv21.jpg", "intrfxv22.jpg", "intrfxv23.jpg", "intrfxv24.jpg"]
+embed_yt = "pigrcDRdPQA"
+embed_title = "INTRFX Features Overview"
 
 [taxonomies]
 tags = ["patchable", "patchbay", "cv", "vca", "pedal", "eurorack", "feedback"]
