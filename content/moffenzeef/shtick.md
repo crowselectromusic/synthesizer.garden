@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://www.moffenzeefmodular.com/store/shtick"
 parent = "moffenzeef"
 images = ["shtick.jpg"]
+embed_yt = "0husJdZfpbU"
+embed_title = "shtick demo"
 
 [taxonomies]
 tags = ["digital", "noise"]

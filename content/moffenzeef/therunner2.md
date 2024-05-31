@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://www.moffenzeefmodular.com/store/1oejl8t00kk0lfwicn9ycidno5u8e5"
 parent = "moffenzeef"
 images = ["therunner2.jpg"]
+embed_yt = "016gQGiIPQg"
+embed_title = "The Runner 2.0 pain demo"
 
 [taxonomies]
 tags = ["digital", "noise", "drone", "midi"]
