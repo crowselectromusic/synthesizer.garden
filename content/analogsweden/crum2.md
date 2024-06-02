@@ -10,6 +10,8 @@ type = "instrument"
 link = "https://analogsweden.com/CRUM2"
 parent = "analogsweden"
 images = ["crum21.jpg", "crum22.jpg"]
+embed_yt = "b-yH5epoVTw"
+embed_title = "Analog Sweden Crum 2: SUPERBOOTH 24"
 
 [taxonomies]
 tags = ["midi", "digital", "cv", "rhythm" ]
