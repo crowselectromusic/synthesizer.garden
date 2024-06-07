@@ -10,7 +10,7 @@ type = "instrument"
 link = "https://timeless.garden/"
 parent = "timelessgarden"
 images = ["horizon1.jpg","horizon2.jpg","horizon3.jpg","horizon4.jpg","horizon5.jpg","horizon6.jpg","horizon7.jpg"]
-emded_yt = "o10bdB8sdX8"
+embed_yt = "o10bdB8sdX8"
 embed_title = "Timeless garden @ superbooth"
 
 [taxonomies]
