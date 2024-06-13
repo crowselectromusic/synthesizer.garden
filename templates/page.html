@@ -11,7 +11,7 @@
 {% block content %}
 <div>
   <article>
-    Released by 
+    <b>{{page.title}}</b> by 
     <a href="{{ get_url(path=parent_url) }}">{{ section.title }}</a> on {{ page.date | date(format="%B %d, %Y")}}.<br />
     Tags: {% for taxonomy_name, taxonomy in page.taxonomies %}
       {% for item in taxonomy %}
