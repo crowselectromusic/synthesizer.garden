@@ -8,7 +8,7 @@ slug = "fieldkit"
 
 type = "instrument"
 link = "https://koma-elektronik.com/?product=field-kit"
-parent = "komaelektronik"
+parent = "koma-elektronik"
 images = ["fieldkit1.jpg", "fieldkit2.jpg", "fieldkit3.jpg"]
 embed_yt = "0gjcUb5otGQ"
 embed_title = "Field Kit Demo from Perfect Circuit"

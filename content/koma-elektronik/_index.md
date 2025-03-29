@@ -2,7 +2,7 @@
 title = "Koma Elektronik"
 sort_by = "date"
 date = 2024-06-12
-slug = "komaelektronik"
+slug = "koma-elektronik"
 
 [extra]
 

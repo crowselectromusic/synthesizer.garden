@@ -3,7 +3,7 @@ title = "Crows Electromusic"
 sort_by = "date"
 date = 2024-05-06
 transparent = true
-slug = "crowselectromusic"
+slug = "crows-electromusic"
 
 [extra]
 type = "company"

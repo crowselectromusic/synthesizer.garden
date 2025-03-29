@@ -8,7 +8,7 @@ slug = "kommander"
 
 type = "instrument"
 link = "https://koma-elektronik.com/?product=kommander"
-parent = "komaelektronik"
+parent = "koma-elektronik"
 images = ["kommander1.png", "kommander2.png", "kommander3.png"]
 embed_yt = "eDfLtXDQuKM"
 embed_title = "Kommander Demo"

@@ -8,7 +8,7 @@ slug = "fieldkitfx"
 
 type = "instrument"
 link = "https://koma-elektronik.com/?product=field-kit-fx-modular-multi-effects-processor"
-parent = "komaelektronik"
+parent = "koma-elektronik"
 images = ["fieldkitfx1.png", "fieldkitfx2.png", "fieldkitfx3.jpg"]
 embed_yt = "j9qAFZxiY74"
 embed_title = "Field Kit FX Demo from Hainbach"

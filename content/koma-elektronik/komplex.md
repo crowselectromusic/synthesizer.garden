@@ -8,7 +8,7 @@ slug = "komplex"
 
 type = "instrument"
 link = "https://koma-elektronik.com/?product=komplex-sequencer"
-parent = "komaelektronik"
+parent = "koma-elektronik"
 images = ["komplex1.jpg", "komplex2.png", "komplex3.png", "komplex4.png"]
 embed_yt = "ug7pQh3LqnM"
 embed_title = "Komplex Sequencer MIDI Demo"

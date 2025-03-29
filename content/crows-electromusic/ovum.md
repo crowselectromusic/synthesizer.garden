@@ -8,7 +8,7 @@ slug = "ovum"
 
 type = "instrument"
 link = "https://crowselectromusic.com/products/ovum/"
-parent = "crowselectromusic"
+parent = "crows-electromusic"
 images = ["ovum2.jpg", "ovum1.jpg"]
 embed_vimeo = "812125045"
 embed_title = "OVUM introduction"
