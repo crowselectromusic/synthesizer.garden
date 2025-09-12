@@ -6,7 +6,7 @@ import path from 'node:path'
 import { SGCompany, SGProduct } from './types'
 
 const tree = directoryTree('../content', {
-    extensions: /\.(json|jpg|jpeg|png|gif)$/
+    extensions: /\.(json|jpg|jpeg|png|webp|gif)$/
 })
 
 const page_template = `
