@@ -1,20 +1,64 @@
 ---
-name: Submissions
-about: Suggest a company and products!
-title: ''
-labels: ''
-assignees: ''
+
+name: Product submission
+description: Submut a new product for the directory
+title: "[NEW]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new product for synthesizer.garden
+  - type: input
+    id: product_name
+    attributes:
+      label: Product name
+      description: the name of the product
+      placeholder: Foosythizer 2000xl
+    validations:
+      required: true
+  - type: input
+    id: product_link
+    attributes:
+      label: Product link
+      description: url where we can find more about this product
+      placeholder: https://some-company/products/foosythizer2000xl
+    validations:
+      required: true
+  - type: input
+    id: product_video_link
+    attributes:
+      label: Product video link
+      description: Link to a video that shows this product (youtube or vimeo)
+      placeholder: https://youtube.com/SJKFjksfja
+  - type: textarea
+    id: description
+    attributes:
+      label: Product description
+      description: Describe the product. Ok to copy-paste from the product website
+      placeholder: description of product
+  - type: textarea
+    id: tags
+    attributes:
+      label: Product tags
+      description: List some tags that categorize this product. Comma-separated
+      placeholder: polyphonic, midi, drone, cv
+  - type: input
+    id: company_name
+    attributes:
+      label: Company name
+      description: who makes this product
+      placeholder: Omni Consumer Products
+  - type: input
+    id: company_website
+    attributes:
+      label: Company website
+      description: url where we can find more about this company
+      placeholder: https://omni-consumer-products.com/
+  - type: textarea
+    id: company_description
+    attributes:
+      label: Describe the company
+      description: Say a little about the company
+      placeholder: A synth company from Venus, Milky way.
 
 ---
-
-- Company name: 
-- Company website:
-- Company description (optional):
-
-## Products:
-
-- Product name:
-- Product website:
-- Product video link: 
-- Suggested tags: 
-- Product description:
