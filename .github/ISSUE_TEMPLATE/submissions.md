@@ -1,7 +1,7 @@
 ---
-
 name: Product submission
-description: Submut a new product for the directory
+description: Submit a new product for the directory
+about: Submit a new product for the directory
 title: "[NEW]: "
 body:
   - type: markdown
