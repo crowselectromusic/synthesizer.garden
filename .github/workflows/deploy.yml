@@ -27,6 +27,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup yarn
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'yarn'
+          cache-dependency-path: build-tool/yarn.lock
+      - name: Generate markdown files for zola
+        working-directory: build-tool
+        run: yarn install; yarn start
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
