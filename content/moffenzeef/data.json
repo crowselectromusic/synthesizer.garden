@@ -6,7 +6,11 @@
       "added": "2021-07-02",
       "slug": "shtick",
       "link": "https://www.moffenzeefmodular.com/store/shtick",
-      "videos": [],
+      "videos": [{
+        "id": "0husJdZfpbU",
+        "title": "shtick demo",
+        "type": "youtube"
+      }],
       "tags": [
         "digital",
         "noise"
@@ -18,7 +22,11 @@
       "added": "2023-11-24",
       "slug": "therunner2",
       "link": "https://www.moffenzeefmodular.com/store/1oejl8t00kk0lfwicn9ycidno5u8e5",
-      "videos": [],
+      "videos": [{
+        "id": "016gQGiIPQg",
+        "title": "The Runner 2.0 pain dems",
+        "type": "youtube"
+      }],
       "tags": [
         "digital",
         "noise",

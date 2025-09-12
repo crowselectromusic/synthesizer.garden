@@ -6,7 +6,11 @@
       "added": "2024-05-17",
       "slug": "exmicdeluxe",
       "link": "https://recoveryeffects.com/collections/pro-audio/products/exmic-telephone-microphone",
-      "videos": [],
+      "videos": [{
+        "id": "cwCNvMB2Y18",
+        "title": "ExMic Deluxe Demo Video",
+        "type": "youtube"
+      }],
       "tags": [
         "microphone",
         "electroacoustic"
@@ -18,7 +22,11 @@
       "added": "2022-10-14",
       "slug": "ghostwriter",
       "link": "https://recoveryeffects.com/products/ghost-writer-pedal",
-      "videos": [],
+      "videos": [{
+        "id": "Pw0iMGWtMM8",
+        "title": "Ghost Writer Demo Video",
+        "type": "youtube"
+      }],
       "tags": [
         "midi",
         "digital",
@@ -31,7 +39,11 @@
       "added": "2022-12-21",
       "slug": "themystic",
       "link": "https://recoveryeffects.com/products/the-mystic-pre-order-semi-modular-desktop-synth",
-      "videos": [],
+      "videos": [{
+        "id": "fZkUhzSppqw",
+        "title": "The Mystic Review Video",
+        "type": "youtube"
+      }],
       "tags": [
         "fm",
         "cv",

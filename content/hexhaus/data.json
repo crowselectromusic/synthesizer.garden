@@ -6,7 +6,11 @@
       "added": "2023-02-24",
       "slug": "cor",
       "link": "https://www.hex.haus/product/hex-cor-assembled/",
-      "videos": [],
+      "videos": [{
+        "id": "v_Bz4tQPcg4",
+        "title": "HEX Cor Introduction",
+        "type": "youtube"
+      }],
       "tags": [
         "digital",
         "polyphonic",
@@ -21,7 +25,11 @@
       "added": "2023-02-24",
       "slug": "lag",
       "link": "https://www.hex.haus/product/hex-lag-assembled/",
-      "videos": [],
+      "videos": [{
+        "id": "vltFp0mGpTU",
+        "title": "HEX Lag Introduction",
+        "type": "youtube"
+      }],
       "tags": [
         "digital",
         "effect",
@@ -37,7 +45,11 @@
       "added": "2024-04-27",
       "slug": "row",
       "link": "https://www.hex.haus/product/hex-row-assembled/",
-      "videos": [],
+      "videos": [{
+        "id": "Cx_3sGTHIEA",
+        "title": "HEX Row Introduction",
+        "type": "youtube"
+      }],
       "tags": [
         "analog",
         "effect",

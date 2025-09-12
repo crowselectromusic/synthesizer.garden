@@ -6,7 +6,11 @@
       "added": "2022-11-23",
       "slug": "201pocketpiano",
       "link": "https://www.critterandguitari.com/201-pocket-piano",
-      "videos": [],
+      "videos": [{
+        "type": "youtube",
+        "id": "bNk-VFVdEZA",
+        "title": "Guided Tour of the 201 Pocket Piano"
+      }],
       "tags": [
         "digital",
         "sequencer",
@@ -23,7 +27,11 @@
       "added": "2023-04-26",
       "slug": "5moons",
       "link": "https://www.critterandguitari.com/5-moons",
-      "videos": [],
+      "videos": [{
+        "type": "youtube",
+        "id": "xsTdKH3j0Y8",
+        "title": "5 Moons Introduction"
+      }],
       "tags": [
         "looper",
         "digital",
@@ -38,7 +46,11 @@
       "added": "2024-03-06",
       "slug": "kaleidoloop",
       "link": "https://www.critterandguitari.com/kaleidoloop",
-      "videos": [],
+      "videos": [{
+        "type": "youtube",
+        "id": "xhgYhdI_BfY",
+        "title": "Critter & guitari Kaleidoloop short film"
+      }],
       "tags": [
         "looper",
         "digital",
@@ -54,7 +66,11 @@
       "added": "2016-04-12",
       "slug": "organelle",
       "link": "https://www.critterandguitari.com/organelle",
-      "videos": [],
+      "videos": [{
+        "type": "youtube",
+        "id": "TW6FAxLFzLk",
+        "title": "Organelle - Critter & Guitari"
+      }],
       "tags": [
         "midi",
         "digital",

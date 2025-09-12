@@ -6,7 +6,11 @@
       "added": "2024-05-17",
       "slug": "crum2",
       "link": "https://analogsweden.com/CRUM2",
-      "videos": [],
+      "videos": [{
+        "id": "b-yH5epoVTw",
+        "title": "Analog Sweden Crum 2: SUPERBOOTH 24",
+        "type": "youtube"
+      }],
       "tags": [
         "midi",
         "digital",

@@ -22,7 +22,11 @@
       "added": "2017-03-08",
       "slug": "fieldkit",
       "link": "https://koma-elektronik.com/?product=field-kit",
-      "videos": [],
+      "videos": [{
+        "id": "0gjcUb5otGQ",
+        "title": "Field Kit Demo from Perfect Circuit",
+        "type": "youtube"
+      }],
       "tags": [
         "cv",
         "patchable",
@@ -39,7 +43,11 @@
       "added": "2017-10-12",
       "slug": "fieldkitfx",
       "link": "https://koma-elektronik.com/?product=field-kit-fx-modular-multi-effects-processor",
-      "videos": [],
+      "videos": [{
+        "id": "j9qAFZxiY74",
+        "title": "Field Kit FX Demo from Hainbach",
+        "type": "youtube"
+      }],
       "tags": [
         "cv",
         "patchable",
@@ -56,7 +64,11 @@
       "added": "2012-07-12",
       "slug": "kommander",
       "link": "https://koma-elektronik.com/?product=kommander",
-      "videos": [],
+      "videos": [{
+        "id": "eDfLtXDQuKM",
+        "title": "Kommander Demo",
+        "type": "youtube"
+      }],
       "tags": [
         "cv",
         "motion",
@@ -71,7 +83,11 @@
       "added": "2015-01-22",
       "slug": "komplex",
       "link": "https://koma-elektronik.com/?product=komplex-sequencer",
-      "videos": [],
+      "videos": [{
+        "id": "ug7pQh3LqnM",
+        "title": "Komplex Sequencer MIDI Demo",
+        "type": "youtube"
+      }],
       "tags": [
         "cv",
         "gate",

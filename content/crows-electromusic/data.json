@@ -22,7 +22,11 @@
       "added": "2023-03-30",
       "slug": "ovum",
       "link": "https://crowselectromusic.com/products/ovum/",
-      "videos": [],
+      "videos": [{
+        "id": "812125045",
+        "title": "OVUM introduction",
+        "type": "vimeo"
+      }],
       "tags": [
         "drone",
         "analog",

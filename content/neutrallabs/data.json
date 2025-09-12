@@ -6,7 +6,11 @@
       "added": "2023-07-20",
       "slug": "elmyra2",
       "link": "https://neutral-labs.com/elmyra2",
-      "videos": [],
+      "videos": [{
+        "id": "4MBHOijuemk",
+        "title": "Elmyra 2 demo",
+        "type": "youtube"
+      }],
       "tags": [
         "polyphonic",
         "hybrid",

@@ -6,7 +6,11 @@
       "added": "2024-05-18",
       "slug": "horizon",
       "link": "https://timeless.garden/",
-      "videos": [],
+      "videos": [{
+        "id": "o10bdB8sdX8",
+        "title": "Timeless garden @ superbooth",
+        "type": "youtube"
+      }],
       "tags": [
         "cv",
         "digital",

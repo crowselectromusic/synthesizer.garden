@@ -6,7 +6,11 @@
       "added": "2024-06-09",
       "slug": "crunch-e",
       "link": "https://github.com/xpndsprt/CrunchE",
-      "videos": [],
+      "videos": [{
+        "id": "3KUOSRa4-iQ",
+        "title": "Crunch-E v0.1 Demo",
+        "type": "youtube"
+      }],
       "tags": [
         "digital",
         "esp32",

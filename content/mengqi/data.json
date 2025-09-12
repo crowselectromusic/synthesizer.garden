@@ -6,7 +6,11 @@
       "added": "2021-01-20",
       "slug": "wingie",
       "link": "https://www.mengqimusic.com/wingie-introduction",
-      "videos": [],
+      "videos": [{
+        "id": "eXz9mo31dLs",
+        "title": "Generative Meditation Music",
+        "type": "youtube"
+      }],
       "tags": [
         "drone",
         "resonator",
@@ -20,7 +24,11 @@
       "added": "2022-02-27",
       "slug": "wingie2",
       "link": "https://www.mengqimusic.com/wingie2-introduction",
-      "videos": [],
+      "videos": [{
+        "id": "OSDJzbZpuxg",
+        "title": "wingie2 demo",
+        "type": "youtube"
+      }],
       "tags": [
         "drone",
         "resonator",
@@ -34,7 +42,11 @@
       "added": "2020-04-29",
       "slug": "wingpinger",
       "link": "https://www.mengqimusic.com/wingpinger-introduction",
-      "videos": [],
+      "videos": [{
+        "id": "HVTXL-nGrZ4",
+        "title": "Wing Pinger Demo - Martin Pas",
+        "type": "youtube"
+      }],
       "tags": [
         "drone",
         "resonator",

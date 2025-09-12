@@ -6,7 +6,11 @@
       "added": "2019-07-02",
       "slug": "intrfxv2",
       "link": "https://boredbrainmusic.com/product/intrfx-v2/",
-      "videos": [],
+      "videos": [{
+        "type": "youtube",
+        "id": "pigrcDRdPQA",
+        "title": "INTRFX Features Overview"
+      }],
       "tags": [
         "patchable",
         "patchbay",
@@ -23,7 +27,11 @@
       "added": "2023-09-14",
       "slug": "patchulatorpro",
       "link": "https://boredbrainmusic.com/product/patchulator-pro/",
-      "videos": [],
+      "videos": [{
+        "type": "youtube",
+        "id": "ZlnNy8Fk6ow",
+        "title": "Patchulator Pro Review - Duskmos"
+      }],
       "tags": [
         "pedal",
         "patchable",
@@ -36,7 +44,11 @@
       "added": "2023-09-14",
       "slug": "patchulatorv2",
       "link": "https://boredbrainmusic.com/product/patchulator-v2/",
-      "videos": [],
+      "videos": [{
+        "type": "youtube",
+        "id": "BRXIY-o5-kU",
+        "title": "Patchulator Review - Emily Hopkins"
+      }],
       "tags": [
         "patchable",
         "patchbay",
@@ -49,7 +61,11 @@
       "added": "2021-02-08",
       "slug": "terminalv2",
       "link": "https://boredbrainmusic.com/product/terminal-v2/",
-      "videos": [],
+      "videos": [{
+        "type": "youtube",
+        "id": "OE0m6GQg0NM",
+        "title": "boredbrain terminal v2: unbox & demo"
+      }],
       "tags": [
         "pedal",
         "patchable",
