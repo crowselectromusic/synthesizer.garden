@@ -6,7 +6,7 @@
 ### Contributing
 
 All the content for this site lives in the `content` directory. 
-To add or make a change, you can edit documents and create a "pull request" with your suggested changes directly from github - all you need is a github account. Just follow the structure of the existing documents.
+To add or make a change, you can edit documents and create a "pull request" with your suggested changes directly from github - all you need is a github account. Just follow the structure of the existing documents, or file an issue on this repo.
 
 Contribution rules/guidelines:
 
@@ -21,9 +21,16 @@ Contribution rules/guidelines:
 - This site is hosted on github pages.
 - Styling uses [picocss](https://picocss.com/).
 
-To view your changes, install zola, run `zola serve` then visit http://127.0.0.1:1111/
+To view your changes:
 
-Or use the docker scripts in `./scripts`
+1. install [Zola](https://www.getzola.org/)
+2. `cd build-tools` enter the build-tools directory
+3. `yarn install` will install dependencies needed to run the build-tools script.
+4. `yarn start` will use the data.json files to generate the markdown files zola uses to generate the site
+5. go back to the root directory and run:
+6. run `zola serve` then visit http://127.0.0.1:1111/
+
+Or use the docker scripts in `./scripts` (warning: these need to be updated to run build-tools first)
 
 ## TODO:
 
