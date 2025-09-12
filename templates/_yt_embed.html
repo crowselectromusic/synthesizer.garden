@@ -1,11 +1,13 @@
 {# https://dustri.org/b/youtube-video-embedding-harm-reduction.html #}
 
-{% if page.extra.embed_yt %}
+{% if page.extra.videos %}
+{% for video in page.extra.videos %}
+{% if video.type == "youtube" %}
 <iframe
     width="100%"
     height="300"
-    src="https://www.youtube-nocookie.com/embed/{{ page.extra.embed_yt }}?privacy_mode=1"
-    title="{{ page.extra.embed_title | default(value='Youtube Video') }}"
+    src="https://www.youtube-nocookie.com/embed/{{ video.id }}?privacy_mode=1"
+    title="{{ video.title | default(value='Youtube Video') }}"
     frameborder="0"
     allow="
         accelerometer 'none';
@@ -55,7 +57,7 @@
     loading="lazy">
 </iframe>
 {% endif %}
-{% if page.extra.embed_vimeo %}
+{% if video.type == "vimeo" %}
 <iframe
     width="100%"
     height="300"
@@ -100,8 +102,8 @@
         window-management 'none';
         xr-spatial-tracking 'none'"
     sandbox="allow-scripts allow-same-origin"
-    src="https://player.vimeo.com/video/{{ page.extra.embed_vimeo }}?badge=0&autopause=0&player_id=0&app_id=58479"
-    title="{{ page.extra.embed_title }}"
+    src="https://player.vimeo.com/video/{{ video.id }}?badge=0&autopause=0&player_id=0&app_id=58479"
+    title="{{ video.title }}"
     allowfullscreen=""
     credentialless=""
     frameborder="0"
@@ -109,4 +111,6 @@
     data-ready="true"
     loading="lazy">
 </iframe>
+{% endif %}
+{% endfor %}
 {% endif %}
