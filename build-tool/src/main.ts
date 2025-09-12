@@ -32,7 +32,7 @@ function makeProductToml(
         sort_by: 'date',
         date: new TomlDate(product.added),
         slug: product.slug,
-        extras: {
+        extra: {
             type: 'instrument',
             link: product.link,
             parent: company_slug,
