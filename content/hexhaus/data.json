@@ -1,0 +1,54 @@
+{
+  "name": "Hex Haus",
+  "products": [
+    {
+      "name": "HEX cor",
+      "added": "2023-02-24",
+      "slug": "cor",
+      "link": "https://www.hex.haus/product/hex-cor-assembled/",
+      "videos": [],
+      "tags": [
+        "digital",
+        "polyphonic",
+        "looper",
+        "diy",
+        "usb-power"
+      ],
+      "description": "\n\nHEX cor is a digital polyphonic synthesizer with a capacitive keyboard, potentiometers for signal modulation and an adaptable looper that through its unusual shape explores new ways of interaction and sound synthesis. \n\nTouch the golden capacitive pads to trigger the tones. There are many ways of playing – slide your fingers over the pads and try touching multiple pads at the same time (to generate chaotic clouds of sound).\n\nThere are three potentiometers dedicated to sound manipulation. OCTAVE, DECAY and WAVEFORM settings can be adjusted to produce sounds ranging from thick drones, bass stabs and 8-bit bleeps to techno hi-hats.\n\nThere are two selectable scales that can be chosen by rotating OCTAVE to min position. Scales are then chosen by positioning the WAVEFORM—left half selects C major and the right C minor. To exit scale choosing mode rotate OCT out of the extremities. By default cor boots tuned to C major.\n\nRECORD & TWEAK\nBy now you have probably played some improvised melodies and want to start recording. HEX’s looper has a total length of 256 steps. Use the LENGTH potentiometer to adjust the desired length of the loop window – ranging from 8 to 256 steps (in increments of 8). The blinking LED on the left side of LENGHT indicates the tempo/sync pulse (it blinks on every second step of the loop) while the LED to its right indicates the end of the loop.\n\nI /O\nThe switch next to the 3.5mm stereo jack (10) sets the output to either dual mono or sync (R) + mono (L) mode. This enables other sync-able devices to sync to HEX.\n\nPOWER\nHEX can be powered via the USB C socket (11) using a USB power adapter/power bank.\n"
+    },
+    {
+      "name": "HEX lag",
+      "added": "2023-02-24",
+      "slug": "lag",
+      "link": "https://www.hex.haus/product/hex-lag-assembled/",
+      "videos": [],
+      "tags": [
+        "digital",
+        "effect",
+        "delay",
+        "diy",
+        "cv",
+        "usb-power"
+      ],
+      "description": "\n\nHex lag is a digital sound processing instrument with signal modulating potentiometers and an interactive tactile surface for direct sound control. It digitally simulates analogue bucket brigade delay chips (typical of chorus, flanger and karplus-strong), but also enables pitch-shifting, downsampling, etc. \n\nThere is a triple header row next to the input jack for interfacing with external control voltages. The top pin is connected to GND, the middle to SPREAD and the bottom to RATE potentiometer. Both SPREAD and RATE expect a unipolar signal 0-5V."
+    },
+    {
+      "name": "HEX row",
+      "added": "2024-04-27",
+      "slug": "row",
+      "link": "https://www.hex.haus/product/hex-row-assembled/",
+      "videos": [],
+      "tags": [
+        "analog",
+        "effect",
+        "filter",
+        "diy",
+        "usb-power"
+      ],
+      "description": "\n\nHEX row is an analogue dual resonant filter with versatile routing capabilities, sidechain/envelope follower and mischievous character, stemming from (mis)use of transistors as variable resistors in the signal route. \n\nThere are two channels, each controlled by three potentiometers: GAIN (2), RES (3), FREQ (4) and sidechained by CENTER (5). Both channels have the same topology. Inputs •| and |• are fed into each channel’s gain stage and then passed to their filters. The input signal level can be adjusted by setting the GAIN which can either attenuate or amplify a signal x20. Note that the amplification affects the filter’s behaviour—high GAIN disrupts self-oscillation, conjuring PLL-esque harmonics and other sound design artefacts. FREQ and RES are used to manipulate individual filter’s cutoff frequency and resonance. Each channel has a side-mounted switch (6) for selecting low-pass or band-pass filtering. Touch the golden touch pads (1) to manually route the flow of audio and control voltages.\n\nSIDECHAIN – Left channel’s (•I, •O) post-gain signal is filtered and fed into an envelope follower. Envelopes polarity and amplitude are adjusted by using CENTER. The adjusted envelope is then mixed in the right\n(|•, O•) channel’s FREQ parameter. Left half of the CENTER causes the filter to “duck” and the right half produces a gating response. In the middle position, the sidechain effect is inactive."
+    }
+  ],
+  "added": "2024-06-07",
+  "link": "https://www.hex.haus/",
+  "description": "\n\nHEX HAUS is a collaborative project by media artists [Anže Sekelj](https://www.anze.studio/) and [Staš Vrenko](https://stasis.lol/). HEX instruments stem from authors’ concepts and experiences in developing artistic tools and multimedia installations, aiming at creating didactic, affordable, portable and intuitive electronic devices that cross the boundaries of music-making, play and education.\n\nThe goal is to introduce audiences of various ages and backgrounds to contemporary electronic music and its underlying technologies through workshops and do-it-yourself (DIY) techniques. Components comprising the devices are 100% replaceable, prioritising the right to repair, ease of assembly and sustainable long-term use. Instruments’ unique designs are crafted by balancing intuitively accessible features for beginners with complex functions, appealing to professional users as well."
+}

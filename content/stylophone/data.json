@@ -1,0 +1,91 @@
+{
+  "name": "Dubreq",
+  "products": [
+    {
+      "name": "Stylophone BEAT",
+      "added": "2025-03-29",
+      "slug": "stylophone-beat",
+      "link": "https://stylophone.com/product/stylophone-beat/",
+      "videos": [],
+      "tags": [
+        "drum-machine",
+        "pocket-synthesizer",
+        "beat-maker",
+        "music",
+        "portable",
+        "drum-loops",
+        "bass-loops",
+        "stylus",
+        "sound-banks",
+        "beginner-friendly",
+        "musician"
+      ],
+      "description": "\n\nThe Stylophone BEAT is a pocket-sized drum machine that lets you make fun beats and basslines any time, anywhere. It's quick and easy to create drum & bass loops using four unique sound banks: ROK, TECHNO, HIPHOP & BEATBOX. Tap the built-in stylus on the circular beat pad, choose different drum kits and bass sounds, and record multiple layers on the fly."
+    },
+    {
+      "name": "Stylophone DS-2 Analog Drone Synth",
+      "added": "2025-03-29",
+      "slug": "stylophone-ds-2-analog-drone-synth",
+      "link": "https://stylophone.com/product/stylophone-ds-2/",
+      "videos": [],
+      "tags": [
+        "analog-synth",
+        "drone-synth",
+        "synthesizer",
+        "musical-instrument",
+        "audio",
+        "oscillator",
+        "filter",
+        "reverb",
+        "delay",
+        "lfo"
+      ],
+      "description": "\n\nThe Stylophone DS-2 Analog Drone Synth is the first of Stylophone's compact portable modular (CPM) range. It features dynamic waveform blending, multiple oscillators, multimode filters, modulation possibilities and vintage-inspired reverb and modulated delay."
+    },
+    {
+      "name": "STYLOPHONE S-1",
+      "added": "2025-03-29",
+      "slug": "stylophone-s-1",
+      "link": "https://stylophone.com/product/stylophone-s-1/",
+      "videos": [],
+      "tags": [
+        "mini-synth",
+        "stylus",
+        "compact-design",
+        "retro-sound",
+        "analog",
+        "keyboard",
+        "pocket-synthesizer",
+        "beginner-instrument",
+        "portable"
+      ],
+      "description": "\n\nThe Stylophone is an iconic mini synth, known for its super-fun stylus, compact design, and unique retro sound. Used by everyone from David Bowie to The White Stripes, the latest Stylophone features the same quirky vintage analog sound as the original, first released in 1968. It has a built in speaker with volume control and optional headphone jack, a headphone socket for private play, 3 Octaves and vibrato effect. Batteries required: 3 x AA (not included)"
+    },
+    {
+      "name": "Theremin",
+      "added": "2025-03-29",
+      "slug": "theremin",
+      "link": "https://stylophone.com/product/theremin_us/",
+      "videos": [],
+      "tags": [
+        "theremin",
+        "synthesizer",
+        "portable",
+        "touch-sensitive",
+        "experimental-sounds",
+        "movement-detection",
+        "modulation",
+        "vibrato",
+        "delay-effects",
+        "sci-fi",
+        "aa-batteries",
+        "speaker",
+        "headphone-connection"
+      ],
+      "description": "\n\nThe Stylophone Theremin is a portable touch sensitive synthesizer that creates experimental sounds by detecting your movement. Wave your hand around its antenna, move its slide from side to side, and go over the edge with mad modulation, wobbly vibrato, and crunchy echoing delay for crazy, quirky, sci-fi sound creation. Powered by AA batteries and featuring a built-in speaker & headphone connection, play it anywhere! No theremin experience required."
+    }
+  ],
+  "added": "2025-03-29",
+  "link": "https://stylophone.com/",
+  "description": "\n\nDubreq Stylophone are the creators of the Original Pocket Synthesizer and Unique Sound Since 1968."
+}

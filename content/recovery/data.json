@@ -1,0 +1,49 @@
+{
+  "name": "Recovery Effects",
+  "products": [
+    {
+      "name": "ExMic Deluxe",
+      "added": "2024-05-17",
+      "slug": "exmicdeluxe",
+      "link": "https://recoveryeffects.com/collections/pro-audio/products/exmic-telephone-microphone",
+      "videos": [],
+      "tags": [
+        "microphone",
+        "electroacoustic"
+      ],
+      "description": "\n\nMicrophone and Preamp\n\nThe ExMic Deluxe blends the nostalgia of a vintage telephone with the power of modern technology. This device is a microphone and a preamp, offering endless possibilities for capturing and shaping your sound. Plug in the handset, now transformed into a microphone with a 1/4\" jack, and unleash your vocals through this eccentric, lo-fi creation. The ExMic Deluxe was specifically designed for this purpose, but this versatile device goes beyond vocals. Connect your guitar, bass, or synth to the converted base and experience the magic of boosted tones and uniquely shaped sounds. Let your creativity run wild as you experiment with unconventional techniques, such as using it as an overhead mic for your drums or placing it in the room to capture strange and unusual ambient sounds. The possibilities with the ExMic Deluxe are limitless!\n\nDesigned and assembled in Seattle, Washington. The ExMic Deluxe includes a mic clip that mounts on a standard mic stand and a one-year limited warranty if registered within 30 days of delivery.\n"
+    },
+    {
+      "name": "Ghost Writer",
+      "added": "2022-10-14",
+      "slug": "ghostwriter",
+      "link": "https://recoveryeffects.com/products/ghost-writer-pedal",
+      "videos": [],
+      "tags": [
+        "midi",
+        "digital",
+        "effect"
+      ],
+      "description": "\n\nAudio to MIDI Device\n\nGhost Writer is a pedal that transforms the notes you play into MIDI data. This means you can connect to a synth and literally play your synthesizer from your guitar. You can also trigger phrases or samples, and add functionality to your MIDI-equipped pedals.\n\nIndependent controls allow you to toggle audio and MIDI signals or use both. The monophonic MIDI data is automatically assigned to MIDI Channel 1, and transmitted through a *3.5mm TRS MIDI cable* on the back of the pedal. The audio is processed through a high-quality buffer stage to ensure no loss of signal.\n.\nGhost Writer provides a simple way to interact with your synths and MIDI-equipped gear as you play. It’s an essential tool for creative musicians who are on the search for innovation.\nDesigned and assembled in Seattle, Washington. Operates on a standard 9Vdc Boss-style power supply (not included). Includes a one-year limited warranty if registered within 30 days of delivery.\n.\nYou will need a 3.5mm \"Type A” connector. Some connectors do not specify if they are “Type A” or \"Type B\", so we recommend using the Recovery-branded and tested cable that we offer. Type A cable sold separately here: Recovery MIDI cable "
+    },
+    {
+      "name": "The Mystic",
+      "added": "2022-12-21",
+      "slug": "themystic",
+      "link": "https://recoveryeffects.com/products/the-mystic-pre-order-semi-modular-desktop-synth",
+      "videos": [],
+      "tags": [
+        "fm",
+        "cv",
+        "drone",
+        "ambient",
+        "digital",
+        "patchable"
+      ],
+      "description": "\n\nSemi-Modular Desktop Synth\n\nThe Mystic is an experimental device that makes ethereal voices swirl, echo, ascend, and plunge into an ever-changing, sonic, celestial playground. Generate colossal waves that ripple through the cosmos and make galaxies collide. Transcend reality and let The Mystic guide the way.\n\nWith an FM synth at its core, The Mystic contains 2 operator voices, 2 modulators, and an analog-style echo with 500ms of delay time. Both operator voices include control over carrier frequency, and each modulator affects both voices, creating complex, interesting growls, sweeps, and cascading atmospherics. All synth parameters are controllable via CV, as well as delay time.\n\nThe Mystic operates on a standard Boss-style 9vdc negative tip, 200mA. Option to purchase with or without power supply. Includes a one-year limited warranty if registered within 30 days of delivery.\n"
+    }
+  ],
+  "added": "2024-05-31",
+  "link": "https://recoveryeffects.com/",
+  "description": "\n\nRecovery Effects has been creating useful, original tools for musicians since 2009. Each device has a unique functionality with distinct, unmistakable character. All of our products are designed and assembled at our home workshop in Seattle, Washington. We take pride in our workmanship, so you can rest assured you are getting a quality, tested device that will stand the test of time. \n"
+}

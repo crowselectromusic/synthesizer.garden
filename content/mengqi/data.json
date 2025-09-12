@@ -1,0 +1,50 @@
+{
+  "name": "Meng Qi Music",
+  "products": [
+    {
+      "name": "Wingie",
+      "added": "2021-01-20",
+      "slug": "wingie",
+      "link": "https://www.mengqimusic.com/wingie-introduction",
+      "videos": [],
+      "tags": [
+        "drone",
+        "resonator",
+        "digital",
+        "effect"
+      ],
+      "description": "\n\nWingie is a handheld stereo resonator with built-in microphones that also doubles as a development board. Its dual onboard microphones allow you to interact and enrich vocals as well as the sonic environment around you.\n\nIf you sing to it, Wingie responds with marvelously complex harmonies. Or play it as a percussive instrument and create acoustic feedback with your speakers. Wingie is small enough you can simply take it along with you and resonate with the world. However you decide to use it, Wingie can deliver a lush stereo image by just locating the sweet spots. It’s all right there in your hands."
+    },
+    {
+      "name": "Wingie 2",
+      "added": "2022-02-27",
+      "slug": "wingie2",
+      "link": "https://www.mengqimusic.com/wingie2-introduction",
+      "videos": [],
+      "tags": [
+        "drone",
+        "resonator",
+        "digital",
+        "effect"
+      ],
+      "description": "\n\nWingie2 is a handheld stereo resonator with onboard microphones that doubles as a development platform. It allows you to interact with and enrich sounds from instruments and vocals as well as the sonic environment around you.\n"
+    },
+    {
+      "name": "Wing Pinger",
+      "added": "2020-04-29",
+      "slug": "wingpinger",
+      "link": "https://www.mengqimusic.com/wingpinger-introduction",
+      "videos": [],
+      "tags": [
+        "drone",
+        "resonator",
+        "digital",
+        "effect"
+      ],
+      "description": "\n\nThe Wing Pinger is composed of a pair of 4-pole resonant low pass filters and a network of peripheral logic circuits. The filters can be cross “pinged” and modulated, both directly and by generated step signals."
+    }
+  ],
+  "added": "2024-05-16",
+  "link": "https://www.mengqimusic.com/",
+  "description": "\n\nMeng Qi Music is the work of the artist Meng Qi, a pioneering synthesizer designer and musician, famous for his music and distinctive instruments, which are used by electronic artists all over the world.\n\n"
+}

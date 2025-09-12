@@ -1,0 +1,64 @@
+{
+  "name": "Boredbrain",
+  "products": [
+    {
+      "name": "INTRFX V2",
+      "added": "2019-07-02",
+      "slug": "intrfxv2",
+      "link": "https://boredbrainmusic.com/product/intrfx-v2/",
+      "videos": [],
+      "tags": [
+        "patchable",
+        "patchbay",
+        "cv",
+        "vca",
+        "pedal",
+        "eurorack",
+        "feedback"
+      ],
+      "description": "\n\nEurorack FX interface\n\nINTRFX facilitates effects processing between eurorack, guitar pedals and electronic instruments. Inside this small pedal-sized device are three channels of level and format conversion, voltage-controlled effects mix, and a unique mode switching feature for flexible operation.\n\n- 3 channels of send & return level conversion\n- Per-channel selection of eurorack thru pedals or instrument thru eurorack\n- FX blend control with CV input\n- Capable of FX feedback and linear VCA functionality\n- Small tabletop form-factor\n\nWant to connect outboard gear to your eurorack synthesizer without taking up valuable HP in your case? INTRFX allows eurorack-level signals to be processed with pedals and/or outboard effects, and also allows line-level instruments to be processed with eurorack modules. Each of its three channels has an Interchange Switch to swap this mode, as well as an FX Blend parameter which can be controlled via CV. And because of its compact physical design, the INTRFX can be placed almost anywhere and connected to eurorack systems with 3.5 mm patch cables rather than bulkier 1/4-inch cables.\n\nFeedback effects can be achieved by switching into the “wrong” mode, sending the FX return back into the FX send, while still allowing for dry signal blend and modulation. Channels can also be patched into one another and toggled between modes for experimental routing. Conveniently, each channel can operate as a reversed linear VCA for both audio and DC signals when no effects are used.\n\nWhether you’re patching eurorack through classic guitar pedals or running a drum machine through your gnarliest modules, INTRFX makes these connections easy and flexible.\n"
+    },
+    {
+      "name": "Patchulator Pro",
+      "added": "2023-09-14",
+      "slug": "patchulatorpro",
+      "link": "https://boredbrainmusic.com/product/patchulator-pro/",
+      "videos": [],
+      "tags": [
+        "pedal",
+        "patchable",
+        "patchbay"
+      ],
+      "description": "\n\n- Ten discrete send and return channels for effects and instruments\n- Additional main instrument channel switchable between two effects chains\n- TRS connections support stereo, mono, and balanced audio signals\n- Includes twelve custom 10-inch mini patch cables (TRS)\n- Passive design for routing all types of signals\n\nPatchulator Pro is an evolution of Boredbrain’s iconic desktop and pedalboard patchbay, purpose-built for experimental signal routing of guitar pedals, effects, synths and more. The patchbay has ten individual effects channels, plus a main instrument channel capable of switching between two parallel effects chains or bypassing them entirely.\n\natchulator Pro’s ten numbered channels are primarily used for pedals or effects processors, and allow chains of effects to be created on-the-fly using a few mini patch cables. First, the inputs and outputs of pedals and effects are connected to the send (gray) and return (black) 1/4-inch jacks on the rear of the patchbay. Then using the top 3.5 mm jacks labeled SND and RCV, signals can be routed freely through the effects channels to make a chain.\n\nAlternatively, instrument sources (and destinations) can also connect to any of these ten channels for direct patch access if the dedicated MAIN I/O instrument channel is not enough.\n\n"
+    },
+    {
+      "name": "Patchulator V2",
+      "added": "2023-09-14",
+      "slug": "patchulatorv2",
+      "link": "https://boredbrainmusic.com/product/patchulator-v2/",
+      "videos": [],
+      "tags": [
+        "patchable",
+        "patchbay",
+        "cv"
+      ],
+      "description": "\n\n8-Channel mini patchbay\n\n- Eight pairs of ¼-inch send and return connections\n- Eight pairs of 3.5 mm patch points for signal routing\n- TRS connections support stereo or mono applications\n- Passive design accepts all types of signals including CV\n- Includes eight 6-inch mini patch cables (TRS)\n\nPatchulator is the ultimate tool for quick experimental signal routing of guitar pedals, synths and more. The patchbay is designed to easily re-order audio effects, swap effects between instruments, and make quick changes to the flow of signals.\n\nIs your pedalboard brain-dead? The Patchulator provides a tangle-free way to change the order of your effects to create new tones using little to no brainpower! With the provided mini cables, just patch signal from your guitar or bass into (and out of) each effect, then back out to your amp or mixer. Invent new and interesting sounds while your synapses are firing, simply by rearranging the sequence of effects! All your gear and cabling stays put. Oh, and any effect not patched is “truly” bypassed… Genius!\n\nAre your cables giving you a brain freeze? In the world of electronic music, the Patchulator desktop patchbay becomes a powerful nerve center for your instruments, allowing you to share and swap effects all around your setup, without needing to solve a brainteaser. Just connect your keyboards, synthesizers, samplers, drum machines (or any sound source) to a few channels, then fill the other channels with your effects’ ins and outs. Using the mini patch cables, you can then route any of the effects into and out of the signal path of any instrument, just like a real patch bay! Hmmm… what will you mastermind?\n\nIn the world of modular synthesizers, the Patchulator is the brainstem between your modules and outboard gear, since it uses both standard and mini phono plugs. So if your brain tissue needs some electro-stimulation, simply inject control voltages and audio signals directly from your modular into effects units and chains. Better yet, use two Patchulators and seriously expand your cranial capacity! Whatever it is that you can brainstorm – guitar pedals and studio effects, synths and samplers, grooveboxes and drum machines, modulars and modulation signals, mixers and recording interfaces – the Patchulator allows it all to interconnect.\n"
+    },
+    {
+      "name": "Terminal V2",
+      "added": "2021-02-08",
+      "slug": "terminalv2",
+      "link": "https://boredbrainmusic.com/product/terminal-v2/",
+      "videos": [],
+      "tags": [
+        "pedal",
+        "patchable",
+        "patchbay"
+      ],
+      "description": "\n\n- Four independent channels with 1/4-inch in-out and send-return\n- Half-normal configuration for copying and replacing signals\n- Compact design with top-mounted patch points\n- TRS connections support stereo or mono applications\n\n\nTerminal adds routing flexibility to signal chains of guitar pedal effects, electronic instruments and other audio devices. The half-normal patchbay is designed to easily copy signals, insert effects into primary signal paths, and re-route signals to alternate destinations.\n\nThis simple but very useful design was originally a custom project for musician Tycho, who is using Terminal in his studio and live rigs to quickly patch between sections of pedal and instrument chains. Community interest in the product led Boredbrain to produce Terminal in limited batches, and then due to its popularity, it has now become a mainstay.\n"
+    }
+  ],
+  "added": "2024-05-28",
+  "link": "https://boredbrainmusic.com/",
+  "description": "\n\nBoredbrain make experimental gear for electronic musicians. From guitar pedals to eurorack synthesizer modules, Boredbrain specializes in uniquely interesting utilities and i/o devices.\n"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Analog Sweden",
+  "products": [
+    {
+      "name": "CRUM2",
+      "added": "2024-05-17",
+      "slug": "crum2",
+      "link": "https://analogsweden.com/CRUM2",
+      "videos": [],
+      "tags": [
+        "midi",
+        "digital",
+        "cv",
+        "rhythm"
+      ],
+      "description": "\n\nGenerative Percussive Harmonic Device\n\nPrototype specs:\n- 4 channels with 6 sound engines each\n- Percussive and melodic modes with master scale\n- Extreme parameter range switch per track\n- Scale key center offsetable per track pitch or relative to bass channel pitch\n- Probabilty BEAT generation, step and live record\n- 1-64 steps, 1/32, 1/16, 1/8, 1/4, TRI input\n- Randomizable parameters\n- Master offset performance control section\n- 10 live performance chainable snapshots with breakbeat recall\n- Master reverb, delay & drive fx\n- Extensive dimensional i/o: Midi, CV, Separate outs, clock in/out\n- Dev team: Nyström, Hultén & Analog Sweden"
+    }
+  ],
+  "added": "2024-05-21",
+  "link": "https://analogsweden.com/",
+  "description": "\n"
+}

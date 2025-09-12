@@ -1,0 +1,24 @@
+{
+  "name": "Destiny Plus",
+  "products": [
+    {
+      "name": "Programma 900",
+      "added": "2024-05-17",
+      "slug": "programma900",
+      "link": "https://www.destiny-plus.com/programma-900",
+      "videos": [],
+      "tags": [
+        "midi",
+        "digital",
+        "polyphonic",
+        "rhythm",
+        "fpga",
+        "cv"
+      ],
+      "description": "\n\nProgramma 900 is a harmonic musical computer, built on fpga and arm cortex technology.\nWith 6 polytonal voices, each featuring Odd harmonic, Even harmonic, Harmonic partials, Harmonic tilt and fundamental frequency control. Four quadrant multiplication of individual voices. x32 complex gestural cv buffers allowing 6 min cv recording windows for all x32 mod destinations and voice envelopes. Individual modes for speed and attenuation for each x32 gestural cv buffer. 3000 note MIDI record buffer and looper. X3 location A-B-C / pan controls. Experimental Stereo regeneration / delay algorithm with over 12 min regeneration buffers, multiple regeneration modes & buffer filters. 6x interpolating morphing inputs to each voice.\n"
+    }
+  ],
+  "added": "2024-05-03",
+  "link": "https://www.destiny-plus.com/",
+  "description": "\n\n(D)emonstration & (E)xperiment of (S)ound (T)echnology for (IN)ter causalit(Y) (P)arallax to (L)issajous c(U)rves in (S)patial scanning.\n\n"
+}

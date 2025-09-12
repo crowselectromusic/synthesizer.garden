@@ -1,0 +1,59 @@
+{
+  "name": "Landscape",
+  "products": [
+    {
+      "name": "Ferrous",
+      "added": "2024-05-16",
+      "slug": "ferrous",
+      "link": "https://www.landscape.fm/ferrous",
+      "videos": [],
+      "tags": [
+        "electroacoustic"
+      ],
+      "description": "\n\nMade to resonate steel stringed instruments. Ferrous’ spinning disc contains six strong earth magnets. Adjusting the rotational speed of the disc will change which strings are most affected and their harmonic content. If the disc is spinning slowly lower strings resonate; if the disc is spinning quickly higher strings will resonate louder. The results can sound like an unknown instrument in a reverberated physical space, floating sine wave tones, or feedback. Fluctuation of rotation speed by using the thumbwheel, rev button, touch-plate or control voltage input can create a soft strumming effect across multiple strings or shifts in harmonic content. New harmonics and overtones can emerge from both lower and higher strings as the disc spins faster. The distance at which Ferrous is held from strings affects how strongly they will resonate and their harmonics. If Ferrous is placed near guitar pickups you will hear the heavy sounds of the magnets and the motor with the resulting pitch based upon the disc’s RPM.   "
+    },
+    {
+      "name": "HC-TT",
+      "added": "2019-05-09",
+      "slug": "hc-tt",
+      "link": "https://www.landscape.fm/hctt",
+      "videos": [],
+      "tags": [
+        "analog",
+        "tape",
+        "gate",
+        "cv"
+      ],
+      "description": "\n\nThe HC-TT is a compact cassette manipulation device which allows you to manually play a cassette with your hands. The resulting sound can be incredibly similar to scratching a vinyl record. Sound will only be produced while your hands are turning either of the large playback knobs. By turning these knobs you are directly rotating the cassette spindles which moves the tape across the internal tape head. The knobs “play” a regular cassette forwards and backwards. There is no motor in this device, so direction and speed is left to the performer. The illuminated touch switch is a momentary mute for both the mono audio output as well as the CV/Gate outputs. The Arches and Moons touch plates allow for feedback and other strange interactions. \n\n"
+    },
+    {
+      "name": "Noon",
+      "added": "2023-07-24",
+      "slug": "noon",
+      "link": "https://www.landscape.fm/noon",
+      "videos": [],
+      "tags": [
+        "rhythm",
+        "analog",
+        "gate",
+        "cv"
+      ],
+      "description": "\n\nAn 8 channel powerless instrument which is activated and modulated using voltage from external sequencers. Analog circuits are powered momentarily by incoming gate and control voltage signals causing them to oscillate and breathe naturally. When these circuits are linked together they can grow, inform and process one another in complex rhythmic ways.\n\n"
+    },
+    {
+      "name": "Stereo Field",
+      "added": "2017-03-07",
+      "slug": "stereofield",
+      "link": "https://www.landscape.fm/stereofield",
+      "videos": [],
+      "tags": [
+        "analog",
+        "cv"
+      ],
+      "description": "\n\nStereo Field is one instrument with three uses. It is simultaneously a stereo/quad modular touch plate feedback atonal synthesizer, a stereo/quad audio processor and a pressure sensitive chaotic CV \"controller\". All three uses are available separately as well as simultaneously and in conversation with each other. The Stereo Field allows its user to manipulate and patch two analog stereo preamp circuits via touch plates. By utilizing skin conductivity as new paths for current to follow you are creating \"new circuits\" and new sounds in relation to where your fingers are patching. \n"
+    }
+  ],
+  "added": "2024-05-16",
+  "link": "https://www.landscape.fm/",
+  "description": "\n\nBased in Brooklyn, NY"
+}

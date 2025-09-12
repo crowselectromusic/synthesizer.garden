@@ -1,0 +1,32 @@
+{
+  "name": "Tangible Instruments",
+  "products": [
+    {
+      "name": "Arpeggio",
+      "added": "2025-03-29",
+      "slug": "arpeggio",
+      "link": "https://www.tangibleinstruments.com/products/arpeggio",
+      "videos": [],
+      "tags": [
+        "arpeggiator",
+        "sequencer",
+        "synthesizer",
+        "portable-instrument",
+        "melody-composer",
+        "midi",
+        "bluetooth",
+        "control-voltage",
+        "gate",
+        "virtual-analog-synth",
+        "music-creation",
+        "performance-tool",
+        "audio-equipment",
+        "musical-instrument"
+      ],
+      "description": "\n\nCompose, save, and perform melodies with Arpeggio, a portable arpeggiator, sequencer, and synthesizer. Create nuanced melodies, save hundreds of creations, and explore millions of arpeggiator styles. Control your gear wirelessly or with control voltage and gate."
+    }
+  ],
+  "added": "2025-03-29",
+  "link": "https://www.tangibleinstruments.com",
+  "description": "\n\nTangible Instruments creates innovative portable music creation devices."
+}

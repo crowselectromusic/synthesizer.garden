@@ -1,0 +1,49 @@
+{
+  "name": "Krischer",
+  "products": [
+    {
+      "name": "M8",
+      "added": "2020-04-19",
+      "slug": "m8",
+      "link": "https://reverb.com/ca/item/68092565-krischer-m8-analog-polyphonic-synth",
+      "videos": [],
+      "tags": [
+        "analog",
+        "drone",
+        "polyphonic"
+      ],
+      "description": "\n\nKRISCHER M8 in collaboration with the talented Nimloss Kano. 100% handmade in Paris, 8 powerful analog oscillators."
+    },
+    {
+      "name": "Micro 3340",
+      "added": "2023-05-03",
+      "slug": "micro3340",
+      "link": "https://reverb.com/ca/item/67880740-krischer-micro-3340-analog-synth",
+      "videos": [],
+      "tags": [
+        "analog",
+        "drone",
+        "monophonic",
+        "cv"
+      ],
+      "description": "\n\n100% analog monophonic synthesizer based on the fabulous VCO 3340!\n4 powerful waveforms selector : Noise, triangle, sawtooth, square with pwm control.\nControllable in 1v/octave CV and Gate.\n\nAvailable as a DIY kit or assembled.\n"
+    },
+    {
+      "name": "MicroFilter",
+      "added": "2022-11-24",
+      "slug": "microfilter",
+      "link": "https://reverb.com/ca/item/66447143-krischer-analog-filter-kit-new-high-lowpass",
+      "videos": [],
+      "tags": [
+        "analog",
+        "filter",
+        "effect",
+        "cv"
+      ],
+      "description": "\n\nThis clone of the mythical MS-20 vintage filter offers a spectacular Lowpass with a powerful resonance!\nThe cutoff is controllable with the potentiometer and Control Voltage (CV)\n\nAvailable as a DIY kit or assembled.\n"
+    }
+  ],
+  "added": "2024-05-16",
+  "link": "https://reverb.com/ca/brand/krischer",
+  "description": "\n\nKrischer is a Paris based synth maker who sells on Reverb.\n"
+}

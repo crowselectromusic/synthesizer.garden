@@ -1,0 +1,39 @@
+{
+  "name": "Crows Electromusic",
+  "products": [
+    {
+      "name": "Lore",
+      "added": "2025-03-29",
+      "slug": "lore",
+      "link": "https://crowselectromusic.com/products/lore/",
+      "videos": [],
+      "tags": [
+        "drone",
+        "analog",
+        "polyphonic",
+        "ambient",
+        "usb-power",
+        "fm"
+      ],
+      "description": "\n\nLore is an analog electronic instrument for exploring tones, drones, noise, and dissonance. It features two independently controlled triangle-core oscillators with switchable frequency modulation, providing a wide range of tones."
+    },
+    {
+      "name": "OVUM",
+      "added": "2023-03-30",
+      "slug": "ovum",
+      "link": "https://crowselectromusic.com/products/ovum/",
+      "videos": [],
+      "tags": [
+        "drone",
+        "analog",
+        "polyphonic",
+        "ambient",
+        "usb-power"
+      ],
+      "description": "\n\nOVUM is a standalone all-analog tool for exploratory sound synthesis. Five independently controlled triangle-core oscillators give you five lush voices to layer and evolve. Each voice has a separate control for volume, pitch, and tone, and can be switched between a bright square wave and a crisp triangle wave.\n"
+    }
+  ],
+  "added": "2024-05-06",
+  "link": "https://crowselectromusic.com",
+  "description": "\n\nCrows Electromusic is a Vancouver, Canada based electronic musical instrument company seeking to create meaningful electronic musical instruments that unlock creativity, while exploring ways to subvert the capitalist death-spiral of climate destruction and labour exploitation. The first Crows' product, OVUM was launched in March 2023.\n"
+}

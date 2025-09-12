@@ -1,0 +1,89 @@
+{
+  "name": "Koma Elektronik",
+  "products": [
+    {
+      "name": "Chromaplane",
+      "added": "2025-03-29",
+      "slug": "chromaplane",
+      "link": "https://koma-elektronik.com/new/product/chromaplane/",
+      "videos": [],
+      "tags": [
+        "cv",
+        "electromagnetic",
+        "analog",
+        "effect",
+        "drone",
+        "polyphonic"
+      ],
+      "description": "\n\nElectromagnetic musical instrument played using two pickup coils. Fully analog and polyphonic, ideal for sculpting complex drones and agile melodies. Features a 4-pole low pass filter and a lo-fi delay/echo effect."
+    },
+    {
+      "name": "Field Kit",
+      "added": "2017-03-08",
+      "slug": "fieldkit",
+      "link": "https://koma-elektronik.com/?product=field-kit",
+      "videos": [],
+      "tags": [
+        "cv",
+        "patchable",
+        "effect",
+        "diy",
+        "radio",
+        "mixer",
+        "dupont-connectors"
+      ],
+      "description": "\n\nIntroducing the Field Kit by KOMA Elektronik – an electroacoustic box of wonders that unleashes a world of possibilities! Play with motors, sensors, contact microphones, radio signals!\n\nMuch like a versatile Swiss knife, the Field Kit boasts a plethora of functions, serving you an 4-channel mixer, LFO, a CV-able Radio, Envelope Follower, a sensor interface, and a DC interface – a comprehensive toolkit for sonic experimentation.\n\nEnhance your sonic journey with the perfect companions! The Field Kit so even more fun with an Expansion Pack, Sensors or a Field Kit Eurorack Panel.\n\nFor those who enjoy the hands-on approach, explore the DIY version of the Field Kit.\n"
+    },
+    {
+      "name": "Field Kit FX",
+      "added": "2017-10-12",
+      "slug": "fieldkitfx",
+      "link": "https://koma-elektronik.com/?product=field-kit-fx-modular-multi-effects-processor",
+      "videos": [],
+      "tags": [
+        "cv",
+        "patchable",
+        "effect",
+        "mixer",
+        "sequencer",
+        "delay",
+        "reverb"
+      ],
+      "description": "\n\nThe Field Kit FX is a super versatile effects unit! It boasts a Frequency Shifter, Looper, Spring Reverb, Digital Delay, Bit Crusher, Sample Rate Reduction, 4 Channel Mixer with VCAs and tone control, a mini sequencer and ADSR, all under CV control! The Field Kit FX is more fun with the right tools! You could add the FX Expansion Pack, which offers a spring reverb tank and other goodies!\n\nAvailable as a standalone unit or as a eurorack module.\n"
+    },
+    {
+      "name": "Kommander",
+      "added": "2012-07-12",
+      "slug": "kommander",
+      "link": "https://koma-elektronik.com/?product=kommander",
+      "videos": [],
+      "tags": [
+        "cv",
+        "motion",
+        "controller",
+        "gate",
+        "pedal"
+      ],
+      "description": "\n\nCV/Gate Motion Controller\n\nThe Kommander is a handheld dual infrared X-Y motion controller that makes controlling your electronic instruments intuitive and fun. The device measures the distance to other objects and sends out corresponding CV signals between 0 and 8 volts and a trigger with adjustable threshold. This helps you to interact better with your instruments and create complex synth sounds, trigger a drum machine, control your KOMA Field Kits or any other instrument that is capable of receiving CV / Gate signals.\n\nThe Kommander has a working range of around 40 – 50cm depending on how it is used.\n\nThe attenuators on the back panel allow you to attenuate the maximum voltage output, so you can e.g. set the range from 0V to 5V. Just plug the Kommander into your synthesizer and create! The Kommander ships with a 9V PSU.\n"
+    },
+    {
+      "name": "Komplex Sequencer",
+      "added": "2015-01-22",
+      "slug": "komplex",
+      "link": "https://koma-elektronik.com/?product=komplex-sequencer",
+      "videos": [],
+      "tags": [
+        "cv",
+        "gate",
+        "sequencer",
+        "midi",
+        "patchable",
+        "looper"
+      ],
+      "description": "\n\nPowerful step sequencer built around four well-equipped full-featured 16-step sequencers communicating via both MIDI and CV/Gate. There are no screens or submenus.\n\nAll features have their own dedicated controls and have their own dedicated in- and outputs on the large 87-point patch bay. Every aspect of this sequencer is CV-able. Lastly a seven bank CV Recorder is on board and can output up to 5 banks at once!\n\nThe Komplex Sequencer opens up a whole new world of creative possibilities and starts where other sequencers have stopped!\n\nOrginally released in 2015, later discontinued then re-released in 2023."
+    }
+  ],
+  "added": "2024-06-12",
+  "link": "https://koma-elektronik.com/",
+  "description": "\n\nBased in Berlin, Germany - Koma Elektronik is a crew of artists, engineers & synth enthusiasts. They design and build music electronics for inspiration and aspiration. Gear that challenges you to experiment, to try out new things and explore. Gear that is fun to play together with friends. Gear that pushes your music forward.\n\nKOMA was founded in 2010. It all started out with building boutique effect pedals and later moved into gestural musical control, komplex sequencing, quadraphonic mixing and the electro-acoustic domain.\n"
+}

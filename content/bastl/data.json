@@ -1,0 +1,102 @@
+{
+  "name": "Bastl",
+  "products": [
+    {
+      "name": "Bestie",
+      "added": "2023-04-11",
+      "slug": "bestie",
+      "link": "https://bastl-instruments.com/instruments/bestie",
+      "videos": [],
+      "tags": [
+        "mixer",
+        "effect",
+        "feedback",
+        "noise"
+      ],
+      "description": "\n\nBestie is a 5-channel stereo mixer with up to 20 dB boost, mute switch per channel, and flexible connectivity. However, Bestie is not just a mixer but also a stereo distortion/saturator with a pre-routed feedback channel that can create juicy, crunchy sounds. \n"
+    },
+    {
+      "name": "Kastle",
+      "added": "2016-10-10",
+      "slug": "kastle",
+      "link": "https://bastl-instruments.com/instruments/kastle",
+      "videos": [],
+      "tags": [
+        "arduino",
+        "digital",
+        "diy",
+        "patchable",
+        "dupont-connectors",
+        "open-source"
+      ],
+      "description": "\n\nThe Bastl Kastle is a mini modular synthesizer you can play anywhere. It's powered by just 3 AA batteries or a regular micro USB charger, and it offers a headphone output and 2 in/out ports for interfacing other gear, be it a keyboard, a groove box, or a Eurorack synth.\n\nThe device is DIY-friendly and ideal for beginners in synthesis, but it will also add unique functionality to any full-sized modular synthesizer system. It delivers the fun of modular at a low cost, and it fits into your pocket so you can play it anywhere.\n\nKastl comes in [arp](https://bastl-instruments.com/instruments/kastle-arp) and [drum](https://bastl-instruments.com/instruments/kastle-drum) variants."
+    },
+    {
+      "name": "Microgranny Monolith",
+      "added": "2022-10-04",
+      "slug": "mgmonolith",
+      "link": "https://bastl-instruments.com/instruments/microgranny-monolith",
+      "videos": [],
+      "tags": [
+        "granular",
+        "sampler",
+        "midi",
+        "arduino",
+        "open-source"
+      ],
+      "description": "\n\nTake granular sampling into your own hands: lo-fi sounds, so-phisticated style\n\nGranny’s back with a brand new lid: our classic desktop granular sampler gets a facelift, bringing her into the modern age with enough usability upgrades to last another lifetime, rehomed in sleek black PCB-material to help it look the part amongst the latest in the Bastl range.\n\nThe Microgranny 2.0 that you know and love is still there under the facelift: lo-fi sound full of character packed into a hands-on monophonic desktop sampler that is a joy to experiment with. Plug in your microSD card loaded with 8-bit samples, or record them live through the in-built mic or line input, and jump into play with 6 samples right under your fingers, or instantly recall up to 60 saved presets.\n\n"
+    },
+    {
+      "name": "Midilooper",
+      "added": "2020-08-05",
+      "slug": "midilooper",
+      "link": "https://bastl-instruments.com/instruments/midilooper",
+      "videos": [],
+      "tags": [
+        "midi",
+        "cv",
+        "usb-power",
+        "looper",
+        "digital",
+        "open-source",
+        "sequencer"
+      ],
+      "description": "\n\nLooping is one of the fastest and most intuitive ways of music-making. It's always been great for improv and invention, but why not try it with MIDI messages this time?\n\nThe Bastl Midilooper is an experimental device that will help you do just that. It listens to control information about notes, dynamics, and other parameters, and it loops them in a way an audio looper would process pieces of audio. Since the MIDI loops remain in the control domain, many other processes can happen simultaneously on top of them - so you can explore timbre modulation, envelope adjustments, and way more."
+    },
+    {
+      "name": "Softpop SP2",
+      "added": "2022-01-07",
+      "slug": "softpop2",
+      "link": "https://bastl-instruments.com/instruments/softpop2",
+      "videos": [],
+      "tags": [
+        "analog",
+        "digital",
+        "hybrid",
+        "midi",
+        "patchable",
+        "cv"
+      ],
+      "description": "\n\nSoftpop SP2 is a radical subtractive synth under the influence of unconventional digital control. It’s a rare beast that excels at both melody and noise in equal measure.\n\nSP2’s favorite sounds include bassline bangers, angelic chord progressions, distorted beats, and water droplets. Softpop also has an external input with enough gain and saturation to process any sound thru the filter and VCA.\n\nThe heart of SP2 is an analog, modular synth replete with lush tones and a chaotic disposition. Its brain is a complex digital sequencer and quantizer that brings (some) order to the chaos. The analog heart and the digital brain support each other while also pushing their behaviors out of normal routines in surprising ways. \n\n"
+    },
+    {
+      "name": "Thyme+",
+      "added": "2024-05-09",
+      "slug": "thymeplus",
+      "link": "https://bastl-instruments.com/instruments/thyme-plus",
+      "videos": [],
+      "tags": [
+        "tape",
+        "looper",
+        "effect",
+        "digital",
+        "cv",
+        "midi"
+      ],
+      "description": "\n\nTHYME+ is a digital tape machine that transcends typical delay effects and spans across various multi-effect categories. Though proudly digital, THYME+ operates with the metaphor of an analog tape delay machine, offering adjustable tape speed and positions of the read heads. Multiple read heads (multi-tap) enhance density and complexity, while feedback and filters govern the richness or darkness of the echo tails.\n\nEach sound effect parameter comes with its own dedicated Robot, offering a modulation source that extends beyond an LFO with envelope follower, external CV modes, and waveshaping. Yes, that means 9 parameters and 9 modulations – a universe of sounds to explore, whether through manual tweaking or with the assistance of finely tuned randomizers.\n\nTHYME+ adds a lot of unique spice and texture to your audio sources, capable of transforming them into a sound designer's dream. Integration into larger setups is a breeze with MIDI, analog clock, and CV inputs. THYME+ even brings in a footswitch input for instrumentalists.\n\nAt its core, THYME+ features 8 preset buttons that store custom effect settings of its flexible processing chain. The presets can be played manually like an instrument or sequenced by the onboard sequencer. Therefore, not only are the presets interesting, but also the transitions between them!\n\nTHYME+ represents an updated and innovated version of the iconic THYME released in 2017. Alongside improved connectivity, a better audio codec, and a few firmware tweaks and refinements, the new version’s hardware is enhanced with a compact metal enclosure, larger knobs, and a sleeker faceplate.\n"
+    }
+  ],
+  "added": "2024-05-24",
+  "link": "https://bastl-instruments.com/",
+  "description": "\n\nBastl is a Czech instrument company, who've been making beautiful instruments since 2011. They make standalone and eurorack gear.\n"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Moffenzeef Modular",
+  "products": [
+    {
+      "name": "shtick",
+      "added": "2021-07-02",
+      "slug": "shtick",
+      "link": "https://www.moffenzeefmodular.com/store/shtick",
+      "videos": [],
+      "tags": [
+        "digital",
+        "noise"
+      ],
+      "description": "\n\nSHTICK is a tiny and cheap noise synth. Plug it into a USB port to power it. The audio output is line level with an 1/8” jack output . Pushing the button randomizes all parameters of the algorithm. You cannot control or tame the output of SHTICK. "
+    },
+    {
+      "name": "The Runner 2",
+      "added": "2023-11-24",
+      "slug": "therunner2",
+      "link": "https://www.moffenzeefmodular.com/store/1oejl8t00kk0lfwicn9ycidno5u8e5",
+      "videos": [],
+      "tags": [
+        "digital",
+        "noise",
+        "drone",
+        "midi"
+      ],
+      "description": "\n\nBoy Harsher and Møffenzeef have teamed up again, this time for an upgraded version of the ‘The Runner’ synthesizer (originally released in 2021 and quickly sold out). ‘The Runner v2.0’, has been dolled up in an all new red dress.\n"
+    }
+  ],
+  "added": "2024-05-16",
+  "link": "https://www.moffenzeefmodular.com/",
+  "description": "\n\nMusic Thing Modular is a London, UK based instrument maker.\n"
+}

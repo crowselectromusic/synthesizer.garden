@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "lib": ["ES2022", "DOM"],
+        "module": "commonjs",
+        "outDir": "./build",
+        "esModuleInterop": true,
+        "strict": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node",
+		"moduleDetection": "force",
+		"allowJs": true
+    },
+    "include": ["src"],
+}

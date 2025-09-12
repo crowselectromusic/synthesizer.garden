@@ -1,0 +1,24 @@
+{
+  "name": "Mad Sound Factory",
+  "products": [
+    {
+      "name": "Drop",
+      "added": "2024-05-22",
+      "slug": "drop",
+      "link": "http://madsoundfactory.com/",
+      "videos": [],
+      "tags": [
+        "analog",
+        "rhythm",
+        "cv",
+        "patchable",
+        "gate",
+        "banana-cables"
+      ],
+      "description": "\n\nYou cannot describe exactly what it is — you can make any kind of music using the Drop, from roots pre-sequences techno to ambient landscapes, from 8-bit craze to pop-style dancy-fancies.\n\nAnd you'll play it live - Drop is designed to be played, just like a classic music instrument.\n\nA self-contained analog groovebox, that uses LFO as a clock generator with divider - no programming needed to get highly complex absolutely crazy neverending and never repeating (analog!) rhytmic galore and fractal textures. \n"
+    }
+  ],
+  "added": "2024-05-22",
+  "link": "http://madsoundfactory.com/",
+  "description": "\n\nMad Sound Factory is an askew blend of creative and rational minds, a crew of engineers-artists, united to invent and forge music instruments on the fringe of unique and plain crazy.\n"
+}

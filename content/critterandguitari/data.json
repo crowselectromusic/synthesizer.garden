@@ -1,0 +1,77 @@
+{
+  "name": "Critter & Guitari",
+  "products": [
+    {
+      "name": "201 Pocket Piano",
+      "added": "2022-11-23",
+      "slug": "201pocketpiano",
+      "link": "https://www.critterandguitari.com/201-pocket-piano",
+      "videos": [],
+      "tags": [
+        "digital",
+        "sequencer",
+        "midi",
+        "usb-power",
+        "battery",
+        "open-source",
+        "pure-data"
+      ],
+      "description": "\n\nAt the heart of the 201 are six sound engines providing a wide range of sonic texture. Use the shift key to select an engine. There is a little bit of everything: chiptune style waveforms, analog style filters, drum samples, realistic physical instrument models, and even a human vocal synthesizer. Use the three center control knobs to further explore the sounds. Dial in the right amount of sustain, or adjust the tone. Or turn the 'surprise' knob if you are brave!\n\nPlay directly on the keyboard or turn on one of the pattern generators. From simple octave arpeggiation to randomizing polyphonic patterns you will be inspired by the notes coming out of the 201! Use the first control knob to set the pattern's tempo.\nThe pattern generators also work great for creating drum beats using the drum samples!\n\nIf you like the way something sounds, recording it is just a button press away! There is a handy metronome that you can play/record along with. When the sequence is playing back you can endlessly change the pattern and synth engine. When you get it just right, hit the save button. You can save 'unlimited' sequences (well... not really unlimited, but many thousands).Then recall saved sequences easily using the navigation buttons.\n"
+    },
+    {
+      "name": "5 Moons",
+      "added": "2023-04-26",
+      "slug": "5moons",
+      "link": "https://www.critterandguitari.com/5-moons",
+      "videos": [],
+      "tags": [
+        "looper",
+        "digital",
+        "recorder",
+        "multitrack",
+        "usb-power"
+      ],
+      "description": "\n\n5 Moons is a multitrack recorder. On one hand, it's a tool to record your creativity. Build up layers of tracks and enjoy crafting that perfect song or field recording.\n\nOn the other hand, it helps you create new sounds! Looping and bounce down functions open up new dimensions for your sound and fun ways for your tracks to interact with each other!\n\nThe unassuming wood enclosure draws you in, but hidden inside are high fidelity electronics designed for rich recordings. Its sleek user interface offers crisp control and ample room for sonic experimentation.\n\n"
+    },
+    {
+      "name": "Kaleidoloop",
+      "added": "2024-03-06",
+      "slug": "kaleidoloop",
+      "link": "https://www.critterandguitari.com/kaleidoloop",
+      "videos": [],
+      "tags": [
+        "looper",
+        "digital",
+        "battery",
+        "pure-data",
+        "usb-power",
+        "effect"
+      ],
+      "description": "\n\nThe Critter & Guitari Kaleidoloop™ is a compact yet powerful looper designed for musicians seeking unparalleled creative exploration.\n\nWith its intuitive interface, you’ll find it easy to manipulate and layer loops, and craft intricate soundscapes on the fly. Featuring a variety of playback modes and effects, the Kaleidoloop offers endless sonic possibilities. Discover new textures, harmonies and rhythms in your favorite sounds.\n\nThe Kaleidoloop features six playback modes, a record button, and track navigation buttons. While compact in design, these controls offer extensive capabilities.\n‍\nStart with a fresh recording - use the microphone to capture anything from drums to acoustic guitar, the radio, to random ambient sounds in your home. The sound will begin playing in a loop. Use the playback mode button and the two playback controls to manipulate the sound. The Kaleidoloop ships with six playback modes: three speed manipulation modes, and three effects.\n‍\nThe playback modes are coded in Pure Data. Users can create their own modes or upload modes shared with the community. Modes utilize two control knobs. Craft new edits by adjusting the control knobs and/or selecting different playback modes.\n"
+    },
+    {
+      "name": "Organelle",
+      "added": "2016-04-12",
+      "slug": "organelle",
+      "link": "https://www.critterandguitari.com/organelle",
+      "videos": [],
+      "tags": [
+        "midi",
+        "digital",
+        "controller",
+        "pure-data",
+        "open-source",
+        "effect",
+        "sequencer",
+        "groovebox",
+        "wifi",
+        "battery",
+        "raspberry-pi"
+      ],
+      "description": "\n\nThe dream behind the Organelle was to have a small and easy-to-use instrument that could perform any kind of sound synthesis imaginable. The Organelle excels at synthesizing sound. Between the synth patches that ship with the Organelle and the growing list of user-contributed patches there’s a bit of everything to play with: additive and subtractive synthesis, classic wave table sounds, granular, physical modeling, ADSR envelope style, frequency modulation, and more. The best part is that there’s always the option of creating your own synth in Pure Data too!\n\nOrganelle comes in two flavors, Organelle S and Organelle M. The Organelle S is for musicians who like what they see and hear in the Organelle M but don't need the portability of the M's battery power and speaker.\n\nIn all other functions, the S is identical to the M. They share same patches, processor, RAM, audio & MIDI connections, keys, knobs, screen, microphone, HDMI output, USB ports, and power adapter.\n"
+    }
+  ],
+  "added": "2024-05-06",
+  "link": "https://www.critterandguitari.com/",
+  "description": "\n\nHand built in Brooklyn, NY - Critter & Guitari was founded by Chris Kucinski and Owen Osborn.\n"
+}

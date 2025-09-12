@@ -1,0 +1,21 @@
+{
+  "name": "Beepboop Electronics",
+  "products": [
+    {
+      "name": "Varispeed CV Tape Looper",
+      "added": "2023-09-18",
+      "slug": "varispeedcvtapelooper",
+      "link": "https://beepboopelectronics.co.uk/product/varispeed-cv-tape-looper/",
+      "videos": [],
+      "tags": [
+        "cv",
+        "tape",
+        "looper"
+      ],
+      "description": "\n\nVarispeed CV Tape Looper is a modified tape player designed to be used with tape loop cassettes. It features a CV input for playback speed, and a modified play/erase head for sound on sound loops."
+    }
+  ],
+  "added": "2024-05-16",
+  "link": "https://beepboopelectronics.co.uk/",
+  "description": "\n\nBoopboop Electronics is a Bristol based instrument maker.\n"
+}

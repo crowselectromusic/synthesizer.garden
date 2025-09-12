@@ -1,0 +1,22 @@
+{
+  "name": "Music Thing Modular",
+  "products": [
+    {
+      "name": "8mu",
+      "added": "2023-05-08",
+      "slug": "8mu",
+      "link": "https://www.musicthing.co.uk/8mu_page/",
+      "videos": [],
+      "tags": [
+        "midi",
+        "digital",
+        "controller",
+        "diy"
+      ],
+      "description": "\n\n8mu is a pocket-sized MIDI controller, slightly smaller than a credit card. 8mu has eight faders, four tiny buttons along the top edge, and an accelerometer inside to measure how the device is being held. It comes as a DIY kit.\n"
+    }
+  ],
+  "added": "2024-05-06",
+  "link": "https://www.musicthing.co.uk/",
+  "description": "\n\nMusic Thing Modular is a London, UK based instrument maker.\n"
+}
