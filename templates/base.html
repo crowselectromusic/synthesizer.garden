@@ -85,7 +85,7 @@
               <a :href="index.documentStore.getDoc(item.ref).link">
                 <img :src="index.documentStore.getDoc(item.ref).image">
                 <p class="text-gray-900 leading-none" x-text="index.documentStore.getDoc(item.ref).title"></p>
-                <p class="text-gray-600" x-text="index.documentStore.getDoc(item.ref).content"></p>
+                <p class="text-gray-600" x-text="'by ' + index.documentStore.getDoc(item.ref).companyName"></p>
               </a>
             </div>
           </template>

@@ -28,6 +28,7 @@ export const index = elasticlunr<Record<string, string | number>>(function () {
   this.addField("description");
   this.addField("image");
   this.addField("tags");
+  this.addField("companyName");
   this.setRef("link");
 });
 
@@ -92,24 +93,26 @@ function generate_index(
     // load images??
     const images = ['foo.jpg']
 
-    // add to seach index
-    index.addDoc({
-        title: company.name,
-        description: company.description,
-        image: "/placeholder.png",
-        link: `/${slug}`,
-        tags: "",
-    })
+    // add company to seach index
+    // skipping for now, since we don't have a good solution for company images
+    // index.addDoc({
+    //     title: company.name,
+    //     description: company.description,
+    //     image: "/placeholder.png",
+    //     link: `/${slug}`,
+    //     tags: "",
+    // })
 
     company.products.forEach((product) => {
         let images = allImages.filter((image) => image.startsWith(product.slug))
         console.log(`images in ${directory}, ${images}`)
-        generate_product_page(slug, product, images, directory)
+        generate_product_page(slug, company, product, images, directory)
     })
 }
 
 function generate_product_page(
     company_slug: string,
+    company: SGCompany,
     product: SGProduct,
     images: string[],
     directory: string
@@ -130,7 +133,8 @@ function generate_product_page(
         description: product.description,
         tags: product.tags.join(', '),
         image: `/${company_slug}/${images[0]}`,
-        link: `/${company_slug}/${product.slug}/`
+        link: `/${company_slug}/${product.slug}/`,
+        companyName: company.name
     })
 
     try {

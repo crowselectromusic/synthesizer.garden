@@ -3,4 +3,5 @@ public/
 static/processed_images/
 build-tool/node_modules/
 content/**/*.md
+static/search_index.json
 
