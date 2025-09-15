@@ -8,15 +8,11 @@
 
 <h3>{{ page.title }}</h3>
 
-<div class="grid">
+<div class="flex-container">
     {% set section = get_section(path="_index.md") %}
     {% for s in section.subsections %}
         {% set subsection = get_section(path=s) %}
-        {% if loop.index0 % 4 == 0 %}
-        </div>
-        <div class="grid">
-        {% endif %}
-        <div class="synth">
+        <div class="flex-item synth">
             <a href="{{ subsection.permalink }}">
                 <img src="{{subsection.permalink}}{{subsection.pages[0].extra.images[0]}}" alt="{{page.description}}">
             </a>

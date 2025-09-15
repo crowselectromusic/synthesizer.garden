@@ -8,8 +8,6 @@
         {% set subsection = get_section(path=s) %}
             {% if subsection.pages %}
             {% for page in subsection.pages %}
-                {% if counter % 4 == 0 %}
-                {% endif %}
                 {% set_global counter = counter + 1 %}
                 <div class="flex-item synth">
                     <a href="{{ page.permalink }}">
