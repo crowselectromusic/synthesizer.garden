@@ -4,6 +4,7 @@ import { TomlDate, stringify } from 'smol-toml'
 import fs from 'node:fs'
 import path from 'node:path'
 import { SGCompany, SGProduct } from './types'
+import elasticlunr from 'elasticlunr'
 
 const tree = directoryTree('../content', {
     extensions: /\.(json|jpg|jpeg|png|webp|gif)$/
@@ -21,6 +22,14 @@ const page_template = `
 `
 
 const page = Handlebars.compile(page_template)
+
+export const index = elasticlunr<Record<string, string | number>>(function () {
+  this.addField("title");
+  this.addField("description");
+  this.addField("image");
+  this.addField("tags");
+  this.setRef("link");
+});
 
 function makeProductToml(
     company_slug: string,
@@ -83,6 +92,15 @@ function generate_index(
     // load images??
     const images = ['foo.jpg']
 
+    // add to seach index
+    index.addDoc({
+        title: company.name,
+        description: company.description,
+        image: "/placeholder.png",
+        link: `/${slug}`,
+        tags: "",
+    })
+
     company.products.forEach((product) => {
         let images = allImages.filter((image) => image.startsWith(product.slug))
         console.log(`images in ${directory}, ${images}`)
@@ -106,6 +124,15 @@ function generate_product_page(
     let outPath = path.join(directory, `${product.slug}.md`)
     console.log(`writing ${product.slug} to ${outPath}`)
 
+    // add to seach index
+    index.addDoc({
+        title: product.name,
+        description: product.description,
+        tags: product.tags.join(', '),
+        image: `/${company_slug}/${images[0]}`,
+        link: `/${company_slug}/${product.slug}/`
+    })
+
     try {
         fs.writeFileSync(outPath, output)
     } catch (err) {
@@ -126,7 +153,7 @@ tree.children?.forEach((contentDir) => {
             return imageObj.name
         })
 
-    console.log(`all images in direcotry ${allImages}`)
+    console.log(`all images in directory ${allImages}`)
 
     let dataPath = (contentDir.children || []).filter((file) => {
         return file.name.endsWith('json')
@@ -143,3 +170,5 @@ tree.children?.forEach((contentDir) => {
 
     generate_index(data, slug, directory, allImages)
 })
+
+ fs.writeFileSync('../static/search_index.json', JSON.stringify(index));

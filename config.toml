@@ -5,7 +5,7 @@ base_url = "https://synthesizer.garden"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+# build_search_index = true
 
 # Generate rss/atom feeds
 generate_feed = true
@@ -32,12 +32,3 @@ highlight_code = false
 thumb_height = 1024
 thumb_width = 1024
 thumb_op = "fit"
-
-[search]
-
-include_title = true
-include_path = true
-include_description = true
-include_content = true
-include_date = true
-

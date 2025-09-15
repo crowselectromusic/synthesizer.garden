@@ -4,6 +4,8 @@
   --pico-primary: green;
   --pico-primary-underline: darkgreen;
   --pico-primary-inverse: #fff;
+  --pico-primary-background: green;
+  --pico-primary-hover-background: darkgreen;
 }
 
 a:link, a:visited {
@@ -31,4 +33,26 @@ main {
 
 .synth {
     padding-bottom: 1em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: stretch;
+  gap: 8px;
+  padding: 16px;
+  z-index: 1;
+}
+
+.flex-item {
+  /* Base styles for all items */
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  text-align: center;
+  max-height: 400px;
+  width: 200px;
 }

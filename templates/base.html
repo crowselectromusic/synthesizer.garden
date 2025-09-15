@@ -33,7 +33,7 @@
 
 
   <script src="{{ get_url(path="elasticlunr.min.js") }}"></script>
-  <script src="{{ get_url(path="search_index.en.js") }}"></script>
+  <script id="data" type="application/json" src="{{ get_url(path="static/search_index.json")}}"></script>
   
   <script defer src="{{ get_url(path="script.js") }}"></script>
 
@@ -57,28 +57,20 @@
   </nav>
 
   <main class="container" id="main">
-      <div x-data="{
-        search: '',
-        index: [],
-        content: {},
-        tags: {},
-        searchResults: ()=>{}
-      }" x-init="
-      index = elasticlunr.Index.load(window.searchIndex);
-      searchResults = ()=>{
-        let result = index.search(search);
-        return result;
-      } " x-show="false">
+      <div x-data="searcher" x-show="true">
 
-      <div role="group">
+      <div class="flex-container">
         <template x-for="tag in tags">
-          <button x-text="tag" @click="search = search + ' tags:' + tag"></button>
+          <div>
+            <button x-text="tag" @click="search = 'tags: ' + tag"></button>
+          </div>
         </template>
-      <template x-for="button in searchButtons">
-        <button x-text="button.title" @click="search = search + ' ' + button.command"></button>
-      </template>
+        <template x-for="button in searchButtons">
+          <div>
+            <button x-text="button.title" @click="search = button.command"></button>
+          </div>
+        </template>
       </div>
-
         <input
           x-ref="searchField"
           x-model="search"
@@ -87,15 +79,13 @@
           type="search"
           class="block w-full bg-gray-200 focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3"
         />
-        <div class="mt-4 grid grid-cols-1 gap-4">
+        <div class="flex-container" style="border: 1px solid lightgray; border-radius: 2em; margin-bottom: 2em;" x-show="search.length > 0">
           <template x-for="item in searchResults()">
-            <div class="flex items-center shadow hover:bg-indigo-100 hover:shadow-lg hover:rounded transition duration-150 ease-in-out transform hover:scale-105 p-3">
-              <a :href="getDoc(item.ref).link">
-              <img class="w-10 h-10 rounded-full mr-4" :src="`images/${getDoc(item.ref).title || 'missing.png'}`" />
-              <div class="text-sm">
-                <p class="text-gray-900 leading-none" x-text="getDoc(item.ref).title"></p>
-                <p class="text-gray-600" x-text="'$'+getDoc(item.ref).id"></p>
-              </div>
+            <div class="flex-item synth">
+              <a :href="index.documentStore.getDoc(item.ref).link">
+                <img :src="index.documentStore.getDoc(item.ref).image">
+                <p class="text-gray-900 leading-none" x-text="index.documentStore.getDoc(item.ref).title"></p>
+                <p class="text-gray-600" x-text="index.documentStore.getDoc(item.ref).content"></p>
               </a>
             </div>
           </template>

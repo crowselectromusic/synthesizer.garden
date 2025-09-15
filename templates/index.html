@@ -2,18 +2,16 @@
 
 {% block content %}
 
-<div class="grid">
+<div class="flex-container">
     {% set_global counter = 0 %}
     {% for s in section.subsections %}
         {% set subsection = get_section(path=s) %}
             {% if subsection.pages %}
             {% for page in subsection.pages %}
                 {% if counter % 4 == 0 %}
-                </div>
-                <div class="grid">
                 {% endif %}
                 {% set_global counter = counter + 1 %}
-                <div class="synth">
+                <div class="flex-item synth">
                     <a href="{{ page.permalink }}">
                         {% set image_url = subsection.path ~ page.extra.images[0] %}
                         {% set image = resize_image(path=image_url, width=config.extra.thumb_width, height=config.extra.thumb_height, op=config.extra.thumb_op) %}
