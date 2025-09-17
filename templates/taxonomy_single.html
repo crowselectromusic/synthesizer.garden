@@ -8,13 +8,9 @@
 
 <h3>Instruments tagged &ldquo;{{term.name}}&rdquo;</h3>
 
-<div class="grid">
+<div class="flex-container">
 {% for page in term.pages %}
-    {% if loop.index0 % 4 == 0%}
-        </div>
-        <div class="grid">
-    {% endif %}
-    <div class="synth">
+    <div class="flex-item synth">
         <a href="{{page.permalink}}">
             {% set image_url = page.extra.parent ~ '/' ~ page.extra.images[0] %}
             {% set image = resize_image(path=image_url, width=config.extra.thumb_width, height=config.extra.thumb_height, op=config.extra.thumb_op) %}
