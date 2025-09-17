@@ -8,6 +8,10 @@
   --pico-primary-hover-background: darkgreen;
 }
 
+:root {
+  --garden-element-size: 95%;
+}
+
 a:link, a:visited {
     text-decoration: none;
     color: green;
@@ -35,6 +39,8 @@ main {
     padding-bottom: 1em;
 }
 
+
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -54,5 +60,32 @@ main {
   border-radius: 6px;
   text-align: center;
   max-height: 400px;
-  width: 200px;
+  width: var(--garden-element-size);
+}
+
+// media queries to set the number of items per lines. Formula = 95% / number_of_items_per_line
+@media (min-width: 576px) {
+  :root {
+    --garden-element-size: 47.5%;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --garden-element-size: 32%;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --garden-element-size: 24%;
+  }
+}
+@media (min-width: 1280px) {
+  :root {
+    --garden-element-size: 19%;
+  }
+}
+@media (min-width: 1536px) {
+  :root {
+    --garden-element-size: 19%;
+  }
 }
