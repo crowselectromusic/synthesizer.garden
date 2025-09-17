@@ -79,7 +79,7 @@
           type="search"
           class="block w-full bg-gray-200 focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3"
         />
-        <div class="flex-container" style="border: 1px solid lightgray; border-radius: 2em; margin-bottom: 2em;" x-show="search.length > 0">
+        <div class="flex-container search-results" x-show="search.length > 0">
           <template x-for="item in searchResults()">
             <div class="flex-item synth">
               <a :href="index.documentStore.getDoc(item.ref).link">
