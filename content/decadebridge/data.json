@@ -1,0 +1,104 @@
+{
+  "name": "Decadebridge",
+  "products": [
+    {
+      "name": "Albers",
+      "added": "2025-09-18",
+      "slug": "albers",
+      "link": "https://www.decadebridge.com/albers/",
+      "videos": [
+        {
+            "id": "PdTQIQXyN1I",
+            "type": "youtube",
+            "title": "Albers drone synthesizer - solo"
+        }
+      ],
+      "tags": [
+        "drone",
+        "patchable",
+        "cv"
+      ],
+      "description": "Albers is a 4 oscillator drone synth capable of a wide range of sounds.\nFeatures include:-\nPitch control with CV/Signal input.\nLevel control with a VCA CV input for each individual oscillator.\nLDR to control each oscillator or LFO with a light source.\nRange switch to change the overall pitch of the oscillator.\n\nEach LFO consist of three switchable waveforms. Ramp up, ramp down and triangle (half speed).\nRate and depth controls.\nLFO reset input to restart the LFO using a trigger/gate signal.\nLFOs are internally connected to oscillator pitch.\nEach LFO has it’s own output to connect to other gear/other parts of Albers.\n\nThe Oscillators are summed together and sent through a low pass filter with CV inputs for cutoff and peak."
+    },
+    {
+      "name": "Ampulla",
+      "added": "2025-09-18",
+      "slug": "ampulla",
+      "link": "https://www.decadebridge.com/ampulla/",
+      "videos": [
+        {
+            "id": "qZGRsv1FYok",
+            "type": "youtube",
+            "title": "Ampulla - Noise box/Drone voice"
+        }
+      ],
+      "tags": [
+        "drone",
+        "contact-mic",
+        "electro-acoustic"
+      ],
+      "description": "Ampulla is a noise box/drone voice that comes with all the parts to put together your own noise synth.\nIt features an onboard contact mic running through a preamp. An external contact mic can be used instead using the input on the left of the instrument. It can also be used as a simple distortion effect by running other equipment through the input.\nAmpulla also has a single drone voice included, the pitch of which reacts to the contact mic or input signal."
+    },
+    {
+      "name": "Cadence",
+      "added": "2025-09-18",
+      "slug": "cadence",
+      "link": "https://www.decadebridge.com/cadence/",
+      "videos": [
+        {
+            "id": "4i71SohltYE",
+            "type": "youtube",
+            "title": "Behringer Syncussion SY-1 & Decade Bridge Cadence: Live Synth Performance! "
+        }
+      ],
+      "tags": [
+        "drone",
+        "cv"
+      ],
+      "description": "Cadence is a 4 oscillator, square wave generator. It can perform several different functions. Cadence can be used as a drone synth/rhythmic drone synthesizer using the 4 onboard oscillators. Each is run through a “count” control that acts as a divider before passing through several logic gates and then into the, CV controlled, low pass filter before the main output. Oscillators can be synced to create more interesting timbres.\n\nEach oscillator can be routed to it’s own individual, or grouped, output bypassing the filter for separate processing. At low frequency rates (using count) these individual outputs can be used as gates for external/modular equipment (creating interesting beats/clock signals/envelope triggers etc) but will also reset/sync the synth’s other oscillators at the same time."
+    },
+    {
+      "name": "Sn (tin)",
+      "added": "2025-09-18",
+      "slug": "sn",
+      "link": "https://www.decadebridge.com/sn-tin/",
+      "videos": [
+        {
+            "id": "KEJ-E2LfmcQ",
+            "type": "youtube",
+            "title": "The DecadeBridge Sn is a Perfect Synth (for me)"
+        }
+      ],
+      "tags": [
+        "drone",
+        "cv",
+        "fm",
+        "digital"
+      ],
+      "description": "Sn is a lofi FM synthesiser capable of a wide range of sounds.\n\nFeatures:-\n7 FM Algorithms each with 3 different pitch settings.\nThe algorithm selection can also be stepped using a trigger/gate signal.\n\nCarrier pitch with CV input.\nModulator pitch(es) with CV input.\nFM Amount control with CV input. \n\nThe output is run through a 3 position passive LPF which turns into a Low pass gate when the VCA switch is down and a CV signal is connected to the VCA input."
+    },
+    {
+      "name": "Triad",
+      "added": "2025-09-18",
+      "slug": "triad",
+      "link": "https://www.decadebridge.com/triad/",
+      "videos": [
+        {
+            "id": "ay6KKokrNCE",
+            "type": "youtube",
+            "title": "The Haunted Arcade of the DecadeBridge Triad (Drones, Noises, Glitches and Rhythms)"
+        }
+      ],
+      "tags": [
+        "drone",
+        "noise",
+        "patchable",
+        "cv"
+      ],
+      "description": "TRIAD is a 3 oscillator drone/noise synth. The oscillators cascade into to each other to drive and reset their waveforms."
+    }
+  ],
+  "added": "2025-09-18",
+  "link": "https://www.decadebridge.com/",
+  "description": "Designed and built by hand. Cheshire England"
+}
