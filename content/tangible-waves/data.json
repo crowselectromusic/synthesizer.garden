@@ -1,0 +1,22 @@
+{
+  "name": "tangible waves",
+  "products": [
+    {
+      "name": "VMIX-10",
+      "added": "2025-09-26",
+      "slug": "vmix-10",
+      "link": "https://www.tangiblewaves.com/store/p197/VMIX-10.html",
+      "videos": [],
+      "tags": [
+        "mixer",
+        "analog",
+        "headphone",
+        "fx-send"
+      ],
+      "description": "The VMIX-10 R2 is the successor of the popular VMIX-10; a mixer made especially with the Korg Volca series in mind; it offers the following features:\n\n6 mono input channels with minijack sockets each\n2 stereo input channels with stereo minijack sockets for each\nclick-free mute buttons per channels\nper channel: level, pan and two FX-send knobs\n2 FX send-return sections (send mono, return stereo)\nmaster level control\nstereo headphone output with separate level control\nfour DC isolated 9V power supply outputs, for Volca synths or other devices. The DC isolation suppresses noise especially when powering Volcas from the VMIX-10 (an annoying effect caused by a design detail of the Volcas when powered commonly with the VMIX-10).\n\nThe case size is identical with the Volca series, so the VMIX-10 should fit exactly in the Volca stands that are available from different suppliers.\nIt includes a power supply adapter with snap-on plugs for EU, UK and US (AU on request)."
+    }
+  ],
+  "added": "2025-09-26",
+  "link": "https://www.tangiblewaves.com/",
+  "description": "tangible waves was founded in connection with a Kickstarter project to bring the small modular system AE modular from a private fun project (which it started as) to a commercial product. They are based in Germany."
+}
