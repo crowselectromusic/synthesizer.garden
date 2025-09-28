@@ -1,0 +1,83 @@
+{
+  "name": "DF Audio",
+  "products": [
+    {
+      "name": "MINIBAY V2",
+      "added": "2024-09-27",
+      "slug": "minibay-v2",
+      "link": "https://dfaudio.com.au/minibay-v2",
+      "videos": [{
+        "id": "jhK5vf5Ns5w",
+        "title": "DF Audio MINIBAY",
+        "type": "youtube"
+      }],
+      "tags": [
+        "analog",
+        "patchbay",
+        "cv",
+        "audio",
+        "patchable"
+      ],
+      "description": "MINIBAY V2 is a compact 40-point patch bay designed to integrate neatly into a studio desktop space.\n\nIt has twenty 6.35 mm TRS sockets on the back, each of which break out into two 3.5 mm TS sockets (eurorack style) on the top panel.\n\nTwelve normalling switches for A/B rows can be easily accessed via the top panel.\n\nIt also features two 3-channel passive mixers, each with four dedicated I/O patch-points."
+    },
+    {
+      "name": "NANOPATCH X",
+      "added": "2024-09-27",
+      "slug": "nanopatch-x",
+      "link": "https://dfaudio.com.au/nanopatch-x",
+      "videos": [{
+        "id": "_cVpq4cdMjA",
+        "title": "DF Audio NANOPATCH tutorial",
+        "type": "youtube"
+      }],
+      "tags": [
+        "analog",
+        "patchbay",
+        "cv",
+        "audio",
+        "patchable"
+      ],
+      "description": "NANOPATCH X is a tiny 8-point patch bay, primarily designed for use in conjunction with other DF Audio patch bays (though it can also be useful just by itself).\n\nIt has four 6.35 mm TRS sockets on the back, each of which break out to two 3.5 mm TS sockets on the top panel (identical wiring to the MINIBAY V2 FX rows).\n\nUse insert cables to connect up to four effects pedals via the rear sockets and get patchable access to the ins and outs on the top panel.\n\nIt can also be used as a breakout box for devices that output CV over TRS sockets."
+    },
+    {
+      "name": "NANOPATCH M",
+      "added": "2024-09-27",
+      "slug": "nanopatch-m",
+      "link": "https://dfaudio.com.au/nanopatch-m",
+      "videos": [{
+        "id": "_cVpq4cdMjA",
+        "title": "DF Audio NANOPATCH tutorial",
+        "type": "youtube"
+      }],
+      "tags": [
+        "analog",
+        "patchbay",
+        "cv",
+        "audio",
+        "patchable"
+      ],
+      "description": "NANOPATCH M is unique among DF Audio patch bays in that it does not require insert cables for connecting to external gear (although this is also an option).\n\nIt has eight 3.5 mm jacks on the back/side (four TRS and four TS) which correspond to eight 3.5 mm TS sockets on the top panel, and normalling switches.\n\nNANOPATCH M is ideal for connecting to instruments and a mixer when used together with NANOPATCH X, and is a great companion to MINIBAY V2 (to connect to small instruments with minijack  audio outputs).\n\nIt also works with CV, so it can be a useful tool for instruments with patch points in hard-to-reach places (e.g. Moog Grandmother)."
+    },
+    {
+      "name": "NANO E",
+      "added": "2024-09-27",
+      "slug": "nano-e",
+      "link": "https://dfaudio.com.au/nano-e",
+      "videos": [{
+        "id": "fv6wrNXcTdM",
+        "title": "DF Audio NANO E",
+        "type": "youtube"
+      }],
+      "tags": [
+        "analog",
+        "expression",
+        "cv",
+        "controller"
+      ],
+      "description": "NANO E is a low profile expression slider and CV attenuator, suitable for modular/semi-modular gear and any synth or effects unit with an expression pedal input.\n\nDesigned with ergonomics in mind, NANO E sits neatly on the side of a keyboard at a comfortable height, so it can be played just like a mod wheel.\n\nIt ships with a B50K slider installed and a spare B20K slider that can be easily swapped out (no soldering required). This allows you to get the perfect response curve for you synth and playing style.\n\nFor additional control, engaging the PAD switch puts the input signal through a 25K resistor, which can be particularly handy when using NANO E with CV.\n\nWith an A10K slider (sold separately), NANO E can also be used as a simple volume control."
+    }
+  ],
+  "added": "2024-09-27",
+  "link": "https://dfaudio.com.au/",
+  "description": "DF Audio is a registered Australian business with manufacturing done in Thailand."
+}
