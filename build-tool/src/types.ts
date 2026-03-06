@@ -19,5 +19,4 @@ export interface SGCompany {
     added: string
     link: string
     description: string
-    products: SGProduct[]
 }

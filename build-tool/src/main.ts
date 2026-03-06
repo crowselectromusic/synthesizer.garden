@@ -68,12 +68,7 @@ function makeCompanyToml(company: SGCompany, slug: string): string {
     })
 }
 
-function generate_index(
-    company: SGCompany,
-    slug: string,
-    directory: string,
-    allImages: string[]
-) {
+function generate_company_page(company: SGCompany, slug: string, directory: string) {
     let toml = makeCompanyToml(company, slug)
     let output = page({
         toml,
@@ -89,6 +84,15 @@ function generate_index(
     } catch (err) {
         console.error(err)
     }
+}
+
+function generate_index(
+    company: SGCompany,
+    slug: string,
+    directory: string,
+    allImages: string[]
+) {
+    generate_company_page(company, slug, directory)
 
     // load images??
     const images = ['foo.jpg']
@@ -102,12 +106,6 @@ function generate_index(
     //     link: `/${slug}`,
     //     tags: "",
     // })
-
-    company.products.forEach((product) => {
-        let images = allImages.filter((image) => image.startsWith(product.slug))
-        console.log(`images in ${directory}, ${images}`)
-        generate_product_page(slug, company, product, images, directory)
-    })
 }
 
 function generate_product_page(
@@ -159,20 +157,46 @@ tree.children?.forEach((contentDir) => {
 
     console.log(`all images in directory ${allImages}`)
 
-    let dataPath = (contentDir.children || []).filter((file) => {
-        return file.name.endsWith('json')
-    })[0]?.path
-    if (!dataPath) {
-        console.log(`No json file found in this directory`)
+    const allFiles = contentDir.children || []
+    const companyJsonFile = allFiles.find(
+        (file) => file.name === 'company.json'
+    )
+
+    if (!companyJsonFile || !companyJsonFile.path) {
+        console.error(`Company json file not found in directory ${directory}`)
         return
     }
 
-    console.log(`reading json file ${dataPath}`)
+    // New logic: company.json and separate product json files
+    console.log(`reading company json file ${companyJsonFile.path}`)
+    const companyJson = fs.readFileSync(companyJsonFile.path, 'utf8')
+    const companyData = JSON.parse(companyJson) as SGCompany
 
-    let dataJson = fs.readFileSync(dataPath, 'utf8')
-    let data = JSON.parse(dataJson) as SGCompany
+    generate_company_page(companyData, slug, directory)
 
-    generate_index(data, slug, directory, allImages)
+    // Now process product files
+    const productJsonFiles = allFiles.filter(
+        (file) => file.name.endsWith('.json') && file.name !== 'company.json'
+    )
+
+    productJsonFiles.forEach((productFile) => {
+        if (!productFile.path) return;
+        console.log(`reading product json file ${productFile.path}`)
+        const productJson = fs.readFileSync(productFile.path, 'utf8')
+        const productData = JSON.parse(productJson) as SGProduct
+        
+        const productImages = allImages.filter((image) =>
+            image.startsWith(productData.slug)
+        )
+
+        generate_product_page(
+            slug,
+            companyData,
+            productData,
+            productImages,
+            directory
+        )
+    })
 })
 
  fs.writeFileSync('../static/search_index.json', JSON.stringify(index));
