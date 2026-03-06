@@ -1,16 +1,30 @@
 {
   "name": "Lore",
-  "added": "2025-03-29",
+  "added": "2026-03-06",
   "slug": "lore",
-  "link": "https://crowselectromusic.com/products/lore/",
+  "link": "https://crowselectromusic.com/products/lore",
   "videos": [],
   "tags": [
-    "drone",
     "analog",
-    "polyphonic",
-    "ambient",
-    "usb-power",
-    "fm"
+    "analog-synth",
+    "drone",
+    "electronic-instrument",
+    "fm",
+    "fm-synthesis",
+    "headphone",
+    "noise",
+    "oscillator",
+    "portable",
+    "synth",
+    "synthesizer",
+    "usb-power"
   ],
-  "description": "\n\nLore is an analog electronic instrument for exploring tones, drones, noise, and dissonance. It features two independently controlled triangle-core oscillators with switchable frequency modulation, providing a wide range of tones."
+  "description": "Lore is an analog electronic instrument built for exploring tones, drones, noise, and dissonance. Two independently controlled triangle-core oscillators with switchable frequency modulation gives you an endless pallet of tones, sweet and aggressive.",
+  "photos": [
+    "lore-1.jpg",
+    "lore-2.jpg",
+    "lore-3.jpg",
+    "lore-4.png",
+    "lore-5.png"
+  ]
 }
