@@ -1,0 +1,22 @@
+{
+  "name": "Kaleidoloop",
+  "added": "2024-03-06",
+  "slug": "kaleidoloop",
+  "link": "https://www.critterandguitari.com/kaleidoloop",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "xhgYhdI_BfY",
+      "title": "Critter & guitari Kaleidoloop short film"
+    }
+  ],
+  "tags": [
+    "looper",
+    "digital",
+    "battery",
+    "pure-data",
+    "usb-power",
+    "effect"
+  ],
+  "description": "\n\nThe Critter & Guitari Kaleidoloop™ is a compact yet powerful looper designed for musicians seeking unparalleled creative exploration.\n\nWith its intuitive interface, you’ll find it easy to manipulate and layer loops, and craft intricate soundscapes on the fly. Featuring a variety of playback modes and effects, the Kaleidoloop offers endless sonic possibilities. Discover new textures, harmonies and rhythms in your favorite sounds.\n\nThe Kaleidoloop features six playback modes, a record button, and track navigation buttons. While compact in design, these controls offer extensive capabilities.\n‍\nStart with a fresh recording - use the microphone to capture anything from drums to acoustic guitar, the radio, to random ambient sounds in your home. The sound will begin playing in a loop. Use the playback mode button and the two playback controls to manipulate the sound. The Kaleidoloop ships with six playback modes: three speed manipulation modes, and three effects.\n‍\nThe playback modes are coded in Pure Data. Users can create their own modes or upload modes shared with the community. Modes utilize two control knobs. Craft new edits by adjusting the control knobs and/or selecting different playback modes.\n"
+}

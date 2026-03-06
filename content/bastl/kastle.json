@@ -1,0 +1,16 @@
+{
+  "name": "Kastle",
+  "added": "2016-10-10",
+  "slug": "kastle",
+  "link": "https://bastl-instruments.com/instruments/kastle",
+  "videos": [],
+  "tags": [
+    "arduino",
+    "digital",
+    "diy",
+    "patchable",
+    "dupont-connectors",
+    "open-source"
+  ],
+  "description": "\n\nThe Bastl Kastle is a mini modular synthesizer you can play anywhere. It's powered by just 3 AA batteries or a regular micro USB charger, and it offers a headphone output and 2 in/out ports for interfacing other gear, be it a keyboard, a groove box, or a Eurorack synth.\n\nThe device is DIY-friendly and ideal for beginners in synthesis, but it will also add unique functionality to any full-sized modular synthesizer system. It delivers the fun of modular at a low cost, and it fits into your pocket so you can play it anywhere.\n\nKastl comes in [arp](https://bastl-instruments.com/instruments/kastle-arp) and [drum](https://bastl-instruments.com/instruments/kastle-drum) variants."
+}

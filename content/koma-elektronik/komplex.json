@@ -1,0 +1,22 @@
+{
+  "name": "Komplex Sequencer",
+  "added": "2015-01-22",
+  "slug": "komplex",
+  "link": "https://koma-elektronik.com/?product=komplex-sequencer",
+  "videos": [
+    {
+      "id": "ug7pQh3LqnM",
+      "title": "Komplex Sequencer MIDI Demo",
+      "type": "youtube"
+    }
+  ],
+  "tags": [
+    "cv",
+    "gate",
+    "sequencer",
+    "midi",
+    "patchable",
+    "looper"
+  ],
+  "description": "\n\nPowerful step sequencer built around four well-equipped full-featured 16-step sequencers communicating via both MIDI and CV/Gate. There are no screens or submenus.\n\nAll features have their own dedicated controls and have their own dedicated in- and outputs on the large 87-point patch bay. Every aspect of this sequencer is CV-able. Lastly a seven bank CV Recorder is on board and can output up to 5 banks at once!\n\nThe Komplex Sequencer opens up a whole new world of creative possibilities and starts where other sequencers have stopped!\n\nOrginally released in 2015, later discontinued then re-released in 2023."
+}

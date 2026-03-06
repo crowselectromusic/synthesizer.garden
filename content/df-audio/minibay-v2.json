@@ -1,0 +1,21 @@
+{
+  "name": "MINIBAY V2",
+  "added": "2024-09-27",
+  "slug": "minibay-v2",
+  "link": "https://dfaudio.com.au/minibay-v2",
+  "videos": [
+    {
+      "id": "jhK5vf5Ns5w",
+      "title": "DF Audio MINIBAY",
+      "type": "youtube"
+    }
+  ],
+  "tags": [
+    "analog",
+    "patchbay",
+    "cv",
+    "audio",
+    "patchable"
+  ],
+  "description": "MINIBAY V2 is a compact 40-point patch bay designed to integrate neatly into a studio desktop space.\n\nIt has twenty 6.35 mm TRS sockets on the back, each of which break out into two 3.5 mm TS sockets (eurorack style) on the top panel.\n\nTwelve normalling switches for A/B rows can be easily accessed via the top panel.\n\nIt also features two 3-channel passive mixers, each with four dedicated I/O patch-points."
+}

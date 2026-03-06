@@ -1,0 +1,18 @@
+{
+  "name": "Hanan Cumbia",
+  "added": "2020-10-10",
+  "slug": "hanancumbia",
+  "link": "https://www.tindie.com/products/oficinadesonido/hanan-cumbia-tropical-drum-machine/",
+  "videos": [],
+  "tags": [
+    "sequencer",
+    "rhythm",
+    "digital",
+    "lofi",
+    "arduino",
+    "open-source",
+    "sync",
+    "usb-power"
+  ],
+  "description": "\n\nDrum Machine with sounds and rhythms of Cumbia Programmed on the Arduino platform and based on the Bleep Drum from Bleep Labs\n\nCollaboration with Yeffry Ruta Mare in graphic design and Los Laberintos in screen printing.\n\n- 4 Sounds: Kick, Guiro, Cow Bell and Conga\n- 2 with Pitch control (Cow Bell and Conga)\n- 4 sequences of 32 steps each\n- You can record sequences in real time just by playing them\n- Clock input to synchronize with other machines\n- Tap Tempo\n"
+}

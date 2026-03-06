@@ -1,0 +1,20 @@
+{
+  "name": "NANO E",
+  "added": "2024-09-27",
+  "slug": "nano-e",
+  "link": "https://dfaudio.com.au/nano-e",
+  "videos": [
+    {
+      "id": "fv6wrNXcTdM",
+      "title": "DF Audio NANO E",
+      "type": "youtube"
+    }
+  ],
+  "tags": [
+    "analog",
+    "expression",
+    "cv",
+    "controller"
+  ],
+  "description": "NANO E is a low profile expression slider and CV attenuator, suitable for modular/semi-modular gear and any synth or effects unit with an expression pedal input.\n\nDesigned with ergonomics in mind, NANO E sits neatly on the side of a keyboard at a comfortable height, so it can be played just like a mod wheel.\n\nIt ships with a B50K slider installed and a spare B20K slider that can be easily swapped out (no soldering required). This allows you to get the perfect response curve for you synth and playing style.\n\nFor additional control, engaging the PAD switch puts the input signal through a 25K resistor, which can be particularly handy when using NANO E with CV.\n\nWith an A10K slider (sold separately), NANO E can also be used as a simple volume control."
+}

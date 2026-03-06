@@ -1,0 +1,25 @@
+{
+  "name": "Great Conjunction",
+  "added": "2025-10-06",
+  "slug": "great-conjunction",
+  "link": "https://armanbohn.com/blog/hardware/great-conjunction/",
+  "videos": [
+    {
+      "id": "7kvbsxOH9zs",
+      "type": "youtube",
+      "title": "Great Conjunction FM fragment synth - basic layout, randomness, and development hurdles"
+    }
+  ],
+  "tags": [
+    "fm",
+    "digital",
+    "synth",
+    "sequencer",
+    "generative",
+    "probabilistic",
+    "euclidean",
+    "cellular-automata",
+    "midi"
+  ],
+  "description": "GREAT CONJUNCTION is a generative sequencer and synthesizer that utilizes a vintage Yamaha YM2413 FM sound chip for onboard sound reproduction.\n\nIt creates melodic, chaotic, rhythmic, glitchy, soothing, hypnotic, curiously evolving atmospheres and polyrhythmic puzzles.\n\nGeneral Features include:\n\n - 3 independent, 1-32 step generative sequencers\n - random, euclidean & cellular automata algorithms for event distribution\n - 8 parameters per sequencer (with additional sub-parameters)\n - variable evolution, per parameter, per sequencer\n - independent sub-division for each sequencer\n - monophonic or 3-note chord modes for each sequencer\n - free running or MIDI re-trigger modes for each sequencer\n - external key mode with 9 note polyphony\n - full control over YM2413 FM synth parameters\n - 100 presets synth sounds\n - 10 save slots\n - full MIDI implementation for sequencer & synth parameters\n - independent MIDI In/Out for each sequencer\n - 12 knobs, 5 buttons\n - 20×4 backlit LCD display\n - TRS & USB MIDI IN & OUT\n - Send or receive MIDI clock on USB or TRS-A\n - 3D printed, semi-transparent enclosure\n\nGREAT CONJUNCTION is NOT a deliberate instrument.\n\nYou cannot intentionally place notes or events in a sequence.\n\nInstead, sequences are generated algorithmically using one of three methods (pseudo-random, euclidean or cellular automata).\n\nSequencer events trigger the internal YM2413 FM sound chip, and can trigger MIDI output.\n\nThe Yamaha YM2413 chip is only capable of producing one custom sound. The three sequencers can send conflicting data to the YM2413, causing it to manifest tones that would be difficult or impossible to program directly."
+}

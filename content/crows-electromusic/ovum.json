@@ -1,0 +1,21 @@
+{
+  "name": "OVUM",
+  "added": "2023-03-30",
+  "slug": "ovum",
+  "link": "https://crowselectromusic.com/products/ovum/",
+  "videos": [
+    {
+      "id": "812125045",
+      "title": "OVUM introduction",
+      "type": "vimeo"
+    }
+  ],
+  "tags": [
+    "drone",
+    "analog",
+    "polyphonic",
+    "ambient",
+    "usb-power"
+  ],
+  "description": "\n\nOVUM is a standalone all-analog tool for exploratory sound synthesis. Five independently controlled triangle-core oscillators give you five lush voices to layer and evolve. Each voice has a separate control for volume, pitch, and tone, and can be switched between a bright square wave and a crisp triangle wave.\n"
+}

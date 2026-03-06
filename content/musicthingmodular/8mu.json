@@ -1,0 +1,20 @@
+{
+  "name": "8mu",
+  "added": "2023-05-08",
+  "slug": "8mu",
+  "link": "https://www.musicthing.co.uk/8mu_page/",
+  "videos": [
+    {
+      "id": "CTnXEhedjm8",
+      "title": "8mu demo",
+      "type": "youtube"
+    }
+  ],
+  "tags": [
+    "midi",
+    "digital",
+    "controller",
+    "diy"
+  ],
+  "description": "\n\n8mu is a pocket-sized MIDI controller, slightly smaller than a credit card. 8mu has eight faders, four tiny buttons along the top edge, and an accelerometer inside to measure how the device is being held. It comes as a DIY kit.\n"
+}

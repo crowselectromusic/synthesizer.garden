@@ -1,0 +1,23 @@
+{
+  "name": "201 Pocket Piano",
+  "added": "2022-11-23",
+  "slug": "201pocketpiano",
+  "link": "https://www.critterandguitari.com/201-pocket-piano",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "bNk-VFVdEZA",
+      "title": "Guided Tour of the 201 Pocket Piano"
+    }
+  ],
+  "tags": [
+    "digital",
+    "sequencer",
+    "midi",
+    "usb-power",
+    "battery",
+    "open-source",
+    "pure-data"
+  ],
+  "description": "\n\nAt the heart of the 201 are six sound engines providing a wide range of sonic texture. Use the shift key to select an engine. There is a little bit of everything: chiptune style waveforms, analog style filters, drum samples, realistic physical instrument models, and even a human vocal synthesizer. Use the three center control knobs to further explore the sounds. Dial in the right amount of sustain, or adjust the tone. Or turn the 'surprise' knob if you are brave!\n\nPlay directly on the keyboard or turn on one of the pattern generators. From simple octave arpeggiation to randomizing polyphonic patterns you will be inspired by the notes coming out of the 201! Use the first control knob to set the pattern's tempo.\nThe pattern generators also work great for creating drum beats using the drum samples!\n\nIf you like the way something sounds, recording it is just a button press away! There is a handy metronome that you can play/record along with. When the sequence is playing back you can endlessly change the pattern and synth engine. When you get it just right, hit the save button. You can save 'unlimited' sequences (well... not really unlimited, but many thousands).Then recall saved sequences easily using the navigation buttons.\n"
+}

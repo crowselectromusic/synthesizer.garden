@@ -1,0 +1,21 @@
+{
+  "name": "NANOPATCH M",
+  "added": "2024-09-27",
+  "slug": "nanopatch-m",
+  "link": "https://dfaudio.com.au/nanopatch-m",
+  "videos": [
+    {
+      "id": "_cVpq4cdMjA",
+      "title": "DF Audio NANOPATCH tutorial",
+      "type": "youtube"
+    }
+  ],
+  "tags": [
+    "analog",
+    "patchbay",
+    "cv",
+    "audio",
+    "patchable"
+  ],
+  "description": "NANOPATCH M is unique among DF Audio patch bays in that it does not require insert cables for connecting to external gear (although this is also an option).\n\nIt has eight 3.5 mm jacks on the back/side (four TRS and four TS) which correspond to eight 3.5 mm TS sockets on the top panel, and normalling switches.\n\nNANOPATCH M is ideal for connecting to instruments and a mixer when used together with NANOPATCH X, and is a great companion to MINIBAY V2 (to connect to small instruments with minijack  audio outputs).\n\nIt also works with CV, so it can be a useful tool for instruments with patch points in hard-to-reach places (e.g. Moog Grandmother)."
+}

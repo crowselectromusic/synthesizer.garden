@@ -1,0 +1,20 @@
+{
+  "name": "Sn (tin)",
+  "added": "2025-09-18",
+  "slug": "sn",
+  "link": "https://www.decadebridge.com/sn-tin/",
+  "videos": [
+    {
+      "id": "KEJ-E2LfmcQ",
+      "type": "youtube",
+      "title": "The DecadeBridge Sn is a Perfect Synth (for me)"
+    }
+  ],
+  "tags": [
+    "drone",
+    "cv",
+    "fm",
+    "digital"
+  ],
+  "description": "Sn is a lofi FM synthesiser capable of a wide range of sounds.\n\nFeatures:-\n7 FM Algorithms each with 3 different pitch settings.\nThe algorithm selection can also be stepped using a trigger/gate signal.\n\nCarrier pitch with CV input.\nModulator pitch(es) with CV input.\nFM Amount control with CV input. \n\nThe output is run through a 3 position passive LPF which turns into a Low pass gate when the VCA switch is down and a CV signal is connected to the VCA input."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Triad",
+  "added": "2025-09-18",
+  "slug": "triad",
+  "link": "https://www.decadebridge.com/triad/",
+  "videos": [
+    {
+      "id": "ay6KKokrNCE",
+      "type": "youtube",
+      "title": "The Haunted Arcade of the DecadeBridge Triad (Drones, Noises, Glitches and Rhythms)"
+    }
+  ],
+  "tags": [
+    "drone",
+    "noise",
+    "patchable",
+    "cv"
+  ],
+  "description": "TRIAD is a 3 oscillator drone/noise synth. The oscillators cascade into to each other to drive and reset their waveforms."
+}

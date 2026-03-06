@@ -1,0 +1,23 @@
+{
+  "name": "Field Kit FX",
+  "added": "2017-10-12",
+  "slug": "fieldkitfx",
+  "link": "https://koma-elektronik.com/?product=field-kit-fx-modular-multi-effects-processor",
+  "videos": [
+    {
+      "id": "j9qAFZxiY74",
+      "title": "Field Kit FX Demo from Hainbach",
+      "type": "youtube"
+    }
+  ],
+  "tags": [
+    "cv",
+    "patchable",
+    "effect",
+    "mixer",
+    "sequencer",
+    "delay",
+    "reverb"
+  ],
+  "description": "\n\nThe Field Kit FX is a super versatile effects unit! It boasts a Frequency Shifter, Looper, Spring Reverb, Digital Delay, Bit Crusher, Sample Rate Reduction, 4 Channel Mixer with VCAs and tone control, a mini sequencer and ADSR, all under CV control! The Field Kit FX is more fun with the right tools! You could add the FX Expansion Pack, which offers a spring reverb tank and other goodies!\n\nAvailable as a standalone unit or as a eurorack module.\n"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Cadence",
+  "added": "2025-09-18",
+  "slug": "cadence",
+  "link": "https://www.decadebridge.com/cadence/",
+  "videos": [
+    {
+      "id": "4i71SohltYE",
+      "type": "youtube",
+      "title": "Behringer Syncussion SY-1 & Decade Bridge Cadence: Live Synth Performance! "
+    }
+  ],
+  "tags": [
+    "drone",
+    "cv"
+  ],
+  "description": "Cadence is a 4 oscillator, square wave generator. It can perform several different functions. Cadence can be used as a drone synth/rhythmic drone synthesizer using the 4 onboard oscillators. Each is run through a “count” control that acts as a divider before passing through several logic gates and then into the, CV controlled, low pass filter before the main output. Oscillators can be synced to create more interesting timbres.\n\nEach oscillator can be routed to it’s own individual, or grouped, output bypassing the filter for separate processing. At low frequency rates (using count) these individual outputs can be used as gates for external/modular equipment (creating interesting beats/clock signals/envelope triggers etc) but will also reset/sync the synth’s other oscillators at the same time."
+}

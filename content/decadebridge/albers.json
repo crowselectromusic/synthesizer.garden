@@ -1,0 +1,19 @@
+{
+  "name": "Albers",
+  "added": "2025-09-18",
+  "slug": "albers",
+  "link": "https://www.decadebridge.com/albers/",
+  "videos": [
+    {
+      "id": "PdTQIQXyN1I",
+      "type": "youtube",
+      "title": "Albers drone synthesizer - solo"
+    }
+  ],
+  "tags": [
+    "drone",
+    "patchable",
+    "cv"
+  ],
+  "description": "Albers is a 4 oscillator drone synth capable of a wide range of sounds.\nFeatures include:-\nPitch control with CV/Signal input.\nLevel control with a VCA CV input for each individual oscillator.\nLDR to control each oscillator or LFO with a light source.\nRange switch to change the overall pitch of the oscillator.\n\nEach LFO consist of three switchable waveforms. Ramp up, ramp down and triangle (half speed).\nRate and depth controls.\nLFO reset input to restart the LFO using a trigger/gate signal.\nLFOs are internally connected to oscillator pitch.\nEach LFO has it’s own output to connect to other gear/other parts of Albers.\n\nThe Oscillators are summed together and sent through a low pass filter with CV inputs for cutoff and peak."
+}

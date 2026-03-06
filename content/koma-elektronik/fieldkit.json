@@ -1,0 +1,23 @@
+{
+  "name": "Field Kit",
+  "added": "2017-03-08",
+  "slug": "fieldkit",
+  "link": "https://koma-elektronik.com/?product=field-kit",
+  "videos": [
+    {
+      "id": "0gjcUb5otGQ",
+      "title": "Field Kit Demo from Perfect Circuit",
+      "type": "youtube"
+    }
+  ],
+  "tags": [
+    "cv",
+    "patchable",
+    "effect",
+    "diy",
+    "radio",
+    "mixer",
+    "dupont-connectors"
+  ],
+  "description": "\n\nIntroducing the Field Kit by KOMA Elektronik – an electroacoustic box of wonders that unleashes a world of possibilities! Play with motors, sensors, contact microphones, radio signals!\n\nMuch like a versatile Swiss knife, the Field Kit boasts a plethora of functions, serving you an 4-channel mixer, LFO, a CV-able Radio, Envelope Follower, a sensor interface, and a DC interface – a comprehensive toolkit for sonic experimentation.\n\nEnhance your sonic journey with the perfect companions! The Field Kit so even more fun with an Expansion Pack, Sensors or a Field Kit Eurorack Panel.\n\nFor those who enjoy the hands-on approach, explore the DIY version of the Field Kit.\n"
+}

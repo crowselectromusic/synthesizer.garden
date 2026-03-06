@@ -1,0 +1,21 @@
+{
+  "name": "NANOPATCH X",
+  "added": "2024-09-27",
+  "slug": "nanopatch-x",
+  "link": "https://dfaudio.com.au/nanopatch-x",
+  "videos": [
+    {
+      "id": "_cVpq4cdMjA",
+      "title": "DF Audio NANOPATCH tutorial",
+      "type": "youtube"
+    }
+  ],
+  "tags": [
+    "analog",
+    "patchbay",
+    "cv",
+    "audio",
+    "patchable"
+  ],
+  "description": "NANOPATCH X is a tiny 8-point patch bay, primarily designed for use in conjunction with other DF Audio patch bays (though it can also be useful just by itself).\n\nIt has four 6.35 mm TRS sockets on the back, each of which break out to two 3.5 mm TS sockets on the top panel (identical wiring to the MINIBAY V2 FX rows).\n\nUse insert cables to connect up to four effects pedals via the rear sockets and get patchable access to the ins and outs on the top panel.\n\nIt can also be used as a breakout box for devices that output CV over TRS sockets."
+}
