@@ -1,0 +1,10 @@
+{
+  "filesystem": {
+    "allowRead": [
+      "/tmp/"
+    ],
+    "denyRead": [],
+    "allowWrite": ["/tmp/"],
+    "denyWrite": []
+  }
+}
