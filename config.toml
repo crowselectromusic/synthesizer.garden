@@ -8,8 +8,8 @@ compile_sass = true
 build_search_index = true
 
 # Generate rss/atom feeds
-generate_feed = true
-feed_filename = "rss.xml"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
 author = "synthesizer.garden"
 title = "Synthesizer Garden"
 description = "An organic directory of electronic musical instruments"
@@ -21,11 +21,6 @@ taxonomies = [
 [slugify]
 paths = "on"
 taxonomies = "on"
-
-[markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
 
 [extra]
 # Put all your custom variables here
