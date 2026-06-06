@@ -1,0 +1,39 @@
+{
+  "name": "IMPLEXUS",
+  "added": "2026-06-06",
+  "slug": "implexus",
+  "link": "https://majella-audio.com/products/implexus/",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "UQUqX746OjY",
+      "title": "IMPLEXUS Demo"
+    },
+    {
+      "type": "youtube",
+      "id": "0K26Ki-3TyM",
+      "title": "IMPLEXUS Overview"
+    },
+    {
+      "type": "youtube",
+      "id": "GnnEI96-XPc",
+      "title": "IMPLEXUS West-Coast Sound"
+    },
+    {
+      "type": "youtube",
+      "id": "-QjsLtWIRe8",
+      "title": "IMPLEXUS How It's Made"
+    }
+  ],
+  "tags": [
+    "analog-synth",
+    "synthesizer",
+    "monophonic",
+    "drone",
+    "delay",
+    "lfo",
+    "cv",
+    "midi"
+  ],
+  "description": "\n\nThe IMPLEXUS is a hardware desktop synthesizer combining West- and East-Coast synthesis techniques into a single form factor. It uses analog waveshaping, folding and audio rate modulation to create an immense range of sounds and textures.\n\nThe IMPLEXUS has a powerful one-knob-per-function interface with graphical feedback, utilizing LED rings to indicate modulators. The drone mode, tap tempo and looping envelopes let you explore the IMPLEXUS as a standalone sound generator. The MIDI and Eurorack compatibility and clock synchronisation options make sure it can be played in every setting.\n\nThe characteristic sound comes from shaping and folding a sine wave, resulting in a complex waveform. The shaping and folding can be modulated at audio-rate utilizing the second generator. Instead of subtracting you are adding harmonics. It features a 12dB/oct VCF with unique analog topology, a stereo digital delay with clock synchronization, two syncable LFOs, and a built-in VCO tuner with strobe LEDs.\n\nBuilt with metal shaft potentiometers, an aluminum casing, and an internal power supply, the IMPLEXUS is a character-filled, unique and complete musical instrument.\n"
+}
