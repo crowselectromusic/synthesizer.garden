@@ -1,0 +1,9 @@
+{
+  "name": "Ziggy",
+  "added": "2026-06-06",
+  "slug": "ziggy",
+  "link": "https://buchla.com/ziggy/",
+  "videos": [],
+  "tags": ["synthesizer", "analog-synth", "portable", "midi", "cv", "portable-synthesizer"],
+  "description": "\n\nThe Buchla Ziggy is a patch-free analog desktop instrument built around the famous Buchla \"complex oscillator.\" It combines analog oscillators and a low-pass gate (LPG) with digital control, featuring over 100 factory and user presets. The Ziggy incorporates West Coast synthesis techniques including additive synthesis, wavefolding, and modulation through the original Cycler modulation source.\n\nThe analog signal path includes a Complex Oscillator and a Modulation Oscillator that can operate at audio rates for FM/AM synthesis. The Low Pass Gate operates as a VCA, Filter, or both, using Sallen Key filter architecture with blended envelope shapes rather than traditional ADSR. The Cycler modulator acts as a combination of a clock, envelope generator, LFO, and random generator, with uncertainty parameters for surprise.\n\nConnectivity includes 5-pin DIN MIDI, USB-C, and CV inputs (1v/octave pitch, gate, and CV modulation), making it compatible with Eurorack systems and other third-party devices. Stereo digital effects include reverb, delay, chorus, pitch shift, and flanger. Powered via USB-C, housed in a steel and oak chassis.\n"
+}
