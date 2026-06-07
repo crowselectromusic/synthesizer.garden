@@ -6,7 +6,8 @@
     "start": "tsx src/main.ts",
     "load": "tsx src/load.ts",
     "test": "tsx --test src/*.test.ts",
-    "format": "prettier --write \"src/**/*.ts\""
+    "format": "prettier --write \"src/**/*.ts\"",
+    "validate": "tsx src/validate.ts"
   },
   "dependencies": {
     "directory-tree": "^3.5.2",

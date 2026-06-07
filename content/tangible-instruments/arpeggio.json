@@ -8,17 +8,13 @@
     "arpeggiator",
     "sequencer",
     "synthesizer",
-    "portable-instrument",
-    "melody-composer",
-    "midi",
+    "digital",
+        "midi",
+    "speaker",
+        "battery",
     "bluetooth",
-    "control-voltage",
-    "gate",
-    "virtual-analog-synth",
-    "music-creation",
-    "performance-tool",
-    "audio-equipment",
-    "musical-instrument"
+    "cv",
+    "gate"
   ],
   "description": "\n\nCompose, save, and perform melodies with Arpeggio, a portable arpeggiator, sequencer, and synthesizer. Create nuanced melodies, save hundreds of creations, and explore millions of arpeggiator styles. Control your gear wirelessly or with control voltage and gate."
 }

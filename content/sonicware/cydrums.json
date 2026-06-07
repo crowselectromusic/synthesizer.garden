@@ -5,19 +5,15 @@
   "link": "https://sonicware.jp/pages/cydrums",
   "videos": [],
   "tags": [
-    "drum-machine",
-    "drum-synthesizer",
+    "drum",
     "wavetable",
     "sequencer",
-    "beat-making",
-    "electronic-music",
+    "digital",
     "groovebox",
-    "synth",
     "effects",
-    "performance",
-    "drum-synth",
-    "expressive",
-    "sonicware"
+        "midi",
+        "speaker",
+        "battery"
   ],
   "description": "\n\nExpressive Drum Synthesizer. Wavetable x Velocity & Pressure Modulation = 4D Drum Sounds That React, Transform, and Evolve. 22 Custom-Built Sound Structures Tailored to Each Instrument for Endless Sonic Possibilities. Versatile Effects & Flexible Routing. Powerful 8-Track Beat Making. Endless Creative Possibilities"
 }

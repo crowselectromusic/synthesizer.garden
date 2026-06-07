@@ -40,7 +40,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build zola
-        uses: crowselectromusic/zola-build@1.4.0
+        uses: crowselectromusic/zola-build@1.6.0
         with:
           base_url: ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact

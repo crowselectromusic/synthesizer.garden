@@ -59,8 +59,8 @@ function makeCompanyToml(company: SGCompany, slug: string): string {
     return stringify({
         title: company.name,
         sort_by: 'date',
-        date: new TomlDate(company.added),
-        slug: slug,
+        //date: new TomlDate(company.added),
+        //slug: slug,
         extra: {
             type: 'company',
             link: company.link

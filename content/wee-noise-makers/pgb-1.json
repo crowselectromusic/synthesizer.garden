@@ -1,0 +1,38 @@
+{
+  "name": "PGB-1",
+  "added": "2026-06-07",
+  "slug": "pgb-1",
+  "link": "https://weenoisemakers.com/pgb-1/",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "feKbk0f80hI",
+      "title": "Wee Noise Makers PGB-1"
+    },
+    {
+      "type": "youtube",
+      "id": "kvAHVBmVGLg",
+      "title": "PGB-1 Demo"
+    },
+    {
+      "type": "youtube",
+      "id": "aG0A5TpnFIk",
+      "title": "Wee Noise Makers PGB-1"
+    }
+  ],
+  "tags": [
+        "sequencer",
+        "synthesizer",
+        "sampler",
+        "groovebox",
+        "open-source",
+        "battery",
+        "midi",
+        "raspberry-pi-pico",
+        "microphone",
+        "polyphonic",
+        "digital",
+        "usb-power"
+    ],
+  "description": "\n\nThe PGB-1 is an open-source, pocket-sized groovebox and MIDI sequencer built around a dual-core RP2040 microcontroller. Measuring just 10 x 6.6 x 1.5 cm, it fits in the palm of your hand and is smaller than a smartphone.\n\nThe PGB-1 features 19 synthesis engines across 6 channels, 2 sampler channels, 16 LFOs, 4 master effects, and 16 tracks of sequencing with 16-step patterns per track. It includes onboard sampling via internal microphone or line-in, song mode, chord sequencer, arpeggiators, and live sequencing effects.\n\nThe device includes a 128x64 OLED display, 25 RGB LEDs, 30 tactile switches, and a capacitive touch strip for a tactile playing experience. Connectivity includes USB-C (power and data), 3.5mm headphone out, 3.5mm audio line-in, and TRS MIDI I/O. The open-source firmware supports CircuitPython, C/C++, and Ada for deep customization.\n\nPowered by a built-in rechargeable Li-ion battery with a built-in speaker, the PGB-1 is designed to be truly portable and hackable, making it suitable for musicians, developers, and makers alike.\n"
+}

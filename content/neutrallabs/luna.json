@@ -1,0 +1,30 @@
+{
+  "name": "Luna",
+  "added": "2026-06-06",
+  "slug": "luna",
+  "link": "https://neutral-labs.com/luna",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "JNw-6nzJgCI",
+      "title": "Neutral Labs Luna"
+    },
+    {
+      "type": "youtube",
+      "id": "RGXavuRRnp8",
+      "title": "Neutral Labs Luna"
+    }
+  ],
+  "tags": [
+    "synthesizer",
+    "generative",
+    "drone",
+    "cv",
+    "midi",
+    "open-source",
+    "lunetta",
+    "patchable",
+    "midi"
+  ],
+  "description": "\n\nLuna is the first serious Lunetta synthesizer, a semi-modular instrument based on exposed CMOS logic chips. Inspired by the subterranean DIY culture of the 1970s and 80s, Luna channels raw digital chaos into musical sound through 5 oscillators, a chaotic array of logic blocks (XOR, NOT, AND gates, shift registers, counters, multiplexer), and 3 organic low-pass gates that transform binary noise into percussive punches, bongos, and basslines.\n\nThe exposed CMOS inputs and outputs let you physically intervene in the synthesis itself — patch, bend logic, and rewire the brain of the synthesizer. Audio output passes through 3 low-pass gates with adjustable decay and trigger mode, plus gain and tilt EQ. A suite of 13 effects (drive, delay, reverb, 6 filter types, bitcrusher, phaser, chorus, comb filter) can be freely assigned to 2 effect slots running in series.\n\nAvailable as both a desktop semi-modular synth and a 42 HP Eurorack module. Features CV control for effects and 2 oscillators, MIDI control over 2 oscillators, and 2 sequencers with up to 64 steps syncable to clock or MIDI.\n"
+}

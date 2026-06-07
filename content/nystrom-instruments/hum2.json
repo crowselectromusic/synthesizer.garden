@@ -1,0 +1,31 @@
+{
+  "name": "HUM 2",
+  "added": "2026-06-06",
+  "slug": "hum2",
+  "link": "https://nystrominstruments.com/hum2/",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "LGo-YNmCIEU",
+      "title": "HUM 2 Demo"
+    }
+  ],
+  "tags": [
+        "synthesizer",
+        "fm",
+        "wavetable",
+        "polyphonic",
+        "cv",
+        "gate",
+        "midi",
+        "generative",
+        "digital",
+        "motion-sensor",
+        "accellerometer",
+        "touch",
+        "sequencer",
+        "usb-audio",
+        "effects"
+    ],
+  "description": "\n\nThe HUM 2 is a sensory, multi-timbral synthesizer designed for expressive performance and sonic exploration. The synth provides three independent voices that allow you to create complex textures and control three separate sequences simultaneously.\n\nEach voice can be assigned independent synthesis engines, with a wide range of synthesis modes including subtractive synthesis, FM, wavetables, organ and experimental engines. All three voices are controlled with touchpads for expressive control.\n\nThe HUM 2 features six built-in sensors — distance, light, tilt X/Y, and touch 1/2 — mappable to any knob for interactive modulation. Three independent 64-step sequencers create generative patterns or fixed loops, with generated notes quantized to one of 17 scale options. Four LFOs are mappable to any knob, with independent sends to built-in delay, reverb and overdrive effects.\n\nConnectivity includes 3 CV outputs, 2 CV inputs, sync in/out, MIDI in/out, headphone out, L/R line out, and MIDI + audio over USB.\n"
+}

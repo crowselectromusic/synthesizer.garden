@@ -5,16 +5,15 @@
   "link": "https://stylophone.com/product/stylophone-ds-2/",
   "videos": [],
   "tags": [
-    "analog-synth",
-    "drone-synth",
+    "analog",
+    "drone",
     "synthesizer",
-    "musical-instrument",
-    "audio",
-    "oscillator",
-    "filter",
-    "reverb",
-    "delay",
-    "lfo"
+    "effects",
+    "patchable",
+    "speaker",
+    "eurorack",
+    "battery",
+    "cv"
   ],
   "description": "\n\nThe Stylophone DS-2 Analog Drone Synth is the first of Stylophone's compact portable modular (CPM) range. It features dynamic waveform blending, multiple oscillators, multimode filters, modulation possibilities and vintage-inspired reverb and modulated delay."
 }

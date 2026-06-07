@@ -5,23 +5,18 @@
   "link": "https://sonicware.jp/pages/liven-texturelab",
   "videos": [],
   "tags": [
-    "granular-synthesizer",
-    "effector",
-    "audio-transformation",
-    "sound-design",
-    "music-production",
-    "electronic-music",
+    "granular",
     "synthesizer",
-    "shimmer-reverb",
+    "effects",
     "sequencer",
-    "parameter-locking",
-    "experimental-music",
+    "parameter-locks",
     "ambient",
-    "idm",
-    "noise",
-    "presets",
-    "sampling",
-    "soundscapes"
+    "sampler",
+    "midi",
+        "digital",
+        "gate",
+        "speaker",
+        "battery"
   ],
   "description": "\n\nGranular Synthesizer / Effector. Sample, slice, transform and reconstruct audio to synthesize completely new sounds. Granular synthesizer with granular effects processor mode. Shimmer reverb for fantastical and majestic sounding spaces. 128-step sequencer with parameter locking."
 }
