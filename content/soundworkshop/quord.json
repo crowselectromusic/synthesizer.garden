@@ -1,0 +1,22 @@
+{
+  "name": "Quord",
+  "added": "2026-06-07",
+  "slug": "quord",
+  "link": "https://soundwork.shop/quord-1",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "x4khM5Bjihg",
+      "title": "Quord - Sound Workshop"
+    }
+  ],
+  "tags": [
+    "analog",
+    "drone",
+    "ambient",
+    "microtonal",
+    "polyphonic",
+    "synthesizer"
+  ],
+  "description": "\n\nQuord is a four-voice sawtooth drone synthesizer and \"harmony exploration machine\" designed for ear-based tuning. It features a resonant filter that acts as a fifth voice, a distortion circuit, and long-throw sliders for precise manual control over harmonic intervals.\n\nThe long sliders control four pitches. Carefully slide them to find pockets where two, three, or more voices sit together - either with ease or with tension. The pitch ranges of the oscillators are limited from bass to alto to allow for some tuning precision by hand. Quord lacks a traditional keyboard. Instead you play it by tuning the oscillators. If Quord were an acoustic instrument, it would be like a guitar that you play by retuning the strings.\n\nThe four short mixer sliders combine the sawtooth voices into one sound stream. The mix flows into a filter (yellow) followed by a distortion (red). The filter tames the sound before the distortion adds edge, highlights beating rhythms, and glues the sound together.\n\nSurprisingly, the resonance works great as a fifth voice. At the right settings, it latches onto overtones of the blended sawtooth waves, combining to make a new musical scale that always complements the drone. Simple melodies can be teased out for ancient campfire music.\n"
+}
