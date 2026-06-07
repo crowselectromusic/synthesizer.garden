@@ -1,0 +1,22 @@
+{
+  "name": "CPM DF-8",
+  "added": "2026-06-07",
+  "slug": "cpm-df-8",
+  "link": "https://stylophone.com/product/stylophone-df8/",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "jit3F7_D1gU",
+      "title": "The Stylophone CPM DF-8"
+    }
+  ],
+  "tags": [
+    "filter",
+    "effects",
+    "analog",
+    "eurorack",
+    "battery",
+    "delay"
+  ],
+  "description": "\n\nThe CPM DF-8 Analog Dynamic Multi-filter is the latest in Stylophone's Pro Audio range. Dubbed \"Beauty and the Beast,\" this unique filter box combines the precision of a smooth analog recreation of the classic 2045 Lowpass filter with the bold, dynamic character of Stylophone's proprietary GEN R-8 filter.\n\nThe DF-8 is much more than a dual filter box. It's a sound design tool, equipped with two white noise sources, a sample-and-hold modulation source with adjustable slew, and a crunchy PT2399 delay with modulation. It serves as a versatile sound source capable of everything from subtle atmospheres to all-out sonic chaos.\n\nWith two channels and eight filter types — including Lowpass, Bandpass, Highpass, Notch, and three hybrid modes (Bandpass +, Notch+, Bandstop +) — the DF-8 delivers an expansive tonal range, from smooth sweeps to snarling distortion.\n\nLike all CPM units, the CPM DF-8 is designed for portability and flexibility. Stylophone's unique enclosure design with side ribs allows multiple CPM units to be locked together, for stability like a large modular, and for easy insertion into a Eurorack desk. It also features a built-in 2W speaker, 6 AA battery slots, and multiple 3.5 mm in/outs.\n"
+}

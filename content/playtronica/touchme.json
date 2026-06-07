@@ -1,0 +1,30 @@
+{
+  "name": "TouchMe",
+  "added": "2026-06-07",
+  "slug": "touchme",
+  "link": "https://shop.playtronica.com/products/touchme",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "fMq6mBaKfpc",
+      "title": "TouchMe - Playtronica"
+    },
+    {
+      "type": "youtube",
+      "id": "pB5YI5oH6zg",
+      "title": "TouchMe Demo"
+    },
+    {
+      "type": "youtube",
+      "id": "RDLFzJ0sFqs",
+      "title": "TouchMe by Playtronica"
+    },
+    {
+      "type": "youtube",
+      "id": "JNwqb3H6Bz4",
+      "title": "TouchMe Interactive"
+    }
+  ],
+  "tags": ["touch", "midi"],
+  "description": "\n\nTouchMe is the musical instrument that turns skin, water, or flowers into sound. Play with friends or alone. As the area of touch and intensity changes, the sound changes too.\n"
+}
