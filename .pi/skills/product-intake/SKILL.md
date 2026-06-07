@@ -299,11 +299,16 @@ https://www.sonicware.jp/en/products/liven-8bit-warps
 - [ ] No special characters or encoding issues
 
 **Validation**:
-1. Parse generated JSON files to verify validity
+1. Run `npm run validate` (or `npx tsx build-tool/src/validate.ts`) on every generated JSON file to confirm valid JSON and all required fields
 2. Count image files and verify they match product.json images array
 3. Verify all tags are in approved tags list
 4. Verify URLs are valid (http/https)
 5. Verify slug format is correct (lowercase, hyphens, no spaces)
+
+The build-tool validation script (`build-tool/src/validate.ts`) checks:
+- **company.json**: `name`, `added`, `link`, `description`
+- **product.json**: `name`, `added`, `slug`, `link`, `videos`, `tags`, `description`, and that each video has `type` (`"youtube"` or `"vimeo"`), `id`, and `title`
+- If any file fails validation the script exits with code 1, listing all missing fields.
 
 ---
 
@@ -372,7 +377,7 @@ When implementing this skill, follow this order:
 6. **Tags**: Match product to approved tags
 7. **Generate**: Create product.json
 8. **Output**: Write all files to correct location
-9. **Verify**: Validate all output files are correct and complete
+9. **Verify**: Run `npm run validate content/{company-slug}/company.json content/{company-slug}/{product-slug}.json` — fix any errors before proceeding
 
 ### Error Handling
 
@@ -392,7 +397,7 @@ Before submitting generated files for review:
 4. Check that tags accurately describe the product
 5. Verify company information is correct
 6. Test that markdown renders properly
-7. Validate JSON formatting
+7. **Validate JSON and required fields**: Run `npm run validate` on every generated file (see `build-tool/src/validate.ts`)
 
 ---
 
