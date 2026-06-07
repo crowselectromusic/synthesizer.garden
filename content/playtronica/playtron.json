@@ -1,0 +1,25 @@
+{
+  "name": "Playtron",
+  "added": "2026-06-07",
+  "slug": "playtron",
+  "link": "https://shop.playtronica.com/products/playtron",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "ULYTVe8XjYg",
+      "title": "Let's Dance by David Bowie a cover by Playtronica Fruit and Vegetable Orchestra"
+    },
+    {
+      "type": "youtube",
+      "id": "VQpSl1kUF5U",
+      "title": "Record your own sound and play on your iPhone | Playtron Tutorials"
+    },
+    {
+      "type": "youtube",
+      "id": "ibQuzjFUJd4",
+      "title": "How to connect Playtron?"
+    }
+  ],
+  "tags": ["midi", "controller", "touch"],
+  "description": "\n\nPlaytron turns the contents of your fruit bowl into a piano keyboard. Connect up to 16 objects with alligator clips, pick a different sound for each, and have fun!\n"
+}
