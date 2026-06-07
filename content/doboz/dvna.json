@@ -1,0 +1,27 @@
+{
+  "name": "DVNA",
+  "added": "2026-06-07",
+  "slug": "dvna",
+  "link": "https://doboz.audio/products/dvna",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "gDmTl56T-tQ",
+      "title": "DVNA Demo"
+    },
+    {
+      "type": "youtube",
+      "id": "ZCNi_lEj8UQ",
+      "title": "DVNA Overview"
+    }
+  ],
+  "tags": [
+    "synthesizer",
+    "digital",
+    "polyphonic",
+    "microtonal",
+    "midi",
+    "effects"
+  ],
+  "description": "\n\nDVNA is a compact synthesizer built for creating rich harmonic textures with minimal effort. Play a single key and get a chord, or intervals of your choice across its four oscillators — monophonic input, polyphonic results.\n\nA built-in note quantizer locks your pitch to any of 25 scales, while the tuning modes let you dial in everything from fixed chord voicings to free microtonal tuning. Oscillator mixing and stereo panning are controlled through morphing systems, so a single knob sweep transforms your entire mix at once. The signal then flows through a stereo multi-mode filter, overdrive, and a choice of reverb or delays.\n\nThe 12-key capacitive keyboard responds to finger contact area, generating a continuous pressure signal that can be routed throughout the instrument. DVNA also accepts MIDI over TRS, syncs to MIDI clock, and responds to MIDI CC for external control. 128 presets capture all parameters, keeping your favorite patches ready to recall instantly.\n"
+}
