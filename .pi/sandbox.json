@@ -2,12 +2,12 @@
   "filesystem": {
     "allowRead": [
       "/tmp/",
-      "/home/cory/Code/synthesizer.garden/tags.md"
+      "/home/cory/Code/synthesizer.garden/"
     ],
     "denyRead": [],
     "allowWrite": [
       "/tmp/",
-      "content"
+      "/home/cory/Code/synthesizer.garden/content/"
     ],
     "denyWrite": []
   }
