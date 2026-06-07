@@ -1,0 +1,32 @@
+{
+  "name": "Bullfrog",
+  "added": "2026-06-07",
+  "slug": "bullfrog",
+  "link": "https://www.ericasynths.lv/bullfrog-2754/",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "4diIqpE3BbA",
+      "title": "Erica Synths x Richie Hawtin Bullfrog sound demo"
+    },
+    {
+      "type": "youtube",
+      "id": "cPUqsdbWfz8",
+      "title": "Erica Synths Bullfrog: Analog for All, Developed with Richie Hawtin"
+    },
+    {
+      "type": "youtube",
+      "id": "S8bn_dT7Nao",
+      "title": "Erica Synths BULLFROG! Video Manual"
+    }
+  ],
+  "tags": [
+    "synthesizer",
+    "analog",
+    "cv",
+    "midi",
+    "patchable",
+    "gate"
+  ],
+  "description": "\n\nThe Bullfrog is a 100% analog educational synthesizer designed by Erica Synths and Richie Hawtin. It is a semi-modular subtractive synthesizer intended to teach the fundamentals of sound synthesis while inspiring both beginners and experienced musicians.\n\nThe Bullfrog consists of several classic analog modules: a highly accurate voltage-controlled oscillator (VCO) tracking over 8 octaves, a zener diode noise generator, a resonant lowpass voltage-controlled filter (VCF), a VCA with adjustable offset, and a delay effect. Control signals are provided by two ASR envelope generators and a sample & hold circuit. The instrument uses eurorack patch cables to connect modules, or the included voice cards that create internal patch connections and add extra functionality.\n\nWhat is included: Bullfrog synthesizer, universal 12VDC power adapter, user manual, 10 patch cables, 3 pre-patched voice cards (Sequencer, Acid Bassline, Sampler Looper), and 3 DIY voice cards. Dimensions: 40 x 385 x 210 mm, weight: 1.8 kg. Features DIN5 MIDI input, USB connector, and a built-in speaker.\n"
+}
