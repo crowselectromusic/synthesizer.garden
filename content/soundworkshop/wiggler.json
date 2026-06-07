@@ -1,0 +1,22 @@
+{
+  "name": "Wiggler",
+  "added": "2026-06-07",
+  "slug": "wiggler",
+  "link": "https://soundwork.shop/wiggler-1",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "l05x1LjvOaI",
+      "title": "SUPERBOOTH 2024: Sound Workshop - Wiggler Expressive Mono Synth"
+    }
+  ],
+  "tags": [
+    "synthesizer",
+    "monophonic",
+    "touch",
+    "midi",
+    "cv",
+    "digital"
+  ],
+  "description": "\n\nWiggler is an expressive monosynth that aims to bring the emotional gestures of acoustic instruments into the world of synthesizers. Think of it like a synth that evolved from a wooden flute instead of a piano. The keys can wobble for vibrato and push for dynamics. Its main purpose is to play melodies with emotion.\n\nWiggler's design is inspired by standalone instruments like the Minimoog and Microbrute. It has just enough features to make it immediately fun, and all the outputs to take expressive control of your favorite synthesizer. All parameters live on the surface of the panel, with dedicated controls and no button combos.\n\nThe diatonic keybed has 8 touch-sensitive keys in a single scale plus an upper octave root note, with sharp/flat buttons for accidentals and three programmable scale presets. A flexure-mounted keybed with hall effect sensors enables 2D expressive control — wobble for vibrato, push for volume. The firmware runs on an STM32-based Electrosmith Daisy Seed with octave buttons spanning bass to guitar range.\n"
+}
