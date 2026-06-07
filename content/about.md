@@ -15,12 +15,12 @@ I hope you find it useful!
 Cory<br />
 [Crows Electromusic](https://crowselectromusic.com/)
 
-## Statement on LLM ("AI") usage:
+### On LLM (aka "AI") usage:
 
 I am, for the most part, a certified "AI" hater. LLMs are being used to concentrate wealth in the hands of fewer and fewer people, taking away jobs and eroding the quality of life of the rest of us, while drowning us in slop, all at great environmental cost.
 
 That said, LLMs are powerful tools and can be used in mostly-ethical ways, if done thoughtfully. This is how they are being used for synthesizer.garden, starting in June 2026:
 
 - I am only using locally run AI models. This avoids funding the big AI firms and their data centers. The LLM work for this site is being done on a 10 year old PC using an 8 year old consumer graphics card.
-- AI is being used to make a human's work easier, not generate slop. It is automating the grunt work of collecting of information, fetching the right images, and formatting them.
+- AI is being used to make a human's work easier, not generate slop. It is automating the grunt work of collecting information, fetching the right images, and formatting images and info for display on the site.
 - A human makes all the decisions. I pick what synths are added, and I read and edit, or write, every single word that makes it on to this site.
