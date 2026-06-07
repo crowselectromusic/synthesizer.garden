@@ -467,16 +467,4 @@ Once files are generated:
 
 **Issue**: Image quality is poor
 - Solution: Find alternative image sources on page
-- Try: Contact manufacturer or check retail listings for better images
-
----
-
-## Future Enhancements
-
-Potential improvements to this skill:
-- Batch URL processing (multiple products at once)
-- Automatic YouTube video discovery beyond embedded videos
-- Integration with Spotify/SoundCloud for artist examples
-- Automated tag suggestions using ML/NLP
-- Duplicate detection (check if product already in database)
-- Multi-language support for international manufacturers
+- Try: Check retail listings or media coverage for better images
