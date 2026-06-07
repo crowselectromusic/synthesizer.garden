@@ -1,10 +1,14 @@
 {
   "filesystem": {
     "allowRead": [
-      "/tmp/"
+      "/tmp/",
+      "/home/cory/Code/synthesizer.garden/tags.md"
     ],
     "denyRead": [],
-    "allowWrite": ["/tmp/", "content"],
+    "allowWrite": [
+      "/tmp/",
+      "content"
+    ],
     "denyWrite": []
   }
 }
