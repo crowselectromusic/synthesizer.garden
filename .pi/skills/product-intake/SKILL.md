@@ -62,12 +62,15 @@ The synthesizer.garden repository organizes music instruments by manufacturer. E
 
 ### Approved Tags
 
-All tags must come from the master tags list in `/tags.md`. Common categories:
-- **Instrument types**: `synth`, `synthesizer`, `sampler`, `drum-machine`, `sequencer`, `mixer`
-- **Synthesis types**: `fm-synthesis`, `granular`, `wavetable`, `analog-synth`, `digital`
-- **Features**: `portable`, `battery-powered`, `midi`, `cv`, `eurorack`, `open-source`, `looper`
-- **Sound styles**: `ambient`, `drone`, `lo-fi`, `chiptune`, `experimental-music`
-- **Platforms**: `mobile-music-creation`, `arduino`, `raspberry-pi`, `esp32`, `fpga`
+We should only use tags that already exist. Generate a candidate list of tags based on the product description and specifications, then run `npm run tags-diff` to identify which tags are already in the project and which are new. For any new tags, check if they are synonyms of existing tags and consolidate them accordingly.
+
+Common categories:
+- **Instrument types**: `synthesizer`, `sampler`, `drum`, `sequencer`, `mixer`
+- **Synthesis types**: `fm`, `granular`, `wavetable`, `additive`, `subtractive`, `physical-modeling`
+- **Hardware architectures**: `digital`, `analog` (it can be both)
+- **Sound styles**: `ambient`, `drone`, `lo-fi`, `chiptune`
+- **Features**: `battery`, `midi`, `cv`, `gate`, `patchable`, `open-source`, `looper`, `effects`, `diy`
+- **Platforms**: `arduino`, `raspberry-pi`, `raspberry-pi-pico`, `esp32`, `fpga`
 
 ---
 
@@ -147,10 +150,12 @@ https://www.sonicware.jp/en/products/liven-8bit-warps
    - Match against approved tags from `/tags.md`
    - Select 3-8 most relevant tags
    - Prioritize: instrument type (synth, sampler, etc.) + sound style + key features
+   - Run `npm run tags-diff` in the `build-tool` subproject with the candidate tags to check for duplicates and new tags
+   - If the script reports new tags, verify they are legitimate before proceeding
    - Example tag sets:
-     - Portable synth with FM synthesis: `["synthesizer", "fm-synthesis", "portable", "battery-powered"]`
-     - Drum machine with sampling: `["drum-machine", "sampler", "portable"]`
-     - Effects mixer: `["mixer", "effect", "audio-equipment"]`
+     - Portable synth with FM synthesis: `["synthesizer", "fm", "battery"]`
+     - Drum machine with sampling: `["drum", "sampler", "digital"]`
+     - Effects mixer: `["mixer", "effects", "audio"]`
 
 4. **Create description**:
    - Extract main description from product page (1-3 paragraphs)
@@ -278,6 +283,7 @@ https://www.sonicware.jp/en/products/liven-8bit-warps
 - **Primary tag** (always include): Instrument type (synthesizer, sampler, drum-machine, sequencer, mixer, etc.)
 - **Secondary tags** (1-3): Sound characteristics or synthesis method (fm-synthesis, granular, ambient, drone, etc.)
 - **Tertiary tags** (1-3): Features or platform (portable, battery-powered, midi, open-source, etc.)
+- **Consolidation**: When the candidate tag file contains tags that are already in the project, **consolidate** them into the existing tag rather than creating a new one. Use the `tags-diff` script output to identify which tags are already in use.
 - **Example**:
   ```
   Product: Pocket synth with FM, battery powered, MIDI
@@ -290,6 +296,20 @@ https://www.sonicware.jp/en/products/liven-8bit-warps
 
 **Task**: Write all generated files to correct locations.
 
+**Tag consolidation step**:
+1. Write candidate tags to a temporary file (e.g., `/tmp/candidate-tags.json`)
+2. Run `cd build-tool && npm run tags-diff /tmp/candidate-tags.json`
+3. The script prints four sections:
+   - Tags already in the project (with count)
+   - Tags in the file (with count)
+   - **New tags** (not yet in the project) — review these for consolidation
+   - Already in the project — these tags are already in use by other products
+4. For each new tag, decide:
+   - **Consolidate**: If it's a synonym of an existing tag (e.g., `synth` → `synthesizer`, `drum-machine` → `drum`), remove it from the candidate file
+   - **Keep as new**: If it genuinely describes a new category not yet captured, add it to the project
+   - **Discard**: If it's too generic or doesn't describe the product, remove it
+5. After consolidation, write the final product.json with only approved tags
+
 **Checklist**:
 - [ ] Company directory exists: `/content/{company-slug}/`
 - [ ] company.json written (if new) with proper JSON formatting
@@ -299,11 +319,13 @@ https://www.sonicware.jp/en/products/liven-8bit-warps
 - [ ] No special characters or encoding issues
 
 **Validation**:
-1. Run `npm run validate` (or `npx tsx build-tool/src/validate.ts`) on every generated JSON file to confirm valid JSON and all required fields
+1. Run `cd build-tool && npm run validate ${json-file}` on every generated JSON file to confirm valid JSON and all required fields
 2. Count image files and verify they match product.json images array
 3. Verify all tags are in approved tags list
-4. Verify URLs are valid (http/https)
-5. Verify slug format is correct (lowercase, hyphens, no spaces)
+4. **Run `cd build-tool &&npm run tags-diff ${candidate-tags-file}`** with the candidate tags to identify new tags and existing tags
+5. **Consolidate tags**: Merge any new tags that are synonyms of existing tags (e.g., `synth` → `synthesizer`, `drum-machine` → `drum`)
+6. Verify URLs are valid (http/https)
+7. Verify slug format is correct (lowercase, hyphens, no spaces)
 
 The build-tool validation script (`build-tool/src/validate.ts`) checks:
 - **company.json**: `name`, `added`, `link`, `description`
@@ -374,10 +396,11 @@ When implementing this skill, follow this order:
 3. **Validate**: Check that extracted data meets minimum requirements
 4. **Company**: Check if company already exists; if not, create company.json
 5. **Images**: Download and process all images
-6. **Tags**: Match product to approved tags
-7. **Generate**: Create product.json
-8. **Output**: Write all files to correct location
-9. **Verify**: Run `npm run validate content/{company-slug}/company.json content/{company-slug}/{product-slug}.json` — fix any errors before proceeding
+6. **Tags**: Match product to approved tags; write candidate tags to `/tmp/candidate-tags.json`
+7. **Consolidate**: Run `cd build-tool && npm run tags-diff /tmp/candidate-tags.json` to identify new vs existing tags. Remove synonyms of existing tags from the candidate file.
+8. **Generate**: Create product.json with consolidated tags
+9. **Output**: Write all files to correct location
+10. **Verify**: Run `npm run validate content/{company-slug}/company.json content/{company-slug}/{product-slug}.json` — fix any errors before proceeding
 
 ### Error Handling
 
@@ -395,9 +418,10 @@ Before submitting generated files for review:
 2. Read product description for clarity and accuracy
 3. Review images for quality and relevance
 4. Check that tags accurately describe the product
-5. Verify company information is correct
-6. Test that markdown renders properly
-7. **Validate JSON and required fields**: Run `npm run validate` on every generated file (see `build-tool/src/validate.ts`)
+5. **Review tags-diff output**: Ensure all new tags are legitimate and not synonyms of existing tags
+6. Verify company information is correct
+7. Test that markdown renders properly
+8. **Validate JSON and required fields**: Run `npm run validate` on every generated file (see `build-tool/src/validate.ts`)
 
 ---
 
