@@ -16,7 +16,7 @@ document.addEventListener('alpine:init', () => {
         search: '',
         index: [],
         content: {},
-        tags: ['digital', 'analog', 'hybrid', 'drum', 'midi', 'cv'],
+        tags: ['digital', 'analog', 'drum', 'midi', 'cv'],
         searchResults: ()=>{},
         async init () {
             let index = await loadIndex();
