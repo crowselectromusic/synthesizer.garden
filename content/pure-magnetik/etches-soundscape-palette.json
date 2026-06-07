@@ -1,0 +1,15 @@
+{
+  "name": "Etches | Soundscape Palette",
+  "added": "2026-06-06",
+  "slug": "etches-soundscape-palette",
+  "link": "https://puremagnetik.com/products/etches-soundscape-palette",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "oF2idFnUMWg",
+      "title": "ETCHES | Soundscape Palette"
+    }
+  ],
+  "tags": ["synthesizer", "ambient", "drone", "experimental-music", "live-performance", "sampler", "modulation", "touch-sensitive"],
+  "description": "\n\nEtches is a layered soundscape synthesizer designed for performance-based sound design. It's a palette for playing with sound, sketching melodic sections and building evolving tapestries. The instrument moves between cinematic washes, percussive pizzicatos, and atmospheres worn smooth through ambient processing.\n\nInspired by live modular techniques, Etches is built upon classic synthesis and tape music traditions. Its main engine includes a monophonic voice generator, a complex oscillator, a splice recorder with overdub capability, and an internal LFO that modulates splice behavior. Built-in spatial processing includes a tape-style delay and stereo reverb. Musical overdrive with soft clipping rounds out the signal path.\n\nControl is designed around direct performance interaction rather than traditional synthesis parameters. Four touch-sensitive articulation pads provide control over contour, timbre-shaping, and animation. A touch keyboard accepts note input, while eleven scale and mode options keep performance locked to the chosen key. The 160-second multi-splice recorder captures and layers sounds for evolving compositions.\n\nEtches is built as exposed PCB hardware — two PCBs joined by standoffs — keeping it affordable while showcasing the instrument as the object itself. It runs on a standard Boss-style 9V power supply and features a 3.5mm stereo output.\n"
+}
