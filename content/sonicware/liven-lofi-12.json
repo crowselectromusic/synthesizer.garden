@@ -8,15 +8,10 @@
     "groovebox",
     "sampler",
     "lo-fi",
-    "12-bit-sampler",
     "sequencer",
     "effects",
-    "music-production",
-    "resampling",
-    "chopping",
-    "remix-effect",
-    "drunk-beats",
-    "midi"
+    "midi",
+    "digital"
   ],
   "description": "\n\nLo-fi GrooveBox Sampler with a retro sampling engine, powerful 4-track sequencer, and 12 types of effects. Turns everything into Lo-fi. Easily play samples chromatically across the keyboard."
 }

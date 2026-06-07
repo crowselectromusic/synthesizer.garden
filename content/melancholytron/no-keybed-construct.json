@@ -10,6 +10,14 @@
       "title": "Melancholytron; an introduction"
     }
   ],
-  "tags": ["synthesizer", "drone", "ambient", "midi", "experimental-music", "electronic-instrument"],
+  "tags": [
+        "synthesizer",
+        "ambient",
+        "midi",
+        "samples",
+        "polyphonic",
+        "art-project",
+        "digital"
+    ],
   "description": "The Melancholytron: No-Keybed Construct is a desktop synthesizer that comes packaged as a compact hardcover art book about melancholy. It features 5-note polyphony with approximately 300 carefully crafted melancholic sound textures, each built from individual samples per key (25+ samples per preset).\n\nEight real-time controls — Darkness, Context, Waiting, Linger, Clouding, Stress, Weight, and Focus — allow nuanced shaping of each sound. A single volume slider provides direct control over the output level. The instrument is MIDI-controlled via MIDI In and MIDI Thru (configurable as MIDI Out), with a mono jack audio output and 9–15V DC power input.\n\nEach preset maps dedicated samples to each key, with samples lasting 3–16 seconds, creating a deeply expressive and contemplative playing experience.\n"
 }

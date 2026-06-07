@@ -10,6 +10,13 @@
       "title": "Melancholytron; an introduction"
     }
   ],
-  "tags": ["synthesizer", "drone", "ambient", "midi", "experimental-music", "electronic-instrument"],
+  "tags": [
+        "synthesizer",
+        "ambient",
+        "midi",
+        "samples",
+        "digital",
+        "keyboard"
+    ],
   "description": "\n\nThe Melancholytron is a book and a synthesizer, developed around a single emotional state — melancholy. It comes as a large, coffee-table-style book of 72 pages containing stories, illustrations, and poems that explore melancholy from different angles, alongside a brief introduction to the phenomenon and its translation into sound.\n\nThe included synthesizer features 25 non-velocity-sensitive keys, 5-note polyphony, and approximately 300 shades of melancholic sound. Each preset consists of individual samples for each key, with a minimum of 25 samples per preset. Some presets extend across a wider range of octaves through additional sampling.\n\nThe sounds are shaped using eight real-time controls — Darkness, Context, Waiting, Linger, Clouding, Stress, Weight, and Focus — adjusting qualities such as weight, brightness, darkness, depth, and the way a sound emerges and lingers over time. A looming volume slider allows for gradual swells and careful placement within a musical context.\n\nConnections on the back include MIDI In, MIDI Thru (configurable as MIDI Out), mono jack audio output, and 9–15V DC power input.\n"
 }

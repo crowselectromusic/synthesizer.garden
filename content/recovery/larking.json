@@ -16,14 +16,16 @@
     }
   ],
   "tags": [
-    "drone-synth",
-    "ambient",
     "drone",
+    "ambient",
+    "synthesizer",
+    "quantized",
+    "digital",
+    "midi",
     "polyphonic",
     "analog",
-    "lfo",
     "cv",
-    "reverb"
+    "gate"
   ],
   "description": "\n\nLarking is a 4 voice polyphonic ambient drone synthesizer that redefines what a playable synth can be. Pitch is quantized, with each voice locking to a selectable key and one of eight musical modes for consistent harmonic control.\n\nIt is built for immediate tactile performance and sound exploration, functioning as a sound design tool, performance instrument, and central voice in effects-based setups. It integrates easily into pedalboard systems and complex signal chains. Without traditional keys, it shifts focus from fixed patterns to guided harmonic discovery. Voices can be triggered via onboard controls, MIDI, or CV/gate triggering, supporting hands-on playing, modular systems, and sequencing.\n\nEach voice features independent pitch control that snaps to scale degrees, enabling open-ended melodic movement within a stable musical framework. At its core is a morphing tonal engine. The Shape control moves each voice from a warm sine-like foundation into harmonic saturation with analog style overtones, grit, and complexity, delivering a deep resonant low end with strong weight and bass response. Attack and Decay shape voice response from percussive rhythmic strikes to slow evolving swells that dissolve into space.\n\nA global LFO modulates pitch across all voices, from subtle drift to extreme instability. Onboard reverb expands everything into a deep spatial field and atmospheric wash. The result is an instrument between a melodic synth, drone machine, and experimental performance tool, grounded in musical structure and open to pitch-based exploration.\n\nDesigned and assembled in Seattle, Washington. Operates on a standard 9Vdc Boss-style power supply (not included).\n"
 }

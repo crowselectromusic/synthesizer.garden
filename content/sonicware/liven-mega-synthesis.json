@@ -6,17 +6,17 @@
   "videos": [],
   "tags": [
     "synthesizer",
-    "retro-game-music",
+    "8-bit",
     "16-bit",
-    "music-composer",
+    "groovebox",
     "sequencer",
     "effects",
-    "fm-synthesis",
-    "pcm-sampling",
-    "groovebox",
-    "portable",
-    "battery-powered",
-    "koshiro"
+    "fm",
+    "sampler",
+    "chiptune",
+    "battery",
+    "midi",
+    "polyphonic"
   ],
   "description": "\n\nRetro Game Music Composer. Fully Recreate the Legendary Sound of the World's First 16-bit Video Game Console from the Late '80s. Create Diverse Game Music with a Sophisticated 6-Track Sequencer and 10 Types of Effects. Includes sound banks and patterns contributed by Yuzo Koshiro."
 }

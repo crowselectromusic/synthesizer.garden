@@ -17,13 +17,20 @@
   ],
   "tags": [
     "synthesizer",
-    "fm-synthesis",
-    "portable",
-    "battery-powered",
+    "fm",
+    "battery",
     "midi",
-    "touch-sensitive",
+    "touch",
     "arpeggiator",
-    "looper"
+    "looper",
+    "polyphonic",
+    "digital",
+    "electroacoustic",
+    "accellerometer",
+    "resonator",
+    "effects",
+    "speaker",
+    "usb-power"
   ],
   "description": "\n\nThe Bastl Kalimba is a unique 6-voice desktop instrument that merges acoustic and digital synthesis. It features 12 touch-sensitive metal tines inspired by the traditional African kalimba (thumb piano), combined with internal microphones, touch sensors, and an accelerometer for expressive, physical interaction.\n\nThe sound engine combines FM synthesis with physical modeling using stereo digital resonators. Plucking, touching, or even tapping the tines and body excites both synthesis engines. The internal accelerometer responds to motion and rotation, dynamically filtering and modulating sound as you move the device.\n\nThe front panel features dedicated function-based touch points for pads, pitch slides, and timbral modulation, plus two assignable touch points on the back. Six interactive bipolar control knobs provide direct access to key parameters. The instrument includes a 5-mode arpeggiator, a multi-layer looper with time stretching, 16 presets, 12 custom scale tunings with microtonal support, and a range of built-in effects including reverb, delay, chorus, flanger, tape emulation, filter, bit-crusher, and distortion.\n\nWith its built-in speaker, rechargeable battery via USB-C, and just 310 grams of weight, the Bastl Kalimba is designed to be taken anywhere — making it equally at home as a studio instrument, a live performance tool, or an outdoor companion."
 }

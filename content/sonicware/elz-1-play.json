@@ -7,16 +7,16 @@
   "tags": [
     "synthesizer",
     "looper",
-    "synth-engine",
     "effects",
     "keyboard",
-    "stereo-speakers",
-    "portable",
-    "midi",
-    "music-production",
-    "electronic-instrument",
-    "audio-recording",
-    "sound-design"
+    "speaker",
+        "midi",
+        "gate",
+        "battery",
+        "polyphonic",
+        "wavetable",
+        "digital",
+        "sequencer"
   ],
   "description": "\n\nPortable synthesizer with 17 distinctive synth engines, 33 effects, and a flexible 4-track looper for layering, looping, and remixing. Features a velocity-enabled keyboard, built-in stereo speakers, and more."
 }

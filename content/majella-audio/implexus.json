@@ -26,14 +26,14 @@
     }
   ],
   "tags": [
-    "analog-synth",
+    "analog",
     "synthesizer",
     "monophonic",
     "drone",
-    "delay",
-    "lfo",
+        "effects",
     "cv",
-    "midi"
+    "midi",
+    "west-coast"
   ],
   "description": "\n\nThe IMPLEXUS is a hardware desktop synthesizer combining West- and East-Coast synthesis techniques into a single form factor. It uses analog waveshaping, folding and audio rate modulation to create an immense range of sounds and textures.\n\nThe IMPLEXUS has a powerful one-knob-per-function interface with graphical feedback, utilizing LED rings to indicate modulators. The drone mode, tap tempo and looping envelopes let you explore the IMPLEXUS as a standalone sound generator. The MIDI and Eurorack compatibility and clock synchronisation options make sure it can be played in every setting.\n\nThe characteristic sound comes from shaping and folding a sine wave, resulting in a complex waveform. The shaping and folding can be modulated at audio-rate utilizing the second generator. Instead of subtracting you are adding harmonics. It features a 12dB/oct VCF with unique analog topology, a stereo digital delay with clock synchronization, two syncable LFOs, and a built-in VCO tuner with strobe LEDs.\n\nBuilt with metal shaft potentiometers, an aluminum casing, and an internal power supply, the IMPLEXUS is a character-filled, unique and complete musical instrument.\n"
 }

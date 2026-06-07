@@ -16,12 +16,13 @@
     }
   ],
   "tags": [
-    "drum-machine",
+    "drum",
     "sampler",
     "sequencer",
-    "control-voltage",
+    "cv",
+    "gate",
     "midi",
-    "portable"
+    "digital"
   ],
   "description": "\n\nThe Bullfrog Drums is a versatile hands-on instrument designed in collaboration with Richie Hawtin. It combines 7 sample-based drum voices with a 64-step sequencer, CV/Gate connectivity, and MIDI support, optimized for drum programming and live sampling.\n\nThe instrument features 7 banks of factory samples curated by Richie Hawtin and the Erica Synths team, plus up to 16 banks of user samples with 64 MB total sample memory. It includes a built-in microphone for live sampling, a line input for external audio, and a built-in speaker. Each of the 7 voices has 7 tweakable parameters for sound design, along with individual level controls, parameter locks, and per-track automations.\n\nThe Bullfrog Drums is housed in a durable aluminum enclosure (40.5 x 18.5 x 6 cm, 2.7 kg) and features X0X-style sequencing with ratchets, probabilities, and microtiming. It offers stereo output, headphone output, and MIDI IN/OUT via both DIN and USB-C. Memory is organized as 4 banks of 16 patterns each and 4 banks of 16 kits each, with memory backup available via USB-C.\n"
 }
