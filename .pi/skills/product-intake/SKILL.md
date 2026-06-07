@@ -147,7 +147,6 @@ https://www.sonicware.jp/en/products/liven-8bit-warps
 
 3. **Extract and validate tags**:
    - Read product description and specs
-   - Match against approved tags from `/tags.md`
    - Select 3-8 most relevant tags
    - Prioritize: instrument type (synth, sampler, etc.) + sound style + key features
    - Run `npm run tags-diff` in the `build-tool` subproject with the candidate tags to check for duplicates and new tags
@@ -452,12 +451,12 @@ Once files are generated:
 1. **Commit message format**:
    ```
    Add [Product Name] by [Company Name]
-   
+
    - Scrapes product details from [URL]
    - Downloads and processes 3-5 product images
    - Generates product.json and company.json
    - Tags selected from approved tags list
-   
+
    Co-authored-by: Product Intake Skill
    ```
 
