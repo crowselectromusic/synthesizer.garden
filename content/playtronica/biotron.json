@@ -1,0 +1,15 @@
+{
+  "name": "Biotron",
+  "added": "2026-06-07",
+  "slug": "biotron",
+  "link": "https://shop.playtronica.com/products/biotron",
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "EArNOal-ba0",
+      "title": "Introducing the Biotron from Playtronica (bioelectric MIDI controller)"
+    }
+  ],
+  "tags": ["midi", "controller"],
+  "description": "\n\nBiotron is the musical instrument that transforms plants into sound. Play with your favorite plant and let nature compose your music. As the plant's natural electrical properties change, the sound evolves, creating a unique musical experience every time.\n"
+}
